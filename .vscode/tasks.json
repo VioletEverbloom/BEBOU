@@ -1,0 +1,102 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Pakku",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ${input:arg}",
+      "group": "build"
+    },
+    {
+      "label": "Add project",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar add ${input:project_to_add}",
+      "group": "build"
+    },
+    {
+      "label": "Set project to client side",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar cfg prj -s CLIENT ${input:project_to_set_to_client_side}",
+      "group": "build"
+    },
+    {
+      "label": "Set project to server side",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar cfg prj -s SERVER ${input:project_to_set_to_server_side}",
+      "group": "build"
+    },
+    {
+      "label": "Remove project",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar rm ${input:project_to_remove}",
+      "group": "build"
+    },
+    {
+      "label": "Get the projects' status",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar status",
+      "group": "build"
+    },
+    {
+      "label": "List installed projects",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ls",
+      "group": "build"
+    },
+    {
+      "label": "Update installed projects",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar update ${input:projects_to_update}",
+      "group": "build"
+    },
+    {
+      "label": "Copy Prism Pre-launch Command to clipboard",
+      "type": "shell",
+      "command": "Set-Clipboard 'java --enable-native-access=ALL-UNNAMED -jar pakku.jar fetch'",
+      "group": "build",
+      "options": {
+        "shell": {
+          "executable": "powershell.exe"
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "arg",
+      "type": "promptString",
+      "description": "Enter Pakku arguments",
+      "default": ""
+    },
+    {
+      "id": "project_to_add",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to add",
+      "default": ""
+    },
+    {
+      "id": "project_to_set_to_client_side",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to set to client side",
+      "default": ""
+    },
+    {
+      "id": "project_to_set_to_server_side",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to set to server side",
+      "default": ""
+    },
+    {
+      "id": "project_to_remove",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to remove",
+      "default": ""
+    },
+    {
+      "id": "projects_to_update",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to update (-a to update all)",
+      "default": ""
+    }
+  ]
+}

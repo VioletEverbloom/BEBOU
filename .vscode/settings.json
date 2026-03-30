@@ -8,6 +8,12 @@
     "no-duplicate-heading": false,
     "single-h1": false
   },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "README.md": "LICENSE",
+    "pakku.json": "pakku-lock.json, pakku.jar"
+  },
   "files.exclude": {
     ".fabric/": true,
     "coremods/": true,

@@ -1,0 +1,10 @@
+{
+    "target": "curseforge",
+    "mc_versions": [
+        "26.1"
+    ],
+    "loaders": {
+        "fabric": "0.18.5"
+    },
+    "lockfile_version": 1
+}
