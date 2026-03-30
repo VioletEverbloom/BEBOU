@@ -1,0 +1,23 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "markdownlint.config": {
+    "no-duplicate-heading": false,
+    "single-h1": false
+  },
+  "files.exclude": {
+    ".fabric/": true,
+    "coremods/": true,
+    "downloads/": true,
+    "saves/": true,
+    "screenshots/": true,
+    "server-resource-packs/": true,
+    "texturepacks/": true,
+    "command_history.txt": true,
+    "realms_persistence.json": true,
+    "usercache.json": true,
+  }
+}
