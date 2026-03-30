@@ -9,5 +9,7 @@
 - Ferrite Core
 - Immediately Fast
 - Lithium
+- Mod List Memory
+- Mod Menu
 - More Culling
 - Sodium

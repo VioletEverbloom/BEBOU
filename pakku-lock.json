@@ -82,6 +82,7 @@
         {
             "pakku_id": "URGDjlCIigOfbHfT",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entityculling"
             },
@@ -191,6 +192,7 @@
         {
             "pakku_id": "8fzLIzWIbEtZw1zK",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immediatelyfast"
             },
@@ -263,11 +265,100 @@
             ]
         },
         {
+            "pakku_id": "9peGjwL3YT58XB30",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "modmenu"
+            },
+            "name": {
+                "curseforge": "Mod Menu"
+            },
+            "id": {
+                "curseforge": "308702"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modmenu-18.0.0-alpha.8.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7813/924/modmenu-18.0.0-alpha.8.jar",
+                    "id": "7813924",
+                    "parent_id": "308702",
+                    "hashes": {
+                        "sha1": "996783ff7b322e73c3a6799fecc5ca3023958514",
+                        "md5": "a90a4e09c1880ea7c2bea73802a0791c"
+                    },
+                    "required_dependencies": [
+                        "306612",
+                        "1037459"
+                    ],
+                    "size": 847389,
+                    "date_published": "2026-03-25T22:45:18.337Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xXmqxgss6oGSjb1b",
+            "pakku_links": [
+                "WzXdZYbQQUyd2AGc",
+                "9peGjwL3YT58XB30"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "modlistmemory"
+            },
+            "name": {
+                "curseforge": "ModListMemory"
+            },
+            "id": {
+                "curseforge": "1180596"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modlistmemory-fabric-1.0.0+26.1+mm18.0.0-alpha.8.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7831/866/modlistmemory-fabric-1.0.0+26.1+mm18.0.0-alpha.8.jar",
+                    "id": "7831866",
+                    "parent_id": "1180596",
+                    "hashes": {
+                        "sha1": "1ff12281bc3092e21d2ea8ae3a0650ee77b7c50f",
+                        "md5": "186b3be76a3c513fd59538ba2d03d563"
+                    },
+                    "required_dependencies": [
+                        "348521",
+                        "308702"
+                    ],
+                    "size": 53253,
+                    "date_published": "2026-03-28T23:04:54.963Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jCxxeEzX51hblA79",
             "pakku_links": [
                 "WzXdZYbQQUyd2AGc"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "moreculling"
             },
@@ -307,6 +398,7 @@
         {
             "pakku_id": "MGyJTiUeEDMXHSxx",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sodium"
             },

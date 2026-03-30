@@ -16,6 +16,12 @@
         },
         "sodium": {
             "side": "CLIENT"
+        },
+        "modmenu": {
+            "side": "CLIENT"
+        },
+        "modlistmemory": {
+            "side": "CLIENT"
         }
     }
 }
