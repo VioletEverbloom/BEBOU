@@ -3,5 +3,19 @@
     "version": "0.0.1",
     "overrides": [
         "config"
-    ]
+    ],
+    "projects": {
+        "entityculling": {
+            "side": "CLIENT"
+        },
+        "immediatelyfast": {
+            "side": "CLIENT"
+        },
+        "moreculling": {
+            "side": "CLIENT"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        }
+    }
 }

@@ -16,7 +16,9 @@
   },
   "files.exclude": {
     ".fabric/": true,
+    "cache/": true,
     "coremods/": true,
+    "data/": true,
     "downloads/": true,
     "saves/": true,
     "screenshots/": true,

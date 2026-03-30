@@ -1,4 +1,5 @@
 # Minecraft
+/cache/
 /coremods/
 /downloads/
 /logs/
@@ -18,5 +19,6 @@
 
 # Mods
 /.fabric/
+/data/
 
 pakku.jar
