@@ -228,6 +228,48 @@
             ]
         },
         {
+            "pakku_id": "wIKbzhUBlwFjnqwF",
+            "pakku_links": [
+                "MGyJTiUeEDMXHSxx"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "irisshaders"
+            },
+            "name": {
+                "curseforge": "Iris Shaders"
+            },
+            "id": {
+                "curseforge": "455508"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "iris-fabric-1.10.8+mc26.1.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7814/724/iris-fabric-1.10.8+mc26.1.jar",
+                    "id": "7814724",
+                    "parent_id": "455508",
+                    "hashes": {
+                        "sha1": "8abc14f32d78721682c37a28f634f12e879b7f91",
+                        "md5": "b11a94fda190d8fe764b9ac71c50ce9c"
+                    },
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 2799211,
+                    "date_published": "2026-03-26T02:06:52.907Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lVBLB6froEPuXalm",
             "type": "MOD",
             "slug": {

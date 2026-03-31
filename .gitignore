@@ -21,4 +21,8 @@
 /.fabric/
 /data/
 
+# Configs
+/config/iris* 
+
+# Pakku
 pakku.jar

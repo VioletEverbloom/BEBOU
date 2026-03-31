@@ -22,6 +22,9 @@
         },
         "modlistmemory": {
             "side": "CLIENT"
+        },
+        "irisshaders": {
+            "side": "CLIENT"
         }
     }
 }
