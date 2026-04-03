@@ -26,6 +26,8 @@
     "texturepacks/": true,
     "command_history.txt": true,
     "realms_persistence.json": true,
+    "servers.dat": true,
+    "servers.dat_old": true,
     "usercache.json": true,
   }
 }
