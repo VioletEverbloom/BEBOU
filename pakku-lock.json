@@ -560,6 +560,89 @@
             ]
         },
         {
+            "pakku_id": "ZQjQttFYYq8CUghb",
+            "pakku_links": [
+                "lg67uJOr5q6ZjV3Q"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "entity-model-features"
+            },
+            "name": {
+                "curseforge": "[EMF] Entity Model Features [Fabric & Forge]"
+            },
+            "id": {
+                "curseforge": "844662"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entity_model_features_26.1-fabric-3.0.17.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7828/842/entity_model_features_26.1-fabric-3.0.17.jar",
+                    "id": "7828842",
+                    "parent_id": "844662",
+                    "hashes": {
+                        "sha1": "97201c5b56663d89cd304bb803946925b61c1613",
+                        "md5": "60291972bb284476b6cc48fe3facd896"
+                    },
+                    "required_dependencies": [
+                        "568563"
+                    ],
+                    "size": 511182,
+                    "date_published": "2026-03-28T12:54:11Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lg67uJOr5q6ZjV3Q",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "entity-texture-features-fabric"
+            },
+            "name": {
+                "curseforge": "[ETF] Entity Texture Features - [Fabric & Forge]"
+            },
+            "id": {
+                "curseforge": "568563"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entity_texture_features_26.1-fabric-7.0.13.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7818/984/entity_texture_features_26.1-fabric-7.0.13.jar",
+                    "id": "7818984",
+                    "parent_id": "568563",
+                    "hashes": {
+                        "sha1": "89c5751c196708090be5a669ea524901221bb2a2",
+                        "md5": "e73e0bee6ea2eb73f864ecd6d592302b"
+                    },
+                    "required_dependencies": [],
+                    "size": 722124,
+                    "date_published": "2026-03-26T20:03:20.043Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TmiiZ5pyCbSAoHxJ",
             "type": "MOD",
             "slug": {

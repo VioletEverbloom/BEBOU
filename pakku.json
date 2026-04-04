@@ -35,6 +35,12 @@
         },
         "bluemap": {
             "side": "SERVER"
+        },
+        "entity-model-features": {
+            "side": "CLIENT"
+        },
+        "entity-texture-features-fabric": {
+            "side": "CLIENT"
         }
     }
 }
