@@ -409,7 +409,8 @@
                     "type": "curseforge",
                     "file_name": "modmenu-18.0.0-alpha.8.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric",
