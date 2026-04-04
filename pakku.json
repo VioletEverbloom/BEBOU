@@ -44,6 +44,9 @@
         },
         "mouse-tweaks": {
             "side": "CLIENT"
+        },
+        "advancements-reloaded": {
+            "side": "CLIENT"
         }
     }
 }

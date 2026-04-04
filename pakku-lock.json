@@ -8,6 +8,50 @@
     },
     "projects": [
         {
+            "pakku_id": "CsMBIj5JLqq2hObe",
+            "pakku_links": [
+                "WzXdZYbQQUyd2AGc"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "advancements-reloaded"
+            },
+            "name": {
+                "curseforge": "Advancements Reloaded"
+            },
+            "id": {
+                "curseforge": "1113876"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "advancements_reloaded-0.13.0-fabric-26.1.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7870/58/advancements_reloaded-0.13.0-fabric-26.1.1.jar",
+                    "id": "7870058",
+                    "parent_id": "1113876",
+                    "hashes": {
+                        "sha1": "5e551d08b44a0d503e36643a143be0ede541e34b",
+                        "md5": "909bbd6e8ba7f76326faa3e496c0851a"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 333495,
+                    "date_published": "2026-04-03T21:45:11.453Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DjIyuedAkjuJAUYY",
             "pakku_links": [
                 "xTV1E2KS1EAehANL"
