@@ -41,6 +41,9 @@
         },
         "entity-texture-features-fabric": {
             "side": "CLIENT"
+        },
+        "mouse-tweaks": {
+            "side": "CLIENT"
         }
     }
 }

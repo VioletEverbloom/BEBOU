@@ -559,6 +559,49 @@
             ]
         },
         {
+            "pakku_id": "JKuk5FkQeLCxmuHJ",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mouse-tweaks"
+            },
+            "name": {
+                "curseforge": "Mouse Tweaks"
+            },
+            "id": {
+                "curseforge": "60089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MouseTweaks-fabric-mc26.1-2.31.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7840/791/MouseTweaks-fabric-mc26.1-2.31.jar",
+                    "id": "7840791",
+                    "parent_id": "60089",
+                    "hashes": {
+                        "sha1": "d81b34b76b8885f637e1a253810a78bee772a346",
+                        "md5": "f917fd363224171bcae32ae22bb41c92"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 75833,
+                    "date_published": "2026-03-29T13:44:51.370Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MGyJTiUeEDMXHSxx",
             "type": "MOD",
             "side": "CLIENT",
