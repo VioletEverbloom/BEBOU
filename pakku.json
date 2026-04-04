@@ -2,7 +2,11 @@
     "name": "BEBOU",
     "version": "0.0.1",
     "overrides": [
-        "config"
+        "config",
+        "!config/bluemap",
+        "!config/chunky",
+        "!config/spark/tmp",
+        "!config/spark/tmp-client"
     ],
     "server_overrides": [
         ".gitignore"
