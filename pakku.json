@@ -47,6 +47,9 @@
         },
         "advancements-reloaded": {
             "side": "CLIENT"
+        },
+        "betterstats": {
+            "side": "CLIENT"
         }
     }
 }

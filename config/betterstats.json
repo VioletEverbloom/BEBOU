@@ -1,0 +1,6 @@
+{
+	"common-registerCommands": true,
+	"common-apiEndpoint": "https://api.thecsdev.com/",
+	"client-allowChatPsaMessages": true,
+	"client-guiMobsFollowCursor": true
+}

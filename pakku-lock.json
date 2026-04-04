@@ -52,6 +52,51 @@
             ]
         },
         {
+            "pakku_id": "KArjRyeeSbbUQZPu",
+            "pakku_links": [
+                "mPWBCFC4IjIx9hZh"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "betterstats"
+            },
+            "name": {
+                "curseforge": "Better Statistics Screen"
+            },
+            "id": {
+                "curseforge": "667464"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "betterstats-5.2.1+fn-26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7868/899/betterstats-5.2.1+fn-26.1.jar",
+                    "id": "7868899",
+                    "parent_id": "667464",
+                    "hashes": {
+                        "sha1": "b1ecf4ba5f3719cde76085284c864c4e4c7a6953",
+                        "md5": "1963701205bf5311cfb09bf96320bf3a"
+                    },
+                    "required_dependencies": [
+                        "711539"
+                    ],
+                    "size": 314461,
+                    "date_published": "2026-04-03T17:34:04.237Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DjIyuedAkjuJAUYY",
             "pakku_links": [
                 "xTV1E2KS1EAehANL"
@@ -680,6 +725,45 @@
                     "required_dependencies": [],
                     "size": 1810286,
                     "date_published": "2026-04-03T14:12:38.067Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mPWBCFC4IjIx9hZh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tcdcommons"
+            },
+            "name": {
+                "curseforge": "TCDCommons API"
+            },
+            "id": {
+                "curseforge": "711539"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tcdcommons-5.2.1+fn-26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7868/895/tcdcommons-5.2.1+fn-26.1.jar",
+                    "id": "7868895",
+                    "parent_id": "711539",
+                    "hashes": {
+                        "sha1": "97586dc04cddfcdcc5103b7ef47fb182fb3ee00b",
+                        "md5": "e68ce2a097a640f67463bf11b3f47fb4"
+                    },
+                    "required_dependencies": [],
+                    "size": 497369,
+                    "date_published": "2026-04-03T17:32:55.223Z"
                 }
             ]
         },
