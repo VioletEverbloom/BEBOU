@@ -4,6 +4,9 @@
     "overrides": [
         "config"
     ],
+    "server_overrides": [
+        ".gitignore"
+    ],
     "projects": {
         "entityculling": {
             "side": "CLIENT"

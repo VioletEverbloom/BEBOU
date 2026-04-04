@@ -26,6 +26,15 @@
 # Configs
 /config/iris* 
 
+# Server files
+/libraries/
+/versions/
+/world/
+
+/.previousrun
+/eula.txt
+/fabric-server-launcher.jar
+
 # Pakku
 /build/
 
