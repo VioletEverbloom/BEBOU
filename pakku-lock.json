@@ -8,6 +8,84 @@
     },
     "projects": [
         {
+            "pakku_id": "DjIyuedAkjuJAUYY",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "bluemap"
+            },
+            "name": {
+                "curseforge": "BlueMap"
+            },
+            "id": {
+                "curseforge": "406463"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bluemap-5.18-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7812/659/bluemap-5.18-fabric.jar",
+                    "id": "7812659",
+                    "parent_id": "406463",
+                    "hashes": {
+                        "sha1": "ef86c135ad43a1d7ab2c9890e37e1a8de68dda41",
+                        "md5": "2e564d512c8b8ebd36f1f5dc1cd7458d"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 6433332,
+                    "date_published": "2026-03-25T18:12:59.837Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bJhzEYpvOfWL0MaX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "chunky-pregenerator"
+            },
+            "name": {
+                "curseforge": "Chunky (Fabric)"
+            },
+            "id": {
+                "curseforge": "433175"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Chunky-Fabric-1.4.58.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7854/657/Chunky-Fabric-1.4.58.jar",
+                    "id": "7854657",
+                    "parent_id": "433175",
+                    "hashes": {
+                        "sha1": "b9f543978ce12507be369320b6bf5bb7c9e342cc",
+                        "md5": "3776518f028d3493207e6ab1e09881bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 354127,
+                    "date_published": "2026-04-01T06:27:39.733Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WzXdZYbQQUyd2AGc",
             "type": "MOD",
             "slug": {
@@ -478,6 +556,42 @@
                     "required_dependencies": [],
                     "size": 1810286,
                     "date_published": "2026-04-03T14:12:38.067Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TmiiZ5pyCbSAoHxJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spark"
+            },
+            "name": {
+                "curseforge": "spark"
+            },
+            "id": {
+                "curseforge": "361579"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "spark-1.10.172-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7815/875/spark-1.10.172-fabric.jar",
+                    "id": "7815875",
+                    "parent_id": "361579",
+                    "hashes": {
+                        "sha1": "fc1dbd31d83599a9af17393e2c9b461521ac343f",
+                        "md5": "c10d7d6d9443a49ad77cdf9a1bd2482c"
+                    },
+                    "required_dependencies": [],
+                    "size": 3887184,
+                    "date_published": "2026-03-26T08:29:47.420Z"
                 }
             ]
         }

@@ -28,6 +28,9 @@
         },
         "irisshaders": {
             "side": "CLIENT"
+        },
+        "bluemap": {
+            "side": "SERVER"
         }
     }
 }

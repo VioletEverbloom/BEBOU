@@ -21,9 +21,17 @@
 
 # Mods
 /.fabric/
+/bluemap/
 /data/
 
 # Configs
+/config/bluemap/*
+!/config/bluemap/core.conf
+!/config/bluemap/webserver.conf
+/config/chunky/
+/config/spark/*
+!/config/spark/config.json
+
 /config/iris* 
 
 # Server files
