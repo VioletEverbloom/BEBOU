@@ -479,6 +479,42 @@
             ]
         },
         {
+            "pakku_id": "5iJC1uGjhzkp8Fc7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modernfix-mvus"
+            },
+            "name": {
+                "curseforge": "ModernFix-mVUS"
+            },
+            "id": {
+                "curseforge": "1367508"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modernfix-5.26.2-build.1.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7743/670/modernfix-5.26.2-build.1.jar",
+                    "id": "7743670",
+                    "parent_id": "1367508",
+                    "hashes": {
+                        "sha1": "d99980a3213293ade61f6cca109b8eeb87cc5a05",
+                        "md5": "77348b55f930338169ee4112a8cb7936"
+                    },
+                    "required_dependencies": [],
+                    "size": 620901,
+                    "date_published": "2026-03-11T17:06:30.293Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jCxxeEzX51hblA79",
             "pakku_links": [
                 "WzXdZYbQQUyd2AGc"
