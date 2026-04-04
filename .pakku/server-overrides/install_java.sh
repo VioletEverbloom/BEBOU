@@ -25,12 +25,12 @@ installJabba() {
   [ -s "$JABBA_HOME/jabba.sh" ] && source "$JABBA_HOME/jabba.sh"
 }
 
-if [[ ! -s "variables.txt" ]]; then
-  echo "ERROR! variables.txt not present. Without it the server can not be installed, configured or started."
+if [[ ! -s "_variables.txt" ]]; then
+  echo "ERROR! _variables.txt not present. Without it the server can not be installed, configured or started."
   exit 1
 fi
 
-source "./variables.txt"
+source "./_variables.txt"
 
 # if ldd is not available, we may be on MacOS
 if commandAvailable ldd ; then
@@ -45,8 +45,8 @@ if commandAvailable ldd ; then
     echo "Instead, consider upgrading to a newer version of your OS. Example: In case of Ubuntu 20 LTS, consider upgrading to 22 LTS or 24 LTS."
     echo ""
     echo "If that is not an option, you will have to install the required Java version on your system manually, the old fashioned way."
-    echo "Your variables.txt says you require: ${JDK_VENDOR}@${RECOMMENDED_JAVA_VERSION}"
-    echo "When you installed said Java version, 'SKIP_JAVA_CHECK=true' in the variables.txt and run the start-script again."
+    echo "Your _variables.txt says you require: ${JDK_VENDOR}@${RECOMMENDED_JAVA_VERSION}"
+    echo "When you installed said Java version, 'SKIP_JAVA_CHECK=true' in the _variables.txt and run the start-script again."
     exit 1
   fi
 fi

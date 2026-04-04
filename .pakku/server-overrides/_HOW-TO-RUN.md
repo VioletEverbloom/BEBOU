@@ -1,6 +1,6 @@
 # How To Start / Run The Server
 
-If your `variables.txt` has `JAVA=java` set, then a suitable Java version for your Minecraft server will
+If your `_variables.txt` has `JAVA=java` set, then a suitable Java version for your Minecraft server will
 be installed automatically.
 
 NeoForge 1.17 and up will create run.xx-scripts due to the ServerStarterJar being used to install
