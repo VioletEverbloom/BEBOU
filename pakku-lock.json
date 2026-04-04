@@ -132,24 +132,25 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fabric-api-0.144.4+26.1.jar",
+                    "file_name": "fabric-api-0.145.3+26.1.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7846/857/fabric-api-0.144.4+26.1.jar",
-                    "id": "7846857",
+                    "url": "https://edge.forgecdn.net/files/7863/412/fabric-api-0.145.3+26.1.1.jar",
+                    "id": "7863412",
                     "parent_id": "306612",
                     "hashes": {
-                        "sha1": "3002eb45eccca8f81c620ceed4155a08c3f12120",
-                        "md5": "4dd78c646674b8b779cb970c9c1e896b"
+                        "sha1": "acefe4ee3fb9ce17023fae55d6392d1f5d31749a",
+                        "md5": "5e51baccac7497c8e2f9aa2f060cdaa3"
                     },
                     "required_dependencies": [],
-                    "size": 2162491,
-                    "date_published": "2026-03-30T17:53:06.560Z"
+                    "size": 2407885,
+                    "date_published": "2026-04-02T18:45:08.377Z"
                 }
             ]
         },
@@ -170,7 +171,8 @@
                     "type": "curseforge",
                     "file_name": "ferritecore-9.0.0-fabric.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
@@ -205,25 +207,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ImmediatelyFast-Fabric-1.15.0+26.1.jar",
+                    "file_name": "ImmediatelyFast-Fabric-1.15.1+26.1.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric",
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7824/689/ImmediatelyFast-Fabric-1.15.0+26.1.jar",
-                    "id": "7824689",
+                    "url": "https://edge.forgecdn.net/files/7857/69/ImmediatelyFast-Fabric-1.15.1+26.1.1.jar",
+                    "id": "7857069",
                     "parent_id": "686911",
                     "hashes": {
-                        "sha1": "6abb68036a327d19c87f89676fbbc9cc9b995402",
-                        "md5": "f38b7da138c5ed4c121ffaf0e9bc6cdf"
+                        "sha1": "25780ccb6f42d49280223f6aeb6603f8b624c9e5",
+                        "md5": "c96a968f79665eeaafc230cf5ee7c81b"
                     },
                     "required_dependencies": [],
-                    "size": 304939,
-                    "date_published": "2026-03-27T20:43:51.377Z"
+                    "size": 304949,
+                    "date_published": "2026-04-01T16:46:33.463Z"
                 }
             ]
         },
@@ -246,26 +249,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "iris-fabric-1.10.8+mc26.1.jar",
+                    "file_name": "iris-fabric-1.10.9+mc26.1.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7814/724/iris-fabric-1.10.8+mc26.1.jar",
-                    "id": "7814724",
+                    "url": "https://edge.forgecdn.net/files/7867/943/iris-fabric-1.10.9+mc26.1.1.jar",
+                    "id": "7867943",
                     "parent_id": "455508",
                     "hashes": {
-                        "sha1": "8abc14f32d78721682c37a28f634f12e879b7f91",
-                        "md5": "b11a94fda190d8fe764b9ac71c50ce9c"
+                        "sha1": "c30e04509a1b284372cb9037b07714d4223ae91a",
+                        "md5": "0037a947d04dd252c4348c16d271c6b2"
                     },
                     "required_dependencies": [
                         "394468"
                     ],
-                    "size": 2799211,
-                    "date_published": "2026-03-26T02:06:52.907Z"
+                    "size": 2803860,
+                    "date_published": "2026-04-03T14:33:45.237Z"
                 }
             ]
         },
@@ -372,7 +376,8 @@
                     "type": "curseforge",
                     "file_name": "modlistmemory-fabric-1.0.0+26.1+mm18.0.0-alpha.8.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
@@ -415,7 +420,8 @@
                     "type": "curseforge",
                     "file_name": "moreculling-fabric-26.1-1.7.0-beta.3.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric",
@@ -453,24 +459,25 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sodium-fabric-0.8.7+mc26.1.jar",
+                    "file_name": "sodium-fabric-0.8.9+mc26.1.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7805/119/sodium-fabric-0.8.7+mc26.1.jar",
-                    "id": "7805119",
+                    "url": "https://edge.forgecdn.net/files/7867/826/sodium-fabric-0.8.9+mc26.1.1.jar",
+                    "id": "7867826",
                     "parent_id": "394468",
                     "hashes": {
-                        "sha1": "ef8e9c3571e601427716de38b8b1ec11f09dfa06",
-                        "md5": "69987f254b3b975e24828cd70dbdb1c4"
+                        "sha1": "48b949ec71365788dfd4e89d489f7abd504aa709",
+                        "md5": "fadbbc26a4ec1fe3b61a9201ee8ee61e"
                     },
                     "required_dependencies": [],
-                    "size": 1659314,
-                    "date_published": "2026-03-24T16:21:32.617Z"
+                    "size": 1810286,
+                    "date_published": "2026-04-03T14:12:38.067Z"
                 }
             ]
         }
