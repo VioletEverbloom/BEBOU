@@ -81,7 +81,7 @@ runJavaCommand() {
 }
 
 # refreshServerJar
-# Refresh the ServerStarterJar used for running Forge and NeoForge servers.
+# Refresh the ServerStarterJar used for running NeoForge servers.
 # Depending on the value of SERVERSTARTERJAR_FORCE_FETCH in the variables.txt the server.jar is force-refreshed.
 # Meaning: If true, the server.jar will be deleted and then downloaded again.
 # Depending on the value of SERVERSTARTERJAR_VERSION in the variables.txt a different version is fetched. More on
@@ -114,70 +114,6 @@ cleanServerFiles() {
   done
 }
 
-# setupForge
-# Download and install a Forge server for $MODLOADER_VERSION. For Minecraft 1.17 and newer the ServerStarterJar from the
-# NeoForge-group is used. This has the benefit of making this server pack compatible with most hosting-companies.
-setupForge() {
-  echo ""
-  echo "Running Forge checks and setup..."
-  FORGE_INSTALLER_URL="https://files.minecraftforge.net/maven/net/minecraftforge/forge/${MINECRAFT_VERSION}-${MODLOADER_VERSION}/forge-${MINECRAFT_VERSION}-${MODLOADER_VERSION}-installer.jar"
-  FORGE_JAR_LOCATION="do_not_manually_edit"
-
-  if [[ ${SEMANTICS[1]} -le 16 ]]; then
-    FORGE_JAR_LOCATION="forge.jar"
-    LAUNCHER_JAR_LOCATION="forge.jar"
-    SERVER_RUN_COMMAND="${JAVA_ARGS} -jar ${LAUNCHER_JAR_LOCATION} nogui"
-
-    if [[ $(downloadIfNotExist "${FORGE_JAR_LOCATION}" "forge-installer.jar" "${FORGE_INSTALLER_URL}") == "true" ]]; then
-
-        echo "Forge Installer downloaded. Installing..."
-        runJavaCommand "-jar forge-installer.jar --installServer"
-
-        echo "Renaming forge-${MINECRAFT_VERSION}-${MODLOADER_VERSION}.jar to forge.jar"
-        mv forge-"${MINECRAFT_VERSION}"-"${MODLOADER_VERSION}".jar forge.jar
-        mv forge-"${MINECRAFT_VERSION}"-"${MODLOADER_VERSION}-universal".jar forge.jar
-
-        if [[ -s "${FORGE_JAR_LOCATION}" ]]; then
-          rm -f forge-installer.jar
-          echo "Installation complete. forge-installer.jar deleted."
-        else
-          rm -f forge-installer.jar
-          crashServer "Something went wrong during the server installation. Please try again in a couple of minutes and check your internet connection."
-        fi
-
-      fi
-  else
-    if [[ "${USE_SSJ}" == "false" ]]; then
-      FORGE_JAR_LOCATION="libraries/net/minecraftforge/forge/${MINECRAFT_VERSION}-${MODLOADER_VERSION}/forge-${MINECRAFT_VERSION}-${MODLOADER_VERSION}-server.jar"
-      SERVER_RUN_COMMAND="@user_jvm_args.txt @libraries/net/minecraftforge/forge/${MINECRAFT_VERSION}-${MODLOADER_VERSION}/unix_args.txt nogui"
-      if [[ $(downloadIfNotExist "${FORGE_JAR_LOCATION}" "forge-installer.jar" "${FORGE_INSTALLER_URL}") == "true" ]]; then
-        echo "Forge Installer downloaded. Installing..."
-        runJavaCommand "-jar forge-installer.jar --installServer"
-      fi
-    else
-      SERVER_RUN_COMMAND="@user_jvm_args.txt ${SSJ_FORGE_ARGS} -jar server.jar --installer-force --installer ${FORGE_INSTALLER_URL} nogui"
-      # Download ServerStarterJar to server.jar
-      refreshServerJar
-    fi
-
-    echo "Generating user_jvm_args.txt from variables..."
-    echo "Edit JAVA_ARGS in your variables.txt. Do not edit user_jvm_args.txt directly!"
-    echo "Manually made changes to user_jvm_args.txt will be lost in the nether!"
-    rm -f user_jvm_args.txt
-    {
-      echo "# Xmx and Xms set the maximum and minimum RAM usage, respectively."
-      echo "# They can take any number, followed by an M or a G."
-      echo "# M means Megabyte, G means Gigabyte."
-      echo "# For example, to set the maximum to 3GB: -Xmx3G"
-      echo "# To set the minimum to 2.5GB: -Xms2500M"
-      echo "# A good default for a modded server is 4GB."
-      echo "# Uncomment the next line to set it."
-      echo "# -Xmx4G"
-      echo "${JAVA_ARGS}"
-    } >>user_jvm_args.txt
-  fi
-}
-
 # setupNeoForge
 # Download and install a NeoForge server for $MODLOADER_VERSION. The ServerStarterJar from the NeoForge-group is used. This has
 # the benefit of making this server pack compatible with most hosting-companies.
@@ -200,11 +136,7 @@ setupNeoForge() {
     echo "${JAVA_ARGS}"
   } >>user_jvm_args.txt
 
-  if [[ ${SEMANTICS[1]} -eq 20 ]] && [[ ${#SEMANTICS[@]} -eq 2 || ${SEMANTICS[2]} -eq 1 ]]; then
-    SERVER_RUN_COMMAND="@user_jvm_args.txt -jar server.jar --installer-force --installer https://maven.neoforged.net/releases/net/neoforged/forge/${MINECRAFT_VERSION}-${MODLOADER_VERSION}/forge-${MINECRAFT_VERSION}-${MODLOADER_VERSION}-installer.jar nogui"
-  else
-    SERVER_RUN_COMMAND="@user_jvm_args.txt -jar server.jar --installer-force --installer ${MODLOADER_VERSION} nogui"
-  fi
+  SERVER_RUN_COMMAND="@user_jvm_args.txt -jar server.jar --installer-force --installer ${MODLOADER_VERSION} nogui"
 
   refreshServerJar
 }
@@ -259,76 +191,6 @@ setupFabric() {
     LAUNCHER_JAR_LOCATION="fabric-server-launch.jar"
   fi
 
-  SERVER_RUN_COMMAND="${JAVA_ARGS} -jar ${LAUNCHER_JAR_LOCATION} nogui"
-}
-
-# setupQuilt
-# Download and install a Quilt server for $MODLOADER_VERSION.
-# Checks are also performed to determine whether Quilt is available for $MINECRAFT_VERSION.
-setupQuilt() {
-  echo ""
-  echo "Running Quilt checks and setup..."
-
-  QUILT_INSTALLER_URL="https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-installer/${QUILT_INSTALLER_VERSION}/quilt-installer-${QUILT_INSTALLER_VERSION}.jar"
-  QUILT_CHECK_URL="https://meta.fabricmc.net/v2/versions/intermediary/${MINECRAFT_VERSION}"
-  if commandAvailable curl ; then
-    QUILT_AVAILABLE="$(curl -LI ${QUILT_CHECK_URL} -o /dev/null -w '%{http_code}\n' -s)"
-  elif commandAvailable wget ; then
-    QUILT_AVAILABLE="$(wget --server-response ${QUILT_CHECK_URL}  2>&1 | awk '/^  HTTP/{print $2}')"
-  fi
-
-  if [[ "${#QUILT_AVAILABLE}" -eq "2" ]]; then
-    crashServer "Quilt is not available for Minecraft ${MINECRAFT_VERSION}, Quilt ${MODLOADER_VERSION}."
-  elif [[ $(downloadIfNotExist "quilt-server-launch.jar" "quilt-installer.jar" "${QUILT_INSTALLER_URL}") == "true" ]]; then
-    echo "Installer downloaded. Installing..."
-    runJavaCommand "-jar quilt-installer.jar install server ${MINECRAFT_VERSION} --download-server --install-dir=."
-
-    if [[ -s "quilt-server-launch.jar" ]]; then
-      rm quilt-installer.jar
-      echo "Installation complete. quilt-installer.jar deleted."
-    else
-      rm -f quilt-installer.jar
-      crashServer "quilt-server-launch.jar not found. Maybe the Quilt servers are having trouble. Please try again in a couple of minutes and check your internet connection."
-    fi
-
-  fi
-
-  LAUNCHER_JAR_LOCATION="quilt-server-launch.jar"
-  SERVER_RUN_COMMAND="${JAVA_ARGS} -jar ${LAUNCHER_JAR_LOCATION} nogui"
-}
-
-# setupLegacyFabric
-# Download and install a LegacyFabric server for $MODLOADER_VERSION.
-# Checks are also performed to determine whether LegacyFabric is available for $MINECRAFT_VERSION.
-setupLegacyFabric() {
-  echo ""
-  echo "Running LegacyFabric checks and setup..."
-
-  LEGACYFABRIC_INSTALLER_URL="https://maven.legacyfabric.net/net/legacyfabric/fabric-installer/${LEGACYFABRIC_INSTALLER_VERSION}/fabric-installer-${LEGACYFABRIC_INSTALLER_VERSION}.jar"
-  LEGACYFABRIC_CHECK_URL="https://meta.legacyfabric.net/v2/versions/loader/${MINECRAFT_VERSION}"
-  if commandAvailable curl ; then
-    LEGACYFABRIC_AVAILABLE="$(curl -LI ${LEGACYFABRIC_CHECK_URL} -o /dev/null -w '%{http_code}\n' -s)"
-  elif commandAvailable wget ; then
-    IMPROVED_FABRIC_LAUNCHER_AVAILABLE="$(wget --server-response ${LEGACYFABRIC_CHECK_URL}  2>&1 | awk '/^  HTTP/{print $2}')"
-  fi
-
-  if [[ "${#LEGACYFABRIC_AVAILABLE}" -eq "2" ]]; then
-    crashServer "LegacyFabric is not available for Minecraft ${MINECRAFT_VERSION}, LegacyFabric ${MODLOADER_VERSION}."
-  elif [[ $(downloadIfNotExist "fabric-server-launch.jar" "legacyfabric-installer.jar" "${LEGACYFABRIC_INSTALLER_URL}") == "true" ]]; then
-    echo "Installer downloaded. Installing..."
-    runJavaCommand "-jar legacyfabric-installer.jar server -mcversion ${MINECRAFT_VERSION} -loader ${MODLOADER_VERSION} -downloadMinecraft"
-
-    if [[ -s "fabric-server-launch.jar" ]]; then
-      rm legacyfabric-installer.jar
-      echo "Installation complete. legacyfabric-installer.jar deleted."
-    else
-      rm -f legacyfabric-installer.jar
-      crashServer "fabric-server-launch.jar not found. Maybe the LegacyFabric servers are having trouble. Please try again in a couple of minutes and check your internet connection."
-    fi
-
-  fi
-
-  LAUNCHER_JAR_LOCATION="fabric-server-launch.jar"
   SERVER_RUN_COMMAND="${JAVA_ARGS} -jar ${LAUNCHER_JAR_LOCATION} nogui"
 }
 
@@ -435,17 +297,8 @@ case ${MODLOADER} in
   "NeoForge")
     setupNeoForge
     ;;
-  "Forge")
-    setupForge
-    ;;
   "Fabric")
     setupFabric
-    ;;
-  "Quilt")
-    setupQuilt
-    ;;
-  "LegacyFabric")
-    setupLegacyFabric
     ;;
   *)
     crashServer "Incorrect modloader specified: ${MODLOADER}"
@@ -475,12 +328,9 @@ echo "Starting server..."
 echo "Minecraft version:              ${MINECRAFT_VERSION}"
 echo "Modloader:                      ${MODLOADER}"
 echo "Modloader version:              ${MODLOADER_VERSION}"
-echo "LegacyFabric Installer Version: ${LEGACYFABRIC_INSTALLER_VERSION}"
 echo "Fabric Installer Version:       ${FABRIC_INSTALLER_VERSION}"
-echo "Quilt Installer Version:        ${QUILT_INSTALLER_VERSION}"
 echo "Java Args:                      ${JAVA_ARGS}"
 echo "Additional Args:                ${ADDITIONAL_ARGS}"
-echo "SSJ Forge Args:                 ${SSJ_FORGE_ARGS}"
 echo "Java Path:                      ${JAVA}"
 echo "Wait For User Input:            ${WAIT_FOR_USER_INPUT}"
 if [[ "${LAUNCHER_JAR_LOCATION}" != "do_not_manually_edit" ]];then

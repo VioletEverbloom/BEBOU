@@ -109,7 +109,7 @@ Function WriteFileUTF8NoBom {
     .SYNOPSIS
 
     Write a text-file using UTF-8, but without a BOM. No-BOM UTF-8 files are required by the ServerStarterJar
-    from the NeoForge-project for installing and running Forge and NeoForge servers, whilst using "user_jvm_args.txt".
+    from the NeoForge-project for installing and running NeoForge servers, whilst using "user_jvm_args.txt".
 
     .PARAMETER FilePath
     The path to the file which should be writte. The file is created by this function, so no need to create it yourself.
@@ -194,7 +194,7 @@ Function global:RefreshServerJar {
     <#
     .SYNOPSIS
 
-    Refresh the ServerStarterJar used for running Forge and NeoForge servers.
+    Refresh the ServerStarterJar used for running NeoForge servers.
     Depending on the value of SERVERSTARTERJAR_FORCE_FETCH in the variables.txt the server.jar is force-refreshed.
     Meaning: If true, the server.jar will be deleted and then downloaded again.
     Depending on the value of SERVERSTARTERJAR_VERSION in the variables.txt a different version is fetched. More on
@@ -218,73 +218,6 @@ Function global:CleanServerFiles {
     #>
 }
 
-Function global:SetupForge {
-    ""
-    "Running Forge checks and setup..."
-    $ForgeInstallerUrl = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${MinecraftVersion}-${ModLoaderVersion}/forge-${MinecraftVersion}-${ModLoaderVersion}-installer.jar"
-    $ForgeJarLocation = "do_not_manually_edit"
-    if ([int]$Semantics[1] -le 16) {
-        $ForgeJarLocation = "forge.jar"
-        $script:LauncherJarLocation = "forge.jar"
-        $script:ServerRunCommand = "${JavaArgs} -jar ${LauncherJarLocation} nogui"
-
-        if ((DownloadIfNotExists "${ForgeJarLocation}" "forge-installer.jar" "${ForgeInstallerUrl}")) {
-            "Forge Installer downloaded. Installing..."
-            RunJavaCommand "-jar forge-installer.jar --installServer"
-
-            "Renaming forge-${MinecraftVersion}-${ModLoaderVersion}.jar to forge.jar"
-            Move-Item "forge-${MinecraftVersion}-${ModLoaderVersion}.jar" 'forge.jar'
-            Move-Item "forge-${MinecraftVersion}-${ModLoaderVersion}-universal.jar" 'forge.jar'
-
-            if ((Test-Path -Path "${ForgeJarLocation}" -PathType Leaf)) {
-                DeleteFileSilently  'forge-installer.jar'
-                "Installation complete. forge-installer.jar deleted."
-            }
-            else {
-                DeleteFileSilently  'forge-installer.jar'
-                CrashServer "Something went wrong during the server installation. Please try again in a couple of minutes and check your internet connection."
-            }
-        }
-    }
-    else {
-        if (${UseSSJ} -eq "false") {
-            $ForgeJarLocation = "libraries/net/minecraftforge/forge/${MinecraftVersion}-${ModLoaderVersion}/forge-${MinecraftVersion}-${ModLoaderVersion}-server.jar"
-            $script:ServerRunCommand = "@user_jvm_args.txt @libraries/net/minecraftforge/forge/${MinecraftVersion}-${ModLoaderVersion}/win_args.txt nogui"
-            if ((DownloadIfNotExists "${ForgeJarLocation}" "forge-installer.jar" "${ForgeInstallerUrl}")) {
-                "Forge Installer downloaded. Installing..."
-                RunJavaCommand "-jar forge-installer.jar --installServer"
-            }
-        }
-        else {
-            $script:ServerRunCommand = "@user_jvm_args.txt ${SSJForgeArgs} -jar server.jar --installer-force --installer ${ForgeInstallerUrl} nogui"
-            # Download ServerStarterJar to server.jar
-            RefreshServerJar
-        }
-
-        Write-Host "Generating user_jvm_args.txt from variables..."
-        Write-Host "Edit JAVA_ARGS in your variables.txt. Do not edit user_jvm_args.txt directly!"
-        Write-Host "Manually made changes to user_jvm_args.txt will be lost in the nether!"
-        DeleteFileSilently  'user_jvm_args.txt'
-        $Content = "# Xmx and Xms set the maximum and minimum RAM usage, respectively.`n" +
-        "# They can take any number, followed by an M or a G.`n" +
-        "# M means Megabyte, G means Gigabyte.`n" +
-        "# For example, to set the maximum to 3GB: -Xmx3G`n" +
-        "# To set the minimum to 2.5GB: -Xms2500M`n" +
-        "# A good default for a modded server is 4GB.`n" +
-        "# Uncomment the next line to set it.`n" +
-        "# -Xmx4G`n" +
-        "${script:JavaArgs}"
-        WriteFileUTF8NoBom "user_jvm_args.txt" $Content
-    }
-
-    <#
-    .SYNOPSIS
-
-    Download and install a Forge server for $ModLoaderVersion. For Minecraft 1.17 and newer the ServerStarterJar
-    from the NeoForge-group is used. This has the benefit of making this server pack compatible with most hosting-companies.
-    #>
-}
-
 # If modloader = NeoForge, run NeoForge-specific checks
 Function global:SetupNeoForge {
     ""
@@ -304,12 +237,7 @@ Function global:SetupNeoForge {
     "${script:JavaArgs}"
     WriteFileUTF8NoBom "user_jvm_args.txt" $Content
 
-    if ([int]$Semantics[1] -eq 20 -And ($Semantics.count -eq 2 -Or [int]$Semantics[2] -eq 1)) {
-        $script:ServerRunCommand = "@user_jvm_args.txt -jar server.jar --installer-force --installer https://maven.neoforged.net/releases/net/neoforged/forge/${MinecraftVersion}-${ModLoaderVersion}/forge-${MinecraftVersion}-${ModLoaderVersion}-installer.jar nogui"
-    }
-    else {
-        $script:ServerRunCommand = "@user_jvm_args.txt -jar server.jar --installer-force --installer ${ModLoaderVersion} nogui"
-    }
+    $script:ServerRunCommand = "@user_jvm_args.txt -jar server.jar --installer-force --installer ${ModLoaderVersion} nogui"
 
     RefreshServerJar
 
@@ -377,66 +305,6 @@ Function global:SetupFabric {
     #>
 }
 
-Function global:SetupQuilt {
-    ""
-    "Running Quilt checks and setup..."
-    $QuiltInstallerUrl = "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-installer/${QuiltInstallerVersion}/quilt-installer-${QuiltInstallerVersion}.jar"
-    if ((ConvertFrom-JSON (Invoke-WebRequest -Uri "https://meta.fabricmc.net/v2/versions/intermediary/${MinecraftVersion}")).Length -eq 0) {
-        CrashServer "Quilt is not available for Minecraft ${MinecraftVersion}, Quilt ${ModLoaderVersion}."
-    }
-    elseif ((DownloadIfNotExists "quilt-server-launch.jar" "quilt-installer.jar" "${QuiltInstallerUrl}")) {
-        "Installer downloaded. Installing..."
-        RunJavaCommand "-jar quilt-installer.jar install server ${MinecraftVersion} --download-server --install-dir=."
-        if ((Test-Path -Path 'quilt-server-launch.jar' -PathType Leaf)) {
-            DeleteFileSilently 'quilt-installer.jar'
-            "Installation complete. quilt-installer.jar deleted."
-        }
-        else {
-            DeleteFileSilently 'quilt-installer.jar'
-            CrashServer "quilt-server-launch.jar not found. Maybe the Quilt servers are having trouble. Please try again in a couple of minutes and check your internet connection."
-        }
-    }
-    $script:LauncherJarLocation = "quilt-server-launch.jar"
-    $script:ServerRunCommand = "${JavaArgs} -jar ${LauncherJarLocation} nogui"
-
-    <#
-    .SYNOPSIS
-
-    Download and install a Quilt server for $ModLoaderVersion.
-    Checks are also performed to determine whether Quilt is available for $MinecraftVersion.
-    #>
-}
-
-Function global:SetupLegacyFabric {
-    ""
-    "Running LegacyFabric checks and setup..."
-    $LegacyFabricInstallerUrl = "https://maven.legacyfabric.net/net/legacyfabric/fabric-installer/${LegacyFabricInstallerVersion}/fabric-installer-${LegacyFabricInstallerVersion}.jar"
-    if ((ConvertFrom-JSON (Invoke-WebRequest -Uri "https://meta.legacyfabric.net/v2/versions/loader/${MinecraftVersion}")).Length -eq 0) {
-        CrashServer "LegacyFabric is not available for Minecraft ${MinecraftVersion}, LegacyFabric ${ModLoaderVersion}."
-    }
-    elseif ((DownloadIfNotExists "fabric-server-launch.jar" "legacyfabric-installer.jar" "${LegacyFabricInstallerUrl}")) {
-        "Installer downloaded. Installing..."
-        RunJavaCommand "-jar legacyfabric-installer.jar server -mcversion ${MinecraftVersion} -loader ${ModLoaderVersion} -downloadMinecraft"
-        if ((Test-Path -Path 'fabric-server-launch.jar' -PathType Leaf)) {
-            DeleteFileSilently 'legacyfabric-installer.jar'
-            "Installation complete. legacyfabric-installer.jar deleted."
-        }
-        else {
-            DeleteFileSilently 'legacyfabric-installer.jar'
-            CrashServer "fabric-server-launch.jar not found. Maybe the LegacyFabric servers are having trouble. Please try again in a couple of minutes and check your internet connection."
-        }
-    }
-    $script:LauncherJarLocation = "fabric-server-launch.jar"
-    $script:ServerRunCommand = "${JavaArgs} -jar ${LauncherJarLocation} nogui"
-
-    <#
-    .SYNOPSIS
-
-    Download and install a LegacyFabric server for $ModLoaderVersion.
-    Checks are also performed to determine whether LegacyFabric is available for $MinecraftVersion.
-    #>
-}
-
 Write-Host "Start script generated by ServerPackCreator 8.1.0."
 Write-Host "To change the launch settings of this server, such as JVM args / flags, Minecraft version, modloader version etc., edit the variables.txt-file."
 
@@ -473,31 +341,26 @@ $ExternalVariables = Get-Content -raw -LiteralPath $ExternalVariablesFile | Conv
 $MinecraftVersion = $ExternalVariables['MINECRAFT_VERSION']
 $ModLoader = $ExternalVariables['MODLOADER']
 $ModLoaderVersion = $ExternalVariables['MODLOADER_VERSION']
-$LegacyFabricInstallerVersion = $ExternalVariables['LEGACYFABRIC_INSTALLER_VERSION']
 $FabricInstallerVersion = $ExternalVariables['FABRIC_INSTALLER_VERSION']
-$QuiltInstallerVersion = $ExternalVariables['QUILT_INSTALLER_VERSION']
 $Java = $ExternalVariables['JAVA']
 $WaitForUserInput = $ExternalVariables['WAIT_FOR_USER_INPUT']
 $JavaArgs = $ExternalVariables['JAVA_ARGS']
 $AdditionalArgs = $ExternalVariables['ADDITIONAL_ARGS']
-$SSJForgeArgs = $ExternalVariables['SSJ_FORGE_ARGS']
 $Restart = $ExternalVariables['RESTART']
 $SkipJavaCheck = $ExternalVariables['SKIP_JAVA_CHECK']
 $RecommendedJavaVersion = $ExternalVariables['RECOMMENDED_JAVA_VERSION']
 $ServerStarterJarForceFetch = $ExternalVariables['SERVERSTARTERJAR_FORCE_FETCH']
 $ServerStarterJarVersion = $ExternalVariables['SERVERSTARTERJAR_VERSION']
-$UseSSJ = $ExternalVariables['USE_SSJ']
 $Cleanup = $ExternalVariables['CLEANUP'].Split(",")
 $LauncherJarLocation = "do_not_manually_edit"
 $ServerRunCommand = "do_not_manually_edit"
 $JavaVersion = "do_not_manually_edit"
 $Semantics = ${MinecraftVersion}.Split(".")
 
-# Clears the "" from the beginning and end of the Java, JavaArgs, AdditionalArgs, SSJArgs vars
+# Clears the "" from the beginning and end of the Java, JavaArgs, AdditionalArgs vars
 $Java = $Java.Trim('"')
 $JavaArgs = $JavaArgs.Trim('"')
 $AdditionalArgs = $AdditionalArgs.Trim('"')
-$SSJForgeArgs = $SSJForgeArgs.Trim('"')
 
 # If Java checks are desired, then the available Java version is compared to the one required by the Minecraft server.
 # Should no Java be found, or an incorrect version be available, the required one is installed by running installJava.
@@ -566,17 +429,8 @@ switch (${ModLoader}) {
     NeoForge {
         SetupNeoForge
     }
-    Forge {
-        SetupForge
-    }
     Fabric {
         SetupFabric
-    }
-    Quilt {
-        SetupQuilt
-    }
-    LegacyFabric {
-        SetupLegacyFabric
     }
     default {
         CrashServer "Incorrect modloader specified: ${ModLoader}"
@@ -603,12 +457,9 @@ if (!(Test-Path -Path 'eula.txt' -PathType Leaf)) {
 "Minecraft version:              ${MinecraftVersion}"
 "Modloader:                      ${ModLoader}"
 "Modloader version:              ${ModLoaderVersion}"
-"LegacyFabric Installer Version: ${LegacyFabricInstallerVersion}"
 "Fabric Installer Version:       ${FabricInstallerVersion}"
-"Quilt Installer Version:        ${QuiltInstallerVersion}"
 "Java Args:                      ${JavaArgs}"
 "Additional Args:                ${AdditionalArgs}"
-"SSJ Forge Args:                 ${SSJForgeArgs}"
 "Java Path:                      ${Java}"
 "Wait For User Input:            ${WaitForUserInput}"
 if (!("${LauncherJarLocation}" -eq "do_not_manually_edit")) {
