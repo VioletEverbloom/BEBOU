@@ -330,13 +330,12 @@ echo "Modloader:                      ${MODLOADER}"
 echo "Modloader version:              ${MODLOADER_VERSION}"
 echo "Fabric Installer Version:       ${FABRIC_INSTALLER_VERSION}"
 echo "Java Args:                      ${JAVA_ARGS}"
-echo "Additional Args:                ${ADDITIONAL_ARGS}"
 echo "Java Path:                      ${JAVA}"
 echo "Wait For User Input:            ${WAIT_FOR_USER_INPUT}"
 if [[ "${LAUNCHER_JAR_LOCATION}" != "do_not_manually_edit" ]];then
     echo "Launcher JAR:                   ${LAUNCHER_JAR_LOCATION}"
 fi
-echo "Run Command:       ${JAVA} ${ADDITIONAL_ARGS} ${SERVER_RUN_COMMAND}"
+echo "Run Command:       ${JAVA} ${SERVER_RUN_COMMAND}"
 echo "Java version:"
 "${JAVA}" -version
 echo ""
@@ -346,7 +345,7 @@ echo ""
 # it if you wish to reload the variables.
 while true
 do
-  runJavaCommand "${ADDITIONAL_ARGS} ${SERVER_RUN_COMMAND}"
+  runJavaCommand "${SERVER_RUN_COMMAND}"
   if [[ "${SKIP_JAVA_CHECK}" == "true" ]]; then
     echo "Java version check was skipped. Did the server stop or crash because of a Java version mismatch?"
     echo "Detected ${SEMANTICS[0]}.${SEMANTICS[1]}.${SEMANTICS[2]} - Java ${JAVA_VERSION}, recommended $RECOMMENDED_JAVA_VERSION."

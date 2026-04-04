@@ -345,7 +345,6 @@ $FabricInstallerVersion = $ExternalVariables['FABRIC_INSTALLER_VERSION']
 $Java = $ExternalVariables['JAVA']
 $WaitForUserInput = $ExternalVariables['WAIT_FOR_USER_INPUT']
 $JavaArgs = $ExternalVariables['JAVA_ARGS']
-$AdditionalArgs = $ExternalVariables['ADDITIONAL_ARGS']
 $Restart = $ExternalVariables['RESTART']
 $SkipJavaCheck = $ExternalVariables['SKIP_JAVA_CHECK']
 $RecommendedJavaVersion = $ExternalVariables['RECOMMENDED_JAVA_VERSION']
@@ -357,10 +356,9 @@ $ServerRunCommand = "do_not_manually_edit"
 $JavaVersion = "do_not_manually_edit"
 $Semantics = ${MinecraftVersion}.Split(".")
 
-# Clears the "" from the beginning and end of the Java, JavaArgs, AdditionalArgs vars
+# Clears the "" from the beginning and end of the Java, JavaArgs vars
 $Java = $Java.Trim('"')
 $JavaArgs = $JavaArgs.Trim('"')
-$AdditionalArgs = $AdditionalArgs.Trim('"')
 
 # If Java checks are desired, then the available Java version is compared to the one required by the Minecraft server.
 # Should no Java be found, or an incorrect version be available, the required one is installed by running installJava.
@@ -459,13 +457,12 @@ if (!(Test-Path -Path 'eula.txt' -PathType Leaf)) {
 "Modloader version:              ${ModLoaderVersion}"
 "Fabric Installer Version:       ${FabricInstallerVersion}"
 "Java Args:                      ${JavaArgs}"
-"Additional Args:                ${AdditionalArgs}"
 "Java Path:                      ${Java}"
 "Wait For User Input:            ${WaitForUserInput}"
 if (!("${LauncherJarLocation}" -eq "do_not_manually_edit")) {
     "Launcher JAR:                   ${LauncherJarLocation}"
 }
-"Run Command:       ${Java} ${AdditionalArgs} ${ServerRunCommand}"
+"Run Command:       ${Java} ${ServerRunCommand}"
 "Java version:"
 RunJavaCommand "-version"
 ""
@@ -474,7 +471,7 @@ RunJavaCommand "-version"
 # achieved by hitting CTRL+C multiple times. Variables are not reloaded between server runs. Quit the script and re-run
 # it if you wish to reload the variables.
 while ($true) {
-    RunJavaCommand "${AdditionalArgs} ${ServerRunCommand}"
+    RunJavaCommand "${ServerRunCommand}"
     if ("${SkipJavaCheck}" -eq "true") {
         "Java version check was skipped. Did the server stop or crash because of a Java version mismatch?"
         "Detected $($Semantics[0]).$($Semantics[1]).$($Semantics[2]) - Java $($JavaVersion), recommended $($RecommendedJavaVersion)"

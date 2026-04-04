@@ -38,10 +38,6 @@ JAVA_ARGS="-Xmx8G -Xms8G -XX:+UseCompactObjectHeaders"
 #   compatible Java version, should JAVA be set to 'java'.
 SKIP_JAVA_CHECK=false
 
-# Additional arguments to pass to the server. These arguments are not
-#   written to any file, they are directly used in the command to run the server.
-ADDITIONAL_ARGS="-Dlog4j2.formatMsgNoLookups=true"
-
 ########################################
 # MODPACK SETTINGS
 #
