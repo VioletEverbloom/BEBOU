@@ -14,6 +14,7 @@
 - Advancements Reloaded
 - AppleSkin
 - Better Mount HUD
+- ClickThrough Plus
 - Controlify
 - Entity Model Features
 - Entity Texture Features

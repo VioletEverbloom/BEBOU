@@ -253,6 +253,44 @@
             ]
         },
         {
+            "pakku_id": "5Wp8XhUCWzSafQHP",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "clickthrough-plus"
+            },
+            "name": {
+                "curseforge": "ClickThrough Plus"
+            },
+            "id": {
+                "curseforge": "1122678"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "clickthrough-plus-3.6.3+26.1-snapshot-1-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7856/441/clickthrough-plus-3.6.3+26.1-snapshot-1-fabric.jar",
+                    "id": "7856441",
+                    "parent_id": "1122678",
+                    "hashes": {
+                        "sha1": "c83682ff96b01c6e8929ebd4579880908e567600",
+                        "md5": "50ccb310cfa611d06afab88bc221716d"
+                    },
+                    "required_dependencies": [],
+                    "size": 327771,
+                    "date_published": "2026-04-01T14:45:05.503Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WzXdZYbQQUyd2AGc",
             "type": "MOD",
             "slug": {

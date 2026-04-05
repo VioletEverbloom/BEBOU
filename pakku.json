@@ -68,6 +68,9 @@
         },
         "controlify-dungeons": {
             "side": "CLIENT"
+        },
+        "clickthrough-plus": {
+            "side": "CLIENT"
         }
     }
 }
