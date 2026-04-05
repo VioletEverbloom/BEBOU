@@ -1,5 +1,15 @@
 # [Unreleased]
 
+## Mods
+
+### Added
+
+- Chat Reporting Helper
+- Locator Heads
+- Locator Lodestones
+- No Chat Reports
+- No Chat Restrictions
+
 # [0.0.2] - Tooltips and Menus
 
 ## Added

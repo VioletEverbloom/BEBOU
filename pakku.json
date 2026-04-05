@@ -71,6 +71,9 @@
         },
         "clickthrough-plus": {
             "side": "CLIENT"
+        },
+        "no-chat-restrictions": {
+            "side": "CLIENT"
         }
     }
 }
