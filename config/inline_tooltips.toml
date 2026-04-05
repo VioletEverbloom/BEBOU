@@ -23,17 +23,17 @@
 	attributeTooltipColor = "Dark Green"
 	# Add tooltips based on fuel levels.
 	# default: true
-	fuelTooltip = true
+	fuelTooltip = false
 	# default: Gold
 	fuelTooltipColor = "Gold"
 	# Add tooltips based on amount of bees.
 	# default: true
-	beesTooltip = true
+	beesTooltip = false
 	# default: Gold
 	beeTooltipColor = "Gold"
 	# Add tooltips based on amount of honey.
 	# default: true
-	honeyTooltip = true
+	honeyTooltip = false
 	# default: Gold
 	honeyTooltipColor = "Gold"
 	# Add tooltips based on light level.
@@ -53,7 +53,7 @@
 [durabilityTooltip]
 	# Add tooltips based on durability.
 	# default: true
-	enable = true
+	enable = false
 	# Color of the durability tooltip.
 	# default: Gray
 	text_color = "Gray"
@@ -64,19 +64,19 @@
 [textTooltips]
 	# Add tooltips to Compasses with the player's coordinates.
 	# default: true
-	compassTooltip = true
+	compassTooltip = false
 	# Compass tooltip colour.
 	# default: Red
 	compassTooltipColor = "Red"
 	# Add tooltips based on Lodestone Compass's destination.
 	# default: true
-	lodestoneTooltip = true
+	lodestoneTooltip = false
 	# Lodestone Compass tooltip colour.
 	# default: Gold
 	lodestoneCompassTooltipColor = "Gold"
 	# Add tooltips based on Recovery Compass's destination.
 	# default: true
-	recoveryCompassTooltip = true
+	recoveryCompassTooltip = false
 	# Recovery Compass tooltip colour.
 	# default: Aqua
 	recoveryCompassTooltipColor = "Aqua"
@@ -84,7 +84,7 @@
 [clockTooltip]
 	# Add tooltips to Clocks with the current time.
 	# default: true
-	current_time = true
+	current_time = false
 	# Add tooltips to Clocks with the current day.
 	# default: true
 	day_count = true
