@@ -293,6 +293,50 @@
             ]
         },
         {
+            "pakku_id": "rPYdnXdolnlEYBld",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL",
+                "PglhlYAG1Ntyl02V"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "chatpatches"
+            },
+            "name": {
+                "curseforge": "Chat Patches"
+            },
+            "id": {
+                "curseforge": "560042"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "chatpatches-8.0-alpha.8+26.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7820/839/chatpatches-8.0-alpha.8+26.1-fabric.jar",
+                    "id": "7820839",
+                    "parent_id": "560042",
+                    "hashes": {
+                        "sha1": "cd1e79ff804543797a464579aa9bf2fa8865bfca",
+                        "md5": "bc619efb73d5a0f842266ecd98af3379"
+                    },
+                    "required_dependencies": [
+                        "306612",
+                        "667299"
+                    ],
+                    "size": 1478393,
+                    "date_published": "2026-03-27T03:23:49.737Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rPFcmsot0oFpkuKR",
             "type": "RESOURCE_PACK",
             "slug": {

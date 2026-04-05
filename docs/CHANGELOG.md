@@ -3,6 +3,7 @@
 ## Mods
 
 - Better Locator Bar
+- Chat Patches
 - Prettier Chat
 
 ### Added

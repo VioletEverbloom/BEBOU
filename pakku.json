@@ -80,6 +80,9 @@
         },
         "chatanimation": {
             "side": "CLIENT"
+        },
+        "chatpatches": {
+            "side": "CLIENT"
         }
     }
 }
