@@ -10,6 +10,7 @@
 ### Added
 
 - Advancements Reloaded
+- AppleSkin
 - Better Mount HUD
 - Entity Model Features
 - Entity Texture Features
@@ -17,6 +18,7 @@
 - Map Tooltip
 - ModernFix mVUS
 - Mouse Tweaks
+- Raised
 - Shulker Box Tooltip
 
 # [0.0.1] - Optimization and Server Replacement

@@ -59,6 +59,9 @@
         },
         "better-mount-hud": {
             "side": "CLIENT"
+        },
+        "raised": {
+            "side": "CLIENT"
         }
     }
 }
