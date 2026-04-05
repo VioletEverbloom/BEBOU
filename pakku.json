@@ -53,6 +53,9 @@
         },
         "inline-tooltips": {
             "side": "CLIENT"
+        },
+        "map-tooltip": {
+            "side": "CLIENT"
         }
     }
 }

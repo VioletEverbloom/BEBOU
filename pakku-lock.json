@@ -516,6 +516,48 @@
             ]
         },
         {
+            "pakku_id": "xGmkADrKAELNkD5A",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "map-tooltip"
+            },
+            "name": {
+                "curseforge": "Map Tooltip"
+            },
+            "id": {
+                "curseforge": "384852"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "maptooltip-5.0.0+26.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7809/267/maptooltip-5.0.0+26.1-fabric.jar",
+                    "id": "7809267",
+                    "parent_id": "384852",
+                    "hashes": {
+                        "sha1": "2fea8eac2d828b8fab569b29e6b23b61e7240c6c",
+                        "md5": "3619eac5ffa5976bf021b26bf1189501"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 10711,
+                    "date_published": "2026-03-25T04:16:40.683Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9peGjwL3YT58XB30",
             "pakku_links": [
                 "xTV1E2KS1EAehANL"
@@ -725,6 +767,47 @@
                     ],
                     "size": 75833,
                     "date_published": "2026-03-29T13:44:51.370Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5bZ6aBvW5acPDnOZ",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "shulkerboxtooltip"
+            },
+            "name": {
+                "curseforge": "Shulker Box Tooltip [Fabric/Forge/NeoForge]"
+            },
+            "id": {
+                "curseforge": "315811"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "shulkerboxtooltip-fabric-5.2.18+26.1.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7847/980/shulkerboxtooltip-fabric-5.2.18+26.1.jar",
+                    "id": "7847980",
+                    "parent_id": "315811",
+                    "hashes": {
+                        "sha1": "9a51406c8bf6c56232417d269f06fb3ad7b80faf",
+                        "md5": "7278ed1177b3b9ee8321eef1f2760218"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 388301,
+                    "date_published": "2026-03-30T22:02:48.077Z"
                 }
             ]
         },
