@@ -398,6 +398,44 @@
             ]
         },
         {
+            "pakku_id": "eMXWFV7cno917No4",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "inline-tooltips"
+            },
+            "name": {
+                "curseforge": "Inline Tooltips"
+            },
+            "id": {
+                "curseforge": "1368324"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "inline_tooltips-1.6.4+26.1-snapshot-10-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7856/419/inline_tooltips-1.6.4+26.1-snapshot-10-fabric.jar",
+                    "id": "7856419",
+                    "parent_id": "1368324",
+                    "hashes": {
+                        "sha1": "9525ad9c95d570cabb83591a8afa69535b4b59d0",
+                        "md5": "136290d9ce0c6ae0ada9740045c69182"
+                    },
+                    "required_dependencies": [],
+                    "size": 342388,
+                    "date_published": "2026-04-01T14:40:34.173Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wIKbzhUBlwFjnqwF",
             "pakku_links": [
                 "MGyJTiUeEDMXHSxx"

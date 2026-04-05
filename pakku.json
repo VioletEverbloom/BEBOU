@@ -50,6 +50,9 @@
         },
         "betterstats": {
             "side": "CLIENT"
+        },
+        "inline-tooltips": {
+            "side": "CLIENT"
         }
     }
 }
