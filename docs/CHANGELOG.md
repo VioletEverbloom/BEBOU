@@ -1,4 +1,6 @@
-# [Unreleased] - Tooltips and Menus
+# [Unreleased]
+
+# [0.0.2] - Tooltips and Menus
 
 ## Added
 
