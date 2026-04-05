@@ -2,8 +2,12 @@
 
 ## Mods
 
+- Better Locator Bar
+- Prettier Chat
+
 ### Added
 
+- Chat Heads
 - Chat Reporting Helper
 - Locator Heads
 - Locator Lodestones

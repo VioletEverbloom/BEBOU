@@ -74,6 +74,9 @@
         },
         "no-chat-restrictions": {
             "side": "CLIENT"
+        },
+        "chat-heads": {
+            "side": "CLIENT"
         }
     }
 }

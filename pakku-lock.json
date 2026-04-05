@@ -217,6 +217,43 @@
             ]
         },
         {
+            "pakku_id": "fuzAiommz6LS2mRi",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "chat-heads"
+            },
+            "name": {
+                "curseforge": "Chat Heads"
+            },
+            "id": {
+                "curseforge": "407206"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "chat_heads-1.2.2-fabric-26.1.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7818/852/chat_heads-1.2.2-fabric-26.1.jar",
+                    "id": "7818852",
+                    "parent_id": "407206",
+                    "hashes": {
+                        "sha1": "d120f660ad5dd7203b6b3b4199d50e8530434889",
+                        "md5": "53aafb16471a584c03d218a5625b73fa"
+                    },
+                    "required_dependencies": [],
+                    "size": 90861,
+                    "date_published": "2026-03-26T19:49:54.253Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rPFcmsot0oFpkuKR",
             "type": "RESOURCE_PACK",
             "slug": {
