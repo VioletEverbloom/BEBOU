@@ -101,4 +101,4 @@
 	debugInfo = false
 	# Food tooltip is hidden when AppleSkin is installed to prevent redundant information.
 	# default: false
-	showFoodTooltipWithAppleSkinInstalled = false
+	showFoodTooltipWithAppleSkinInstalled = true
