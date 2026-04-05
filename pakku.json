@@ -62,6 +62,12 @@
         },
         "raised": {
             "side": "CLIENT"
+        },
+        "controlify": {
+            "side": "CLIENT"
+        },
+        "controlify-dungeons": {
+            "side": "CLIENT"
         }
     }
 }

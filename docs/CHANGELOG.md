@@ -3,7 +3,9 @@
 ## Added
 
 - Better Advancements and Statistics menus
+- Controller Support
 - Prettier Tooltips
+- Prettier HUD
 
 ## Mods
 
@@ -12,6 +14,7 @@
 - Advancements Reloaded
 - AppleSkin
 - Better Mount HUD
+- Controlify
 - Entity Model Features
 - Entity Texture Features
 - Inline Tooltips
@@ -20,6 +23,12 @@
 - Mouse Tweaks
 - Raised
 - Shulker Box Tooltip
+
+## Resource Packs
+
+### Added
+
+- Controlify Dungeons
 
 # [0.0.1] - Optimization and Server Replacement
 

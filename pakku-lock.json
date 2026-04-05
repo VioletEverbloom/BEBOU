@@ -325,6 +325,90 @@
             ]
         },
         {
+            "pakku_id": "Ms3mlFd1aosHqMg0",
+            "pakku_links": [
+                "PglhlYAG1Ntyl02V",
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "controlify"
+            },
+            "name": {
+                "curseforge": "Controlify (Controller support)"
+            },
+            "id": {
+                "curseforge": "835847"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "controlify-3.0.0-beta.3+26.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7832/482/controlify-3.0.0-beta.3+26.1-fabric.jar",
+                    "id": "7832482",
+                    "parent_id": "835847",
+                    "hashes": {
+                        "sha1": "b48bbabc577f07dc1d757c2d58a4ac29297590bd",
+                        "md5": "fdb4840840e6fe632e7f53ade65e3590"
+                    },
+                    "required_dependencies": [
+                        "667299",
+                        "306612"
+                    ],
+                    "size": 7985932,
+                    "date_published": "2026-03-29T01:14:37.023Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EVcI34pL6EqALEMa",
+            "pakku_links": [
+                "Ms3mlFd1aosHqMg0"
+            ],
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "controlify-dungeons"
+            },
+            "name": {
+                "curseforge": "Controlify Dungeons"
+            },
+            "id": {
+                "curseforge": "1322021"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Controlify_Dungeons.zip",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7866/628/Controlify_Dungeons.zip",
+                    "id": "7866628",
+                    "parent_id": "1322021",
+                    "hashes": {
+                        "sha1": "1cdea8c16a142467a0ddc9036af8bacfafe4d145",
+                        "md5": "84547b61f80dd91fc9592c3e875f336e"
+                    },
+                    "required_dependencies": [
+                        "835847"
+                    ],
+                    "size": 16527,
+                    "date_published": "2026-04-03T09:14:40.273Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "URGDjlCIigOfbHfT",
             "type": "MOD",
             "side": "CLIENT",
@@ -1006,6 +1090,47 @@
                     "required_dependencies": [],
                     "size": 497369,
                     "date_published": "2026-04-03T17:32:55.223Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PglhlYAG1Ntyl02V",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "yacl"
+            },
+            "name": {
+                "curseforge": "YetAnotherConfigLib"
+            },
+            "id": {
+                "curseforge": "667299"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "yet_another_config_lib_v3-3.9.2+26.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7851/607/yet_another_config_lib_v3-3.9.2+26.1-fabric.jar",
+                    "id": "7851607",
+                    "parent_id": "667299",
+                    "hashes": {
+                        "sha1": "0282a3772dea69135dbb66773fa82190ac7a39b9",
+                        "md5": "9eda2f785b5194a91680f200a9be0aea"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1116679,
+                    "date_published": "2026-03-31T15:45:32.950Z"
                 }
             ]
         },
