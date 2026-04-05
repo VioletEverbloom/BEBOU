@@ -1,10 +1,16 @@
 # [Unreleased] - Tooltips and Menus
 
+## Added
+
+- Better Advancements and Statistics menus
+- Prettier Tooltips
+
 ## Mods
 
 ### Added
 
 - Advancements Reloaded
+- Better Mount HUD
 - Entity Model Features
 - Entity Texture Features
 - Inline Tooltips

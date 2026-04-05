@@ -52,6 +52,43 @@
             ]
         },
         {
+            "pakku_id": "Noa12tnNuNO73xM6",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "better-mount-hud"
+            },
+            "name": {
+                "curseforge": "Better Mount HUD"
+            },
+            "id": {
+                "curseforge": "475358"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bettermounthud-1.3.0.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7801/481/bettermounthud-1.3.0.jar",
+                    "id": "7801481",
+                    "parent_id": "475358",
+                    "hashes": {
+                        "sha1": "42dc998a06994c86d58ed18bfb44ef58764f1b32",
+                        "md5": "93ab8d095b5230f1e64f31872ab48510"
+                    },
+                    "required_dependencies": [],
+                    "size": 20720,
+                    "date_published": "2026-03-23T20:40:37.703Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KArjRyeeSbbUQZPu",
             "pakku_links": [
                 "mPWBCFC4IjIx9hZh"
