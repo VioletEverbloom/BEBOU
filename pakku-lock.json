@@ -1189,7 +1189,8 @@
                     "type": "curseforge",
                     "file_name": "shulkerboxtooltip-fabric-5.2.18+26.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
