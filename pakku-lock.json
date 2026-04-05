@@ -217,6 +217,45 @@
             ]
         },
         {
+            "pakku_id": "wAtYeYCmw1D4u9f7",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "chatanimation"
+            },
+            "name": {
+                "curseforge": "Chat Animation [Smooth Chat]"
+            },
+            "id": {
+                "curseforge": "892086"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "chatanimation-fabric-26.1-1.1.3.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7866/813/chatanimation-fabric-26.1-1.1.3.jar",
+                    "id": "7866813",
+                    "parent_id": "892086",
+                    "hashes": {
+                        "sha1": "c93ff9d7e2b80b1ed2b37e15823564245c95bdb5",
+                        "md5": "6f087e3f8264f93a82f9b8b262ddc054"
+                    },
+                    "required_dependencies": [],
+                    "size": 381984,
+                    "date_published": "2026-04-03T10:18:47.277Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fuzAiommz6LS2mRi",
             "type": "MOD",
             "side": "CLIENT",

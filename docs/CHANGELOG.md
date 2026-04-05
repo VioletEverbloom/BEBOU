@@ -7,6 +7,7 @@
 
 ### Added
 
+- Chat Animation
 - Chat Heads
 - Chat Reporting Helper
 - Locator Heads
