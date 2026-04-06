@@ -4,6 +4,7 @@
 
 ### Added
 
+- 3D Skin Layers
 - Sodium Shadowy Path Blocks
 
 # [0.0.3] - Multiplayer

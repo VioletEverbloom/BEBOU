@@ -1296,6 +1296,50 @@
             ]
         },
         {
+            "pakku_id": "sY6HPObs1WZL7jrM",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "skin-layers-3d"
+            },
+            "name": {
+                "curseforge": "Skin Layers 3D"
+            },
+            "id": {
+                "curseforge": "521480"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "skinlayers3d-fabric-1.11.1-mc26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7857/585/skinlayers3d-fabric-1.11.1-mc26.1.jar",
+                    "id": "7857585",
+                    "parent_id": "521480",
+                    "hashes": {
+                        "sha1": "e76383ba3a38376f2937795d812a31a201f04aa9",
+                        "md5": "a1987e9c9d605b43fba28e6b1f37b6fc"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1948032,
+                    "date_published": "2026-04-01T18:16:14.383Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MGyJTiUeEDMXHSxx",
             "type": "MOD",
             "side": "CLIENT",

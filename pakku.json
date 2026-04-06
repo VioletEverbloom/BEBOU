@@ -89,6 +89,9 @@
         },
         "sodium-shadowy-path-blocks": {
             "side": "CLIENT"
+        },
+        "skin-layers-3d": {
+            "side": "CLIENT"
         }
     }
 }
