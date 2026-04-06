@@ -81,6 +81,9 @@
         "chatanimation": {
             "side": "CLIENT"
         },
+        "tab-tweaks": {
+            "side": "CLIENT"
+        },
         "chatpatches": {
             "side": "CLIENT"
         }

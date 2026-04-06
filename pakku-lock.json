@@ -1373,6 +1373,51 @@
             ]
         },
         {
+            "pakku_id": "TAk50KDfxi6SlQaH",
+            "pakku_links": [
+                "PglhlYAG1Ntyl02V",
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "tab-tweaks"
+            },
+            "name": {
+                "curseforge": "Tab Tweaks"
+            },
+            "id": {
+                "curseforge": "1091949"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tabtweaks-1.5.10+26.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7874/858/tabtweaks-1.5.10+26.1-fabric.jar",
+                    "id": "7874858",
+                    "parent_id": "1091949",
+                    "hashes": {
+                        "sha1": "a06aeb65cd20415c1e7813111645c4fbc1728b47",
+                        "md5": "7d4b5cb479575c0fff733b7346c2ddd3"
+                    },
+                    "required_dependencies": [
+                        "667299",
+                        "306612"
+                    ],
+                    "size": 141935,
+                    "date_published": "2026-04-04T17:06:14.293Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PglhlYAG1Ntyl02V",
             "pakku_links": [
                 "xTV1E2KS1EAehANL"

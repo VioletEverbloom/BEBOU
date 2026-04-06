@@ -15,6 +15,7 @@
 - Locator Lodestones
 - No Chat Reports
 - No Chat Restrictions
+- Tab Tweaks
 
 # [0.0.2] - Tooltips and Menus
 
