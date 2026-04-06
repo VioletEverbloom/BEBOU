@@ -1334,6 +1334,50 @@
             ]
         },
         {
+            "pakku_id": "TqHzrrnty9Jo03KG",
+            "pakku_links": [
+                "MGyJTiUeEDMXHSxx"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "sodium-shadowy-path-blocks"
+            },
+            "name": {
+                "curseforge": "Sodium Shadowy Path Blocks"
+            },
+            "id": {
+                "curseforge": "556408"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sodium-shadowy-path-blocks-fabric-7.0.0.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7854/83/sodium-shadowy-path-blocks-fabric-7.0.0.jar",
+                    "id": "7854083",
+                    "parent_id": "556408",
+                    "hashes": {
+                        "sha1": "1399156a64c7bfbc38fa21af935495cfb74923c3",
+                        "md5": "caa6fd6067bbfc1d76a52a0a39136ccf"
+                    },
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 67690,
+                    "date_published": "2026-04-01T02:14:34.627Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mPWBCFC4IjIx9hZh",
             "type": "MOD",
             "slug": {

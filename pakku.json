@@ -86,6 +86,9 @@
         },
         "chatpatches": {
             "side": "CLIENT"
+        },
+        "sodium-shadowy-path-blocks": {
+            "side": "CLIENT"
         }
     }
 }

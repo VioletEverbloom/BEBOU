@@ -1,3 +1,11 @@
+# [Unreleased]
+
+## Mods
+
+### Added
+
+- Sodium Shadowy Path Blocks
+
 # [0.0.3] - Multiplayer
 
 ## Mods
