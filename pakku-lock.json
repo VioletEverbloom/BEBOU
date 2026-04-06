@@ -1018,7 +1018,8 @@
                     "type": "curseforge",
                     "file_name": "modernfix-5.26.2-build.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
