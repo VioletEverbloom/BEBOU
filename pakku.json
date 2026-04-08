@@ -110,6 +110,9 @@
         },
         "tcdcommons": {
             "side": "CLIENT"
+        },
+        "ixeris": {
+            "side": "CLIENT"
         }
     }
 }

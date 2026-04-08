@@ -10,6 +10,8 @@
 
 - 3D Skin Layers
 - Client Sort
+- Clumps
+- Ixeris
 - Light Overlay
 - Sodium Shadowy Path Blocks
 

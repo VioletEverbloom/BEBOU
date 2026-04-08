@@ -527,6 +527,47 @@
             ]
         },
         {
+            "pakku_id": "jXtrlFjK6YXSLQPX",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "clumps"
+            },
+            "name": {
+                "curseforge": "Clumps"
+            },
+            "id": {
+                "curseforge": "256717"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Clumps-fabric-26.1-26.1.0.2.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7821/546/Clumps-fabric-26.1-26.1.0.2.jar",
+                    "id": "7821546",
+                    "parent_id": "256717",
+                    "hashes": {
+                        "sha1": "a5504f821ecb9ab0abd1a0ee873887555aabe711",
+                        "md5": "b7ef68ba50165194d8155e0883569c62"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 19956,
+                    "date_published": "2026-03-27T07:43:20.710Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PxtJzxzItP51iAb6",
             "type": "SHADER",
             "slug": {
@@ -909,6 +950,45 @@
                     ],
                     "size": 2803860,
                     "date_published": "2026-04-03T14:33:45.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mCQwmdISixeBoWXb",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "ixeris"
+            },
+            "name": {
+                "curseforge": "Ixeris"
+            },
+            "id": {
+                "curseforge": "1285307"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Ixeris-4.1.8+26.1.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7878/926/Ixeris-4.1.8+26.1.1-fabric.jar",
+                    "id": "7878926",
+                    "parent_id": "1285307",
+                    "hashes": {
+                        "sha1": "78f1acad0c34f072a0a3183b7d0f86a311f9b307",
+                        "md5": "dff219fcbfce4c1785de13e81efdc9e1"
+                    },
+                    "required_dependencies": [],
+                    "size": 690709,
+                    "date_published": "2026-04-05T11:43:29.660Z"
                 }
             ]
         },
