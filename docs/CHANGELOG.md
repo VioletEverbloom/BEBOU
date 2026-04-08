@@ -1,27 +1,40 @@
 # [Unreleased]
 
-## Mods
+## Added
 
 - Visual Tweaks
 - Inventory Sorting
 - Light Overlay
+- Default Shaders
+
+## Mods
 
 ### Added
 
 - 3D Skin Layers
 - Client Sort
 - Clumps
+- Euphoria Patches
+- Iris Shader Folder
 - Ixeris
 - Light Overlay
 - Sodium Shadowy Path Blocks
 
+## Shaders
+
+### Added
+
+- Complementary Shaders
+
 # [0.0.3] - Multiplayer
 
-## Mods
+## Added
 
 - Better Locator Bar
 - Chat Patches
 - Prettier Chat
+
+## Mods
 
 ### Added
 

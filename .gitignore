@@ -9,7 +9,6 @@
 /saves/
 /screenshots/
 /server-resource-packs/
-/shaderpacks/
 /texturepacks/
 
 /command_history.txt
@@ -22,8 +21,10 @@
 
 # Mods
 /.fabric/
+/.mixin.out/
 /bluemap/
 /data/
+/shaderpacks/
 
 # Configs
 /config/bluemap/*
@@ -31,7 +32,10 @@
 /config/spark/*
 !/config/spark/config.json
 
-/config/iris* 
+/config/euphoria_patcher/data.json
+
+/config/iris.properties
+/config/iris-excluded.json
 
 # Server files
 /libraries/

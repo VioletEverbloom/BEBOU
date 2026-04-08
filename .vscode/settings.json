@@ -17,6 +17,7 @@
   },
   "files.exclude": {
     ".fabric/": true,
+    ".mixin.out/": true,
     "bluemap/": true,
     "cache/": true,
     "coremods/": true,

@@ -760,6 +760,44 @@
             ]
         },
         {
+            "pakku_id": "Ua9MfstSyPAO74g0",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "euphoria-patches"
+            },
+            "name": {
+                "curseforge": "Euphoria Patches"
+            },
+            "id": {
+                "curseforge": "915902"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7624/105/EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar",
+                    "id": "7624105",
+                    "parent_id": "915902",
+                    "hashes": {
+                        "sha1": "b1fc5eb98ad63fba6d4594035964471925b3154f",
+                        "md5": "6393b39f3106513ec3f292357c462252"
+                    },
+                    "required_dependencies": [],
+                    "size": 2827550,
+                    "date_published": "2026-02-14T15:06:46.783Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xTV1E2KS1EAehANL",
             "type": "MOD",
             "slug": {
@@ -950,6 +988,49 @@
                     ],
                     "size": 2803860,
                     "date_published": "2026-04-03T14:33:45.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4wwfxgjOpN306TIg",
+            "pakku_links": [
+                "wIKbzhUBlwFjnqwF"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "iris-shader-folder"
+            },
+            "name": {
+                "curseforge": "Iris/Oculus Shader Folder"
+            },
+            "id": {
+                "curseforge": "1351246"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "iris_shader_folder-1.3.0-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7864/424/iris_shader_folder-1.3.0-fabric.jar",
+                    "id": "7864424",
+                    "parent_id": "1351246",
+                    "hashes": {
+                        "sha1": "eea09fd3abe31e3aed48320b09088587262f67d9",
+                        "md5": "8a3abad94a373823c440c7646faf8ea1"
+                    },
+                    "required_dependencies": [
+                        "455508"
+                    ],
+                    "size": 202532,
+                    "date_published": "2026-04-02T22:24:28.620Z"
                 }
             ]
         },
