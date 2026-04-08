@@ -6,6 +6,7 @@
 - Inventory Sorting
 - Light Overlay
 - Default Shaders
+- Remove Resource Pack Reloading Screen
 
 ## Mods
 
@@ -18,6 +19,7 @@
 - Iris Shader Folder
 - Ixeris
 - Light Overlay
+- Remove Reloading Screen
 - Sodium Shadowy Path Blocks
 
 ## Shaders

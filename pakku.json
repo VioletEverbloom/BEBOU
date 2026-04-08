@@ -113,6 +113,9 @@
         },
         "ixeris": {
             "side": "CLIENT"
+        },
+        "rrls": {
+            "side": "CLIENT"
         }
     }
 }

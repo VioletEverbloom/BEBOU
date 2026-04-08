@@ -44,8 +44,6 @@ globalExecutorParallelism = "default"
 	# 
 	enforceSafeWorldRandomAccess = "default"
 
-[clientSideConfig]
-
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server
@@ -229,4 +227,3 @@ globalExecutorParallelism = "default"
 	# in a single world instance
 	# 
 	allowPOIUnloading = "default"
-

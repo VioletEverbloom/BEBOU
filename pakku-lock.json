@@ -872,6 +872,48 @@
             ]
         },
         {
+            "pakku_id": "s8l1pCe5vUyeRTA1",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forge-config-api-port"
+            },
+            "name": {
+                "curseforge": "Forge Config API Port"
+            },
+            "id": {
+                "curseforge": "547434"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ForgeConfigAPIPort-v26.1.3-mc26.1.x-Fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7861/252/ForgeConfigAPIPort-v26.1.3-mc26.1.x-Fabric.jar",
+                    "id": "7861252",
+                    "parent_id": "547434",
+                    "hashes": {
+                        "sha1": "b9a005e2a00c3e2a095cc41264e9a9f60bc3090a",
+                        "md5": "fe09949d6674c85004a00754d0248e1d"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 590163,
+                    "date_published": "2026-04-02T11:57:14.167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8fzLIzWIbEtZw1zK",
             "type": "MOD",
             "side": "CLIENT",
@@ -1583,6 +1625,45 @@
                     ],
                     "size": 86058,
                     "date_published": "2026-04-03T03:32:44.973Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YoV3WpTyrVeIJyih",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "rrls"
+            },
+            "name": {
+                "curseforge": "Remove Reloading Screen"
+            },
+            "id": {
+                "curseforge": "833233"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rrls-5.2.4+mc.26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7873/142/rrls-5.2.4+mc.26.1.jar",
+                    "id": "7873142",
+                    "parent_id": "833233",
+                    "hashes": {
+                        "sha1": "aa7d89b6c9bfe18e027f01a297d5914a73b348f6",
+                        "md5": "b2d0d93f5c9715658fab99e521ffbea2"
+                    },
+                    "required_dependencies": [],
+                    "size": 105348,
+                    "date_published": "2026-04-04T14:16:32.387Z"
                 }
             ]
         },
