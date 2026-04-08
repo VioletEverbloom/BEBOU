@@ -2,9 +2,15 @@
 
 ## Mods
 
+- Visual Tweaks
+- Inventory Sorting
+- Light Overlay
+
 ### Added
 
 - 3D Skin Layers
+- Client Sort
+- Light Overlay
 - Sodium Shadowy Path Blocks
 
 # [0.0.3] - Multiplayer

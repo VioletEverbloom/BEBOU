@@ -445,6 +445,51 @@
             ]
         },
         {
+            "pakku_id": "uE3MJy9NbgYJ2YpC",
+            "pakku_links": [
+                "WzXdZYbQQUyd2AGc",
+                "9peGjwL3YT58XB30"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "clientsort"
+            },
+            "name": {
+                "curseforge": "Client Sort"
+            },
+            "id": {
+                "curseforge": "1049891"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "clientsort-fabric-3.1.1+26.1.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7864/745/clientsort-fabric-3.1.1+26.1.1.jar",
+                    "id": "7864745",
+                    "parent_id": "1049891",
+                    "hashes": {
+                        "sha1": "8ffab810f971d92c03a581f3d1c2b7f7d9728d68",
+                        "md5": "ea5792a10024b7fe1a06cca88b148d2c"
+                    },
+                    "required_dependencies": [
+                        "348521",
+                        "308702"
+                    ],
+                    "size": 345244,
+                    "date_published": "2026-04-02T23:38:25.957Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WzXdZYbQQUyd2AGc",
             "type": "MOD",
             "slug": {
@@ -477,6 +522,40 @@
                     "required_dependencies": [],
                     "size": 1135373,
                     "date_published": "2026-03-26T16:04:31.280Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PxtJzxzItP51iAb6",
+            "type": "SHADER",
+            "slug": {
+                "curseforge": "complementary-reimagined"
+            },
+            "name": {
+                "curseforge": "Complementary Shaders - Reimagined"
+            },
+            "id": {
+                "curseforge": "627557"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ComplementaryReimagined_r5.7.1.zip",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7574/259/ComplementaryReimagined_r5.7.1.zip",
+                    "id": "7574259",
+                    "parent_id": "627557",
+                    "hashes": {
+                        "sha1": "b560f646a124d5204b1fb7321fec373b9c346fa5",
+                        "md5": "bc5f557bb6844d27e7b7891170544ea9"
+                    },
+                    "required_dependencies": [],
+                    "size": 522970,
+                    "date_published": "2026-02-04T08:11:20.293Z"
                 }
             ]
         },
@@ -829,6 +908,54 @@
                     ],
                     "size": 2803860,
                     "date_published": "2026-04-03T14:33:45.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rCtlkddJ9KqMrKle",
+            "pakku_links": [
+                "el6eUMwt5cOyl74q",
+                "PglhlYAG1Ntyl02V",
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "lightoverlay"
+            },
+            "name": {
+                "curseforge": "Light Overlay"
+            },
+            "id": {
+                "curseforge": "1376481"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "light-overlay-2.5.0+26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7886/980/light-overlay-2.5.0+26.1.jar",
+                    "id": "7886980",
+                    "parent_id": "1376481",
+                    "hashes": {
+                        "sha1": "cebbeed309a15277cac448e1866ec3985aa661b4",
+                        "md5": "9f214f5b3ec4b2c69a8088299c083385"
+                    },
+                    "required_dependencies": [
+                        "1447526",
+                        "667299",
+                        "306612"
+                    ],
+                    "size": 46265,
+                    "date_published": "2026-04-06T21:22:19.970Z"
                 }
             ]
         },
@@ -1207,6 +1334,49 @@
                     ],
                     "size": 10211,
                     "date_published": "2026-03-27T23:07:50.773Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "el6eUMwt5cOyl74q",
+            "pakku_links": [
+                "xTV1E2KS1EAehANL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "overlaylib"
+            },
+            "name": {
+                "curseforge": "OverlayLib"
+            },
+            "id": {
+                "curseforge": "1447526"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "overlaylib-0.7.0+26.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7886/978/overlaylib-0.7.0+26.1.jar",
+                    "id": "7886978",
+                    "parent_id": "1447526",
+                    "hashes": {
+                        "sha1": "0e39237f96a399d2794ea39b8094ade76cccc77f",
+                        "md5": "8f58e23634d53022dda984845dd3ee34"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 105175,
+                    "date_published": "2026-04-06T21:21:27.627Z"
                 }
             ]
         },

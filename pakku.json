@@ -92,6 +92,12 @@
         },
         "skin-layers-3d": {
             "side": "CLIENT"
+        },
+        "clientsort": {
+            "side": "CLIENT"
+        },
+        "lightoverlay": {
+            "side": "CLIENT"
         }
     }
 }
