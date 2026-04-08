@@ -2,6 +2,14 @@
 
 ## Added
 
+## Mods
+
+### Added
+
+# [0.0.4] - QoL, Shaders and Small visual tweaks
+
+## Added
+
 - Visual Tweaks
 - Inventory Sorting
 - Light Overlay
