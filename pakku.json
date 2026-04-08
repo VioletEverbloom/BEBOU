@@ -98,6 +98,18 @@
         },
         "lightoverlay": {
             "side": "CLIENT"
+        },
+        "appleskin": {
+            "side": "CLIENT"
+        },
+        "overlaylib": {
+            "side": "CLIENT"
+        },
+        "shulkerboxtooltip": {
+            "side": "CLIENT"
+        },
+        "tcdcommons": {
+            "side": "CLIENT"
         }
     }
 }

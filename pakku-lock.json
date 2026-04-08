@@ -57,6 +57,7 @@
                 "xTV1E2KS1EAehANL"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "appleskin"
             },
@@ -1343,6 +1344,7 @@
                 "xTV1E2KS1EAehANL"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "overlaylib"
             },
@@ -1429,6 +1431,7 @@
                 "xTV1E2KS1EAehANL"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "shulkerboxtooltip"
             },
@@ -1594,6 +1597,7 @@
         {
             "pakku_id": "mPWBCFC4IjIx9hZh",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "tcdcommons"
             },
