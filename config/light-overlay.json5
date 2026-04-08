@@ -2,7 +2,7 @@
 	lightLevelThreshold: 1,
 	chunkScanRange: 4,
 	rendererMode: "CROSS",
-	hideGreen: false,
+	hideGreen: true,
 	hideTransparent: true,
 	hideWater: true,
 	showSpecialSpawningConditionBlocks: false,
