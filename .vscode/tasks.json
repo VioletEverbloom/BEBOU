@@ -71,31 +71,31 @@
     {
       "id": "project_to_add",
       "type": "promptString",
-      "description": "Enter the Curseforge slug(s) of the project(s) to add",
+      "description": "Enter the Modrinth slug(s) of the project(s) to add",
       "default": ""
     },
     {
       "id": "project_to_set_to_client_side",
       "type": "promptString",
-      "description": "Enter the Curseforge slug(s) of the project(s) to set to client side",
+      "description": "Enter the Modrinth slug(s) of the project(s) to set to client side",
       "default": ""
     },
     {
       "id": "project_to_set_to_server_side",
       "type": "promptString",
-      "description": "Enter the Curseforge slug(s) of the project(s) to set to server side",
+      "description": "Enter the Modrinth slug(s) of the project(s) to set to server side",
       "default": ""
     },
     {
       "id": "project_to_remove",
       "type": "promptString",
-      "description": "Enter the Curseforge slug(s) of the project(s) to remove",
+      "description": "Enter the Modrinth slug(s) of the project(s) to remove",
       "default": ""
     },
     {
       "id": "projects_to_update",
       "type": "promptString",
-      "description": "Enter the Curseforge slug(s) of the project(s) to update (-a to update all)",
+      "description": "Enter the Modrinth slug(s) of the project(s) to update (-a to update all)",
       "default": ""
     }
   ]
