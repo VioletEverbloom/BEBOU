@@ -29,7 +29,8 @@
                     "file_name": "skinlayers3d-fabric-1.11.1-mc26.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -416,7 +417,8 @@
                         "1.21.10",
                         "1.21.11",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "minecraft"
@@ -499,7 +501,8 @@
                     "file_name": "clickthrough-plus-3.6.4+26.1.1-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -735,7 +738,8 @@
                         "1.21.10",
                         "1.21.11",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "iris",
@@ -812,27 +816,29 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "controlify-3.0.0-beta.3+26.1-fabric.jar",
+                    "file_name": "controlify-3.0.0+26.1-fabric.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/DOUdJVEm/versions/RWtB0dqp/controlify-3.0.0-beta.3+26.1-fabric.jar",
-                    "id": "RWtB0dqp",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DOUdJVEm/versions/J2qX8478/controlify-3.0.0+26.1-fabric.jar",
+                    "id": "J2qX8478",
                     "parent_id": "DOUdJVEm",
                     "hashes": {
-                        "sha512": "bdd2a4dd935f379f28329f3c80e3f031970bcc7869d74681abd5eca2f3f6f85e707f9647f8eedb9b7aef7176c1f4eea0fa557104f0644e6814c95b57f73a0dd5",
-                        "sha1": "b48bbabc577f07dc1d757c2d58a4ac29297590bd"
+                        "sha512": "ba6926faaa35ccd144626a7f06bf10e9d6ea20bc2760533266b8a574b3bad175e087e5d9ffa9857d728a31801a9893c7d4b60600f29a71503f9eb2fabbd01f8f",
+                        "sha1": "64f6cea2808dffb4f945fc248879b55303fe746f"
                     },
                     "required_dependencies": [
                         "P7dR8mSH",
                         "1eAoo2KR"
                     ],
-                    "size": 7985932,
-                    "date_published": "2026-03-29T01:14:37.333966Z"
+                    "size": 7359152,
+                    "date_published": "2026-04-09T13:09:41.581822Z"
                 }
             ]
         },
@@ -932,24 +938,28 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "entityculling-fabric-1.10.0-mc26.1.jar",
+                    "file_name": "entityculling-fabric-1.10.1-mc26.1.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/YSbzFHRt/entityculling-fabric-1.10.0-mc26.1.jar",
-                    "id": "YSbzFHRt",
+                    "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/NaRJu6ah/entityculling-fabric-1.10.1-mc26.1.jar",
+                    "id": "NaRJu6ah",
                     "parent_id": "NNAgCjsB",
                     "hashes": {
-                        "sha512": "325be6ce1f4c3a975ca45a85bd210c836f043f8c68a68087b39c29e7e8940f05bb850419afb038a995e90b2d06cbfe2e09fa18050440ba68890015ebaf20340d",
-                        "sha1": "6b83d2cadbdb67d0c05e56cb62e0ccb24409890a"
+                        "sha512": "028bfa99f6eda39f78fa8b700a95d6b05c0349545560596176291efe69c3d0061642c7af5b8063e326e1b311de3b055e10efcae1ed254075baf2d91c6921c011",
+                        "sha1": "17829d606ef5b73be4b206e5a465f8fb4e526fd5"
                     },
-                    "required_dependencies": [],
-                    "size": 1559688,
-                    "date_published": "2026-03-25T19:29:27.914316Z"
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1563254,
+                    "date_published": "2026-04-09T16:06:43.488863Z"
                 }
             ]
         },
@@ -1015,7 +1025,8 @@
                         "1.21.10",
                         "1.21.11",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -1055,12 +1066,12 @@
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
-                        "26.1.2-rc-1"
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
-                    "release_type": "beta",
+                    "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/fm7UYECV/fabric-api-0.145.4+26.1.2.jar",
                     "id": "fm7UYECV",
                     "parent_id": "P7dR8mSH",
@@ -1134,7 +1145,8 @@
                     "file_name": "ForgeConfigAPIPort-v26.1.3-mc26.1.x-Fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -1203,7 +1215,7 @@
                         "26.1",
                         "26.1.1",
                         "26.2-snapshot-1",
-                        "26.1.2-rc-1"
+                        "26.1.2"
                     ],
                     "loaders": [
                         "minecraft"
@@ -1286,7 +1298,8 @@
                         "26.1-rc-1",
                         "26.1-rc-2",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -1329,7 +1342,8 @@
                     "file_name": "iris-fabric-1.10.9+mc26.1.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -1407,7 +1421,8 @@
                         "1.21.10",
                         "1.21.11",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -1608,29 +1623,30 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "locator_lodestones-1.5.2+26.1+B.jar",
+                    "file_name": "locator_lodestones-1.5.2+26.1+C.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/pMBcsVIg/versions/EE3qcHfg/locator_lodestones-1.5.2+26.1+B.jar",
-                    "id": "EE3qcHfg",
+                    "url": "https://cdn.modrinth.com/data/pMBcsVIg/versions/sHQP4HZT/locator_lodestones-1.5.2+26.1+C.jar",
+                    "id": "sHQP4HZT",
                     "parent_id": "pMBcsVIg",
                     "hashes": {
-                        "sha512": "31c1981ee06fb9fcfbc2a5929fc597cb0f94eb65ba6b9939bd87043354e78ef7a7a7892b3dab1dba2e64e1e4da230baa952e1f4fc052af4fa859b1bedf910f12",
-                        "sha1": "2473ef8d4656a6b41e4ec510b89819607f57e84c"
+                        "sha512": "120519eba3c73b962944face6fcc07e29efcffd654881acff9b89513dbaadb4666c17c6d371c69346ca2a1676fcdb8046e5bc6e29da576e9936a63fc925fc4e9",
+                        "sha1": "3470cbf34ea4b7cadc52bfe636f661cfe18dcf34"
                     },
                     "required_dependencies": [
-                        "ZLKQjA7t",
-                        "P7dR8mSH"
+                        "P7dR8mSH",
+                        "ZLKQjA7t"
                     ],
-                    "size": 37024,
-                    "date_published": "2026-04-09T01:13:17.165279Z"
+                    "size": 37021,
+                    "date_published": "2026-04-09T17:46:39.850189Z"
                 }
             ]
         },
@@ -1921,7 +1937,8 @@
                     "file_name": "NoChatReports-FABRIC-26.1-v2.19.0.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2049,7 +2066,8 @@
                     "file_name": "pneumonocore-1.3.1+26.1+A.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -2215,7 +2233,8 @@
                     "file_name": "sodium-fabric-0.8.9+mc26.1.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2386,7 +2405,8 @@
                         "26.1-pre-3",
                         "26.1",
                         "26.1.1",
-                        "26w14a"
+                        "26w14a",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2427,7 +2447,8 @@
                     "file_name": "yet_another_config_lib_v3-3.9.2+26.1-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
