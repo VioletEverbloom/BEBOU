@@ -760,6 +760,117 @@
             ]
         },
         {
+            "pakku_id": "KgJ7PcyVWmxStgu6",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "complementary-unbound"
+            },
+            "name": {
+                "modrinth": "Complementary Shaders - Unbound"
+            },
+            "id": {
+                "modrinth": "R6NEzAwj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ComplementaryUnbound_r5.7.1.zip",
+                    "mc_versions": [
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/d8rcvDTp/ComplementaryUnbound_r5.7.1.zip",
+                    "id": "d8rcvDTp",
+                    "parent_id": "R6NEzAwj",
+                    "hashes": {
+                        "sha512": "207ad92ab354e1be002e1ccce978da3860af69532ddcdecbc2a943ffe1ff7ac5eec6b021073ae68b93d78499c63d505de3abf63d9058cdf6cb80bed6528b7532",
+                        "sha1": "95883b516298ff4cf1a67ff512086eb67aeedd98"
+                    },
+                    "required_dependencies": [],
+                    "size": 522973,
+                    "date_published": "2026-01-30T12:45:23.381970Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "BuVcSugvgGUe0U5m",
             "type": "MOD",
             "side": "SERVER",
@@ -1235,6 +1346,72 @@
             ]
         },
         {
+            "pakku_id": "VU9aWFHAxfuECOQe",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "i-like-vanilla"
+            },
+            "name": {
+                "modrinth": "I Like Vanilla"
+            },
+            "id": {
+                "modrinth": "DoODk4HD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "I Like Vanilla v1.3.3b.zip",
+                    "mc_versions": [
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "iris"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/uLwCWQYU/I Like Vanilla v1.3.3b.zip",
+                    "id": "uLwCWQYU",
+                    "parent_id": "DoODk4HD",
+                    "hashes": {
+                        "sha512": "5f6bde6eed72622e19c69745291e208645de1b471c61b788c5865544397e052edd8f3b3e5f762c35146cb3db070f65fc49ad3d6073cae8997e4447e41cd60eaa",
+                        "sha1": "4a6ea21f2d8470b48f5e9ab3e06c7414d7a4ebf9"
+                    },
+                    "required_dependencies": [],
+                    "size": 302581,
+                    "date_published": "2026-03-19T16:09:14.773707Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MMC26u1P7NLIOgjr",
             "type": "MOD",
             "side": "CLIENT",
@@ -1689,6 +1866,232 @@
             ]
         },
         {
+            "pakku_id": "tUpDaMKu6T3h63jO",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mellow"
+            },
+            "name": {
+                "modrinth": "Mellow"
+            },
+            "id": {
+                "modrinth": "BUxf36AP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Mellow Shader v3.1.zip",
+                    "mc_versions": [
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/BUxf36AP/versions/rVv6zKsq/Mellow Shader v3.1.zip",
+                    "id": "rVv6zKsq",
+                    "parent_id": "BUxf36AP",
+                    "hashes": {
+                        "sha512": "96a6a6ab469f2bff518ad2d55396454ff6aa04c03410b2c52e207a45ae272c975df81e7f401a5af8cb36ddad1f7a9ec9cd8b768765c7ef606ca0c9f6db4eb0f8",
+                        "sha1": "770fd338154223d2af60f2f960fa3fa3a0bc4b19"
+                    },
+                    "required_dependencies": [],
+                    "size": 653907,
+                    "date_published": "2026-03-24T17:24:22.649754Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rBLRIFEeJ5lhMUFV",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "miniature-shader"
+            },
+            "name": {
+                "modrinth": "Miniature Shader"
+            },
+            "id": {
+                "modrinth": "UaS8ROxa"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "miniature-shader-2.18.11.zip",
+                    "mc_versions": [
+                        "1.7.2",
+                        "1.7.3",
+                        "1.7.4",
+                        "1.7.5",
+                        "1.7.6",
+                        "1.7.7",
+                        "1.7.8",
+                        "1.7.9",
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UaS8ROxa/versions/hOUPzbJs/miniature-shader-2.18.11.zip",
+                    "id": "hOUPzbJs",
+                    "parent_id": "UaS8ROxa",
+                    "hashes": {
+                        "sha512": "0f6c08c97b7f5be819b50adfe4f73e7a8da2ee1bb52149e8954ad70e27166dce46f4c087a5babe10e713adc37ef8026c7d11866044c228a32b3359ef32865440",
+                        "sha1": "3ffd28709f4fd3d7780643b66d737e0661cbd141"
+                    },
+                    "required_dependencies": [],
+                    "size": 43581,
+                    "date_published": "2026-03-31T21:18:36.019944Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JK5naGnvSIvUFTD0",
             "pakku_links": [
                 "yvlNULPCFODcuZAG",
@@ -2045,6 +2448,66 @@
             ]
         },
         {
+            "pakku_id": "SzAdKuD3vcv8oqyc",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "photon-shader"
+            },
+            "name": {
+                "modrinth": "Photon Shaders"
+            },
+            "id": {
+                "modrinth": "lLqFfGNs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "photon_v1.2a.zip",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/rz2vlXVm/photon_v1.2a.zip",
+                    "id": "rz2vlXVm",
+                    "parent_id": "lLqFfGNs",
+                    "hashes": {
+                        "sha512": "6dd3e8078c5a7958638259a3472ce1192e549e0683c5c668df25bfcff5d282af5fe791e423490561c4a2e68f3933f4ff2ef2ef689f13a4774bfdef86d7994db4",
+                        "sha1": "6ad7e57f22ceb5530b168d077414abc8387c9b04"
+                    },
+                    "required_dependencies": [],
+                    "size": 3737845,
+                    "date_published": "2025-06-29T19:39:33.539681Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fW8w06uJK0qwuxX7",
             "pakku_links": [
                 "yvlNULPCFODcuZAG"
@@ -2294,6 +2757,91 @@
                     ],
                     "size": 67690,
                     "date_published": "2026-04-01T02:14:35.950967Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "win2xPvwikEmkX9l",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "solas-shader"
+            },
+            "name": {
+                "modrinth": "Solas Shader"
+            },
+            "id": {
+                "modrinth": "EpQFjzrQ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Solas Shader V3.5.zip",
+                    "mc_versions": [
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EpQFjzrQ/versions/h50f9QxS/Solas Shader V3.5.zip",
+                    "id": "h50f9QxS",
+                    "parent_id": "EpQFjzrQ",
+                    "hashes": {
+                        "sha512": "ccbacc95b0da346044ca75c63d46ffb938e0c3d2fa99e3786cf93b974cb0bbca8645cad7aadcf0eadc0ac0e62511c77e63107ae1e55c42735514526bb6ad5c56",
+                        "sha1": "bc483eb3337423c9fb2141132c5a9f957b6140b2"
+                    },
+                    "required_dependencies": [],
+                    "size": 1228504,
+                    "date_published": "2026-03-28T12:44:37.886815Z"
                 }
             ]
         },

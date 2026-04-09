@@ -4,6 +4,7 @@
 
 - Better Rain Sounds
 - Voxy LoD
+- More Shaders (added performance and voxy compat hints)
 
 ## Mods
 
@@ -17,6 +18,17 @@
 ### Added
 
 - Gentler Weather Sounds
+
+## Shaders
+
+### Added
+
+- Complementary Unbound
+- I Like Vanilla
+- Mellow
+- Miniature
+- Photon
+- Solas
 
 # [0.0.4] - QoL, Shaders and Small visual tweaks
 
