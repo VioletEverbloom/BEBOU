@@ -72,7 +72,8 @@
                     "type": "curseforge",
                     "file_name": "appleskin-fabric-mc26.1-3.0.9.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
@@ -111,7 +112,8 @@
                     "type": "curseforge",
                     "file_name": "bettermounthud-1.3.0.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
@@ -194,26 +196,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "bluemap-5.18-fabric.jar",
+                    "file_name": "bluemap-5.19-fabric.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7812/659/bluemap-5.18-fabric.jar",
-                    "id": "7812659",
+                    "url": "https://edge.forgecdn.net/files/7890/131/bluemap-5.19-fabric.jar",
+                    "id": "7890131",
                     "parent_id": "406463",
                     "hashes": {
-                        "sha1": "ef86c135ad43a1d7ab2c9890e37e1a8de68dda41",
-                        "md5": "2e564d512c8b8ebd36f1f5dc1cd7458d"
+                        "sha1": "d8632298bffc03793fa5511239c04bc20130f839",
+                        "md5": "48b28dca2cea3ef75083868c80f2409f"
                     },
                     "required_dependencies": [
                         "306612"
                     ],
-                    "size": 6433332,
-                    "date_published": "2026-03-25T18:12:59.837Z"
+                    "size": 6433420,
+                    "date_published": "2026-04-07T14:24:34.073Z"
                 }
             ]
         },
@@ -423,7 +426,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "clickthrough-plus-3.6.3+26.1-snapshot-1-fabric.jar",
+                    "file_name": "clickthrough-plus-3.6.4+26.1.1-fabric.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1"
@@ -432,16 +435,16 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7856/441/clickthrough-plus-3.6.3+26.1-snapshot-1-fabric.jar",
-                    "id": "7856441",
+                    "url": "https://edge.forgecdn.net/files/7886/865/clickthrough-plus-3.6.4+26.1.1-fabric.jar",
+                    "id": "7886865",
                     "parent_id": "1122678",
                     "hashes": {
-                        "sha1": "c83682ff96b01c6e8929ebd4579880908e567600",
-                        "md5": "50ccb310cfa611d06afab88bc221716d"
+                        "sha1": "de929d8b1908dfc69367b3b3cd6aedd7f0d9a438",
+                        "md5": "747e5a2069fb626b75e8cb7cd377a222"
                     },
                     "required_dependencies": [],
-                    "size": 327771,
-                    "date_published": "2026-04-01T14:45:05.503Z"
+                    "size": 327815,
+                    "date_published": "2026-04-06T20:50:02Z"
                 }
             ]
         },
@@ -812,7 +815,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fabric-api-0.145.3+26.1.1.jar",
+                    "file_name": "fabric-api-0.145.4+26.1.2.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1"
@@ -820,17 +823,17 @@
                     "loaders": [
                         "fabric"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7863/412/fabric-api-0.145.3+26.1.1.jar",
-                    "id": "7863412",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7895/299/fabric-api-0.145.4+26.1.2.jar",
+                    "id": "7895299",
                     "parent_id": "306612",
                     "hashes": {
-                        "sha1": "acefe4ee3fb9ce17023fae55d6392d1f5d31749a",
-                        "md5": "5e51baccac7497c8e2f9aa2f060cdaa3"
+                        "sha1": "f6a5958eae1644ce8e8622b513bc6a795594675b",
+                        "md5": "7cb66b1acb666b56d4af7a104012593f"
                     },
                     "required_dependencies": [],
-                    "size": 2407885,
-                    "date_published": "2026-04-02T18:45:08.377Z"
+                    "size": 2408066,
+                    "date_published": "2026-04-08T14:47:52.627Z"
                 }
             ]
         },
@@ -1388,7 +1391,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moreculling-fabric-26.1-1.7.0-beta.3.jar",
+                    "file_name": "moreculling-fabric-26.1.1-1.7.0-beta.5.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1"
@@ -1398,18 +1401,18 @@
                         "quilt"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7830/53/moreculling-fabric-26.1-1.7.0-beta.3.jar",
-                    "id": "7830053",
+                    "url": "https://edge.forgecdn.net/files/7884/320/moreculling-fabric-26.1.1-1.7.0-beta.5.jar",
+                    "id": "7884320",
                     "parent_id": "630104",
                     "hashes": {
-                        "sha1": "b9002400d0a49a5640ca1688988b7549c67edb5e",
-                        "md5": "c9928fde1c4a21c664aab015298c207d"
+                        "sha1": "7831be27edaf8581c6bba15867b2a47f4ee9b625",
+                        "md5": "f493aebf01939bea2caca7d799f0d456"
                     },
                     "required_dependencies": [
                         "348521"
                     ],
-                    "size": 340681,
-                    "date_published": "2026-03-28T16:25:04.233Z"
+                    "size": 358073,
+                    "date_published": "2026-04-06T11:10:17.153Z"
                 }
             ]
         },
