@@ -12,112 +12,13 @@
         ".gitignore"
     ],
     "projects": {
-        "entityculling": {
-            "side": "CLIENT"
-        },
-        "immediatelyfast": {
-            "side": "CLIENT"
-        },
-        "moreculling": {
-            "side": "CLIENT"
-        },
-        "sodium": {
-            "side": "CLIENT"
-        },
-        "modmenu": {
-            "side": "CLIENT"
-        },
-        "modlistmemory": {
-            "side": "CLIENT"
-        },
-        "irisshaders": {
-            "side": "CLIENT"
-        },
         "bluemap": {
             "side": "SERVER"
-        },
-        "entity-model-features": {
-            "side": "CLIENT"
-        },
-        "entity-texture-features-fabric": {
-            "side": "CLIENT"
-        },
-        "mouse-tweaks": {
-            "side": "CLIENT"
-        },
-        "advancements-reloaded": {
-            "side": "CLIENT"
-        },
-        "betterstats": {
-            "side": "CLIENT"
-        },
-        "inline-tooltips": {
-            "side": "CLIENT"
-        },
-        "map-tooltip": {
-            "side": "CLIENT"
-        },
-        "better-mount-hud": {
-            "side": "CLIENT"
-        },
-        "raised": {
-            "side": "CLIENT"
-        },
-        "controlify": {
-            "side": "CLIENT"
-        },
-        "controlify-dungeons": {
-            "side": "CLIENT"
-        },
-        "clickthrough-plus": {
-            "side": "CLIENT"
-        },
-        "no-chat-restrictions": {
-            "side": "CLIENT"
-        },
-        "chat-heads": {
-            "side": "CLIENT"
-        },
-        "chatanimation": {
-            "side": "CLIENT"
-        },
-        "tab-tweaks": {
-            "side": "CLIENT"
-        },
-        "chatpatches": {
-            "side": "CLIENT"
-        },
-        "sodium-shadowy-path-blocks": {
-            "side": "CLIENT"
-        },
-        "skin-layers-3d": {
-            "side": "CLIENT"
         },
         "clientsort": {
             "side": "CLIENT"
         },
-        "lightoverlay": {
-            "side": "CLIENT"
-        },
         "appleskin": {
-            "side": "CLIENT"
-        },
-        "overlaylib": {
-            "side": "CLIENT"
-        },
-        "shulkerboxtooltip": {
-            "side": "CLIENT"
-        },
-        "tcdcommons": {
-            "side": "CLIENT"
-        },
-        "ixeris": {
-            "side": "CLIENT"
-        },
-        "rrls": {
-            "side": "CLIENT"
-        },
-        "cool-rain": {
             "side": "CLIENT"
         }
     }
