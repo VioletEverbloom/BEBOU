@@ -725,6 +725,44 @@
             ]
         },
         {
+            "pakku_id": "TgTUzT6MfTjn8smn",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "cool-rain"
+            },
+            "name": {
+                "curseforge": "Cool Rain"
+            },
+            "id": {
+                "curseforge": "1196599"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "coolrain-1.4.0-26.1.jar",
+                    "mc_versions": [
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7853/962/coolrain-1.4.0-26.1.jar",
+                    "id": "7853962",
+                    "parent_id": "1196599",
+                    "hashes": {
+                        "sha1": "cf35c07345130c39828e9dd9934e9f0fd4ad2071",
+                        "md5": "1a22392e0c9ab441aa181ccb254907e2"
+                    },
+                    "required_dependencies": [],
+                    "size": 4142090,
+                    "date_published": "2026-04-01T01:38:48.483Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "URGDjlCIigOfbHfT",
             "type": "MOD",
             "side": "CLIENT",
@@ -913,6 +951,41 @@
                     ],
                     "size": 590163,
                     "date_published": "2026-04-02T11:57:14.167Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ifd2M5QaK0FzjHtx",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "gentler-weather-sounds"
+            },
+            "name": {
+                "curseforge": "Gentler Weather Sounds"
+            },
+            "id": {
+                "curseforge": "1278492"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Gentler Weather Sounds 2.2.1.zip",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7806/675/Gentler Weather Sounds 2.2.1.zip",
+                    "id": "7806675",
+                    "parent_id": "1278492",
+                    "hashes": {
+                        "sha1": "66d624354cc8f31641006f7273b7e3c558c2ce2b",
+                        "md5": "36290dc403c623d047beca5927428004"
+                    },
+                    "required_dependencies": [],
+                    "size": 2643202,
+                    "date_published": "2026-03-24T19:50:56.453Z"
                 }
             ]
         },

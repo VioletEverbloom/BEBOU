@@ -116,6 +116,9 @@
         },
         "rrls": {
             "side": "CLIENT"
+        },
+        "cool-rain": {
+            "side": "CLIENT"
         }
     }
 }

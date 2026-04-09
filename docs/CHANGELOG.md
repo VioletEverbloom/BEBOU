@@ -2,9 +2,19 @@
 
 ## Added
 
+- Better Rain Sounds
+
 ## Mods
 
 ### Added
+
+- Cool Rain
+
+## Resource Packs
+
+### Added
+
+- Gentler Weather Sounds
 
 # [0.0.4] - QoL, Shaders and Small visual tweaks
 
