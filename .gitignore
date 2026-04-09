@@ -22,6 +22,7 @@
 # Mods
 /.fabric/
 /.mixin.out/
+/.voxy/
 /bluemap/
 /data/
 /shaderpacks/

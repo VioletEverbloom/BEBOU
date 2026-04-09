@@ -3,12 +3,14 @@
 ## Added
 
 - Better Rain Sounds
+- Voxy LoD
 
 ## Mods
 
 ### Added
 
 - Cool Rain
+- Voxy
 
 ## Resource Packs
 

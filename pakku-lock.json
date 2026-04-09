@@ -2567,6 +2567,52 @@
                     "date_published": "2026-03-26T08:29:59.675898Z"
                 }
             ]
+        },
+        {
+            "pakku_id": "5nMw3sbtTuPqosUC",
+            "pakku_links": [
+                "jNeWjuTaCcQT0rR7",
+                "yvlNULPCFODcuZAG"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "voxy"
+            },
+            "name": {
+                "modrinth": "voxy"
+            },
+            "id": {
+                "modrinth": "fxxUqruK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "voxy-0.2.14-alpha.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/fxxUqruK/versions/7vLbNW73/voxy-0.2.14-alpha.jar",
+                    "id": "7vLbNW73",
+                    "parent_id": "fxxUqruK",
+                    "hashes": {
+                        "sha512": "c966c058c0a398ac293a91ab3116658ad03a007bbdc9809879badb4fb776c7c9fad1131adabd78385fe9504be87d8a925bd6b130246594cf2959c6665e9e044e",
+                        "sha1": "848f0a18c74cfe0db2905bf9d5dfb1f68850ba85"
+                    },
+                    "required_dependencies": [
+                        "AANobbMI",
+                        "P7dR8mSH"
+                    ],
+                    "size": 12628394,
+                    "date_published": "2026-04-09T11:48:34.466451Z"
+                }
+            ]
         }
     ],
     "lockfile_version": 1

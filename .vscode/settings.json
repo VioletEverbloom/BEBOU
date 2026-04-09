@@ -18,6 +18,7 @@
   "files.exclude": {
     ".fabric/": true,
     ".mixin.out/": true,
+    ".voxy/": true,
     "bluemap/": true,
     "cache/": true,
     "coremods/": true,
