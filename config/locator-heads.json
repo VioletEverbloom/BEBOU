@@ -11,7 +11,7 @@
   "borderStyle": "TEAM_COLOR",
   "staticBorderColor": 16777215,
   "headSizeMultiplier": 5,
-  "showPlayerNames": "PLAYER_LIST",
+  "showPlayerNames": "OFF",
   "playerFilterMode": "ALL",
   "includedPlayers": "",
   "excludedPlayers": ""
