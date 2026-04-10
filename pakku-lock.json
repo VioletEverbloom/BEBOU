@@ -151,9 +151,9 @@
                     "type": "modrinth",
                     "file_name": "bettermounthud-1.3.0.jar",
                     "mc_versions": [
-                        "26.1-rc-3",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -195,7 +195,8 @@
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
-                        "26w14a"
+                        "26w14a",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -318,7 +319,8 @@
                     "file_name": "chat_heads-1.2.2-fabric-26.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -458,7 +460,9 @@
                     "type": "modrinth",
                     "file_name": "Chunky-Fabric-1.4.58.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -546,7 +550,8 @@
                     "file_name": "clientsort-fabric-3.1.1+26.1.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -1325,8 +1330,8 @@
                         "1.21.11",
                         "26.1",
                         "26.1.1",
-                        "26.2-snapshot-1",
-                        "26.1.2"
+                        "26.1.2",
+                        "26.2-snapshot-2"
                     ],
                     "loaders": [
                         "minecraft"
@@ -1427,26 +1432,27 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ImmediatelyFast-Fabric-1.15.1+26.1.1.jar",
+                    "file_name": "ImmediatelyFast-Fabric-1.15.2+26.1.2.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/UM3jWaXo/ImmediatelyFast-Fabric-1.15.1+26.1.1.jar",
-                    "id": "UM3jWaXo",
+                    "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/lRuSLf0Y/ImmediatelyFast-Fabric-1.15.2+26.1.2.jar",
+                    "id": "lRuSLf0Y",
                     "parent_id": "5ZwdcRci",
                     "hashes": {
-                        "sha512": "3e7253defa73110883d0685ba2e5321228b627aa0206277fec26b5d332e1b372b93e1c053a6fd3be938188f110307a6716a2f80dd97c205231aa8900bdf7641d",
-                        "sha1": "25780ccb6f42d49280223f6aeb6603f8b624c9e5"
+                        "sha512": "46371d0958d705182e0945a0bd93b750a07a1f32a4f3189d85741804392137a47790d3bd0e341e7e9d5bf2783652598575ae1dc26f188aa9a71758f9d568e709",
+                        "sha1": "195bc6059dda0aac574906d035fae0b62a575a87"
                     },
                     "required_dependencies": [],
-                    "size": 304949,
-                    "date_published": "2026-04-01T16:46:34.278393Z"
+                    "size": 304946,
+                    "date_published": "2026-04-09T19:36:15.072140Z"
                 }
             ]
         },
@@ -1954,7 +1960,8 @@
                         "1.21.10",
                         "1.21.11",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "iris",
@@ -2114,7 +2121,8 @@
                     "file_name": "modmenu-18.0.0-alpha.8.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -2160,7 +2168,8 @@
                     "file_name": "modlistmemory-fabric-1.0.0+26.1+mm18.0.0-alpha.8.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2865,7 +2874,8 @@
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
-                        "26w14a"
+                        "26w14a",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -2909,7 +2919,8 @@
                     "file_name": "tabtweaks-1.5.10+26.1-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2923,9 +2934,9 @@
                         "sha1": "a06aeb65cd20415c1e7813111645c4fbc1728b47"
                     },
                     "required_dependencies": [
-                        "mOgUt4GM",
                         "P7dR8mSH",
-                        "1eAoo2KR"
+                        "1eAoo2KR",
+                        "mOgUt4GM"
                     ],
                     "size": 141935,
                     "date_published": "2026-04-04T17:05:56.889175Z"
@@ -2992,28 +3003,26 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "yet_another_config_lib_v3-3.9.2+26.1-fabric.jar",
+                    "file_name": "yet_another_config_lib_v3-3.9.3+26.1-fabric.jar",
                     "mc_versions": [
-                        "26.1",
-                        "26.1.1",
-                        "26.1.2"
+                        "26.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/h2FGeDHG/yet_another_config_lib_v3-3.9.2+26.1-fabric.jar",
-                    "id": "h2FGeDHG",
+                    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/hzww5Tor/yet_another_config_lib_v3-3.9.3+26.1-fabric.jar",
+                    "id": "hzww5Tor",
                     "parent_id": "1eAoo2KR",
                     "hashes": {
-                        "sha512": "0efbc7bbf9cabcf5f78884eab0b85ca902e6ca7dfa07b60c1c812b828442b940e80c459fd3de8b87cae50bba3c203efc4444a8e29d21b94ad1ad12d438f91a58",
-                        "sha1": "0282a3772dea69135dbb66773fa82190ac7a39b9"
+                        "sha512": "c725d81ef2b8f7f4b3c1c127e782572778a765581ce6105e2c4ce77e642b52b2c99b1587f18af192ad649538e4844dda6807e2ecda0a493d09f7f06a346ac377",
+                        "sha1": "666bbfcce4508b53d51dca1e4253f528c517b315"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 1116679,
-                    "date_published": "2026-03-31T15:45:34.361885Z"
+                    "size": 1117278,
+                    "date_published": "2026-04-10T12:25:17.434966Z"
                 }
             ]
         },
@@ -3118,7 +3127,9 @@
                     "type": "modrinth",
                     "file_name": "spark-1.10.172-fabric.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
