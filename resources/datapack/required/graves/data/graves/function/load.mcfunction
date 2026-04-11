@@ -10,11 +10,9 @@ data modify storage graves:const dimension_names set value {"minecraft:overworld
 scoreboard players set $TICKS_PER_HOUR graves.dummy 72000
 execute unless data storage graves:config allow_robbing run data modify storage graves:config allow_robbing set value false
 execute unless data storage graves:config pick_up_xp run data modify storage graves:config pick_up_xp set value true
-execute unless data storage graves:config allow_locating run function graves:reset_allow_locating
 execute unless data storage graves:config compatibility_mode run data modify storage graves:config compatibility_mode set value false
 scoreboard players add $despawn_seconds graves.config 0
 scoreboard players reset * graves.deaths
 execute store result score $tick_id graves.dummy store result storage graves:main tick_id int 1.0 run data get storage graves:main tick_id
 execute unless data storage graves:main players run data modify storage graves:main players set value []
 schedule function graves:schedule_1s 10
-function graves:update_allow_locating

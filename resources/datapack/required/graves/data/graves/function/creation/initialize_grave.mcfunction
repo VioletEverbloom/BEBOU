@@ -23,5 +23,4 @@ execute store result storage graves:main creation.macro_args.x_int int 1.0 run d
 execute store result storage graves:main creation.macro_args.y_int int 1.0 run data get storage graves:main creation.grave_listing.pos[1]
 execute store result storage graves:main creation.macro_args.z_int int 1.0 run data get storage graves:main creation.grave_listing.pos[2]
 function graves:creation/update_grave_listing with storage graves:main creation.macro_args
-execute if data storage graves:config {allow_locating:1b} summon minecraft:interaction run function graves:creation/show_new_grave_location
 tag @s remove graves.grave.initializing
