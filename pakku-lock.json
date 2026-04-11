@@ -2300,7 +2300,8 @@
                         "26.1-rc-2",
                         "26.1-rc-3",
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2553,8 +2554,14 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "photon_v1.2a.zip",
+                    "file_name": "photon_v1.3.zip",
                     "mc_versions": [
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
                         "1.19",
                         "1.19.1",
                         "1.19.2",
@@ -2577,23 +2584,27 @@
                         "1.21.7",
                         "1.21.8",
                         "1.21.9",
-                        "1.21.10"
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "iris",
                         "optifine"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/rz2vlXVm/photon_v1.2a.zip",
-                    "id": "rz2vlXVm",
+                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/VFSm0NBn/photon_v1.3.zip",
+                    "id": "VFSm0NBn",
                     "parent_id": "lLqFfGNs",
                     "hashes": {
-                        "sha512": "6dd3e8078c5a7958638259a3472ce1192e549e0683c5c668df25bfcff5d282af5fe791e423490561c4a2e68f3933f4ff2ef2ef689f13a4774bfdef86d7994db4",
-                        "sha1": "6ad7e57f22ceb5530b168d077414abc8387c9b04"
+                        "sha512": "b080876d12ce6e6b5fe19c77d251748edee40ae79a750d870ff16ce4554097dfa140744acfc2bd96c4a93d51681e5e642f79291a50279db6e988fe15077214d3",
+                        "sha1": "d7bcffc983fc7d0f5270a2265e91597921a79d6b"
                     },
                     "required_dependencies": [],
-                    "size": 3737845,
-                    "date_published": "2025-06-29T19:39:33.539681Z"
+                    "size": 3802273,
+                    "date_published": "2026-04-11T15:07:43.598733Z"
                 }
             ]
         },
@@ -3079,28 +3090,26 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "placeholder-api-3.0.0-beta.2+26.1.jar",
+                    "file_name": "placeholder-api-3.0.0+26.1.jar",
                     "mc_versions": [
-                        "26.1-pre-3",
                         "26.1",
                         "26.1.1",
-                        "26w14a",
                         "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/MQX6V6Qi/placeholder-api-3.0.0-beta.2+26.1.jar",
-                    "id": "MQX6V6Qi",
+                    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/b3IPAHgB/placeholder-api-3.0.0+26.1.jar",
+                    "id": "b3IPAHgB",
                     "parent_id": "eXts2L7r",
                     "hashes": {
-                        "sha512": "6ef574fd980f386bb2207649637e3c54c1f800afc22d66bcb027b082364d16638bbff3a0ad460161ce317a5333d7b01dae57c9bd374c2e8fa8b9f81bed91be2e",
-                        "sha1": "01afdd9eab5ae1b11acfa90266fc6d4f1cea1fa2"
+                        "sha512": "b559da0f13fef17967f2aff1d06b00995c7db21d9d5b7b580ab6eafdf2365e4ac86a7d094c2b481160a942f291bc2595f2cb8c91ce5e169f1c2f461782ecd2a8",
+                        "sha1": "c1ce548549ec4517b9393985cefc65389e6f36d8"
                     },
                     "required_dependencies": [],
-                    "size": 247011,
-                    "date_published": "2026-03-18T20:02:56.305131Z"
+                    "size": 254376,
+                    "date_published": "2026-04-11T07:52:55.577049Z"
                 }
             ]
         },
