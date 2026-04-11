@@ -1,6 +1,6 @@
 {
     "name": "BEBOU",
-    "version": "0.0.5",
+    "version": "1.0.0",
     "overrides": [
         "config",
         "!config/bluemap",
