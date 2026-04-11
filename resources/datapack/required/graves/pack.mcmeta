@@ -1,0 +1,16 @@
+{
+	"pack": {
+		"description": [
+			{
+				"text": "Graves",
+				"color": "gold"
+			},
+			{
+				"text": "\nvanillatweaks.net",
+				"color": "yellow"
+			}
+		],
+		"min_format": 101,
+		"max_format": 101
+	}
+}

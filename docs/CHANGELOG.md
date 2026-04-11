@@ -6,6 +6,7 @@
 - Voxy LoD
 - More Shaders (added performance and voxy compat hints)
 - Schematics
+- Gravestone on death
 
 ## Mods
 
@@ -13,6 +14,7 @@
 
 - Cool Rain
 - Litematica
+- Simple Resource Loader
 - Voxy
 
 ## Resource Packs
@@ -20,6 +22,12 @@
 ### Added
 
 - Gentler Weather Sounds
+
+## Data Packs
+
+### Added
+
+- Vanilla Tweaks' Graves
 
 ## Shaders
 

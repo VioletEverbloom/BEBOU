@@ -10,3 +10,7 @@ This repository is licensed under the MIT License. See [LICENSE](../LICENSE).
 
 - **License:** [GNU LGPL 2.1](../LICENSES/GNU-LGPL-2.1)
 - **Source:** <https://github.com/Griefed/ServerPackCreator>
+
+### Vanilla Tweaks
+
+- **Source:** <https://vanillatweaks.net/>

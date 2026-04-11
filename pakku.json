@@ -5,8 +5,14 @@
         "config",
         "!config/bluemap",
         "!config/chunky",
+        "!config/spark/activity.json",
         "!config/spark/tmp",
-        "!config/spark/tmp-client"
+        "!config/spark/tmp-client",
+        "!config/litematica",
+        "resources/datapack"
+    ],
+    "client_overrides": [
+        "resources/resourcepack"
     ],
     "server_overrides": [
         ".gitignore"
