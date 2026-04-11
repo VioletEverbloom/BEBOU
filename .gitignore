@@ -26,11 +26,13 @@
 /.voxy/
 /bluemap/
 /data/
+/schematics/
 /shaderpacks/
 
 # Configs
 /config/bluemap/*
 /config/chunky/
+/config/litematica/ 
 /config/spark/*
 !/config/spark/config.json
 

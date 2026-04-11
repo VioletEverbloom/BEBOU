@@ -1706,6 +1706,49 @@
             ]
         },
         {
+            "pakku_id": "BwQ0Nl2zJogZEfcR",
+            "pakku_links": [
+                "feX7haQOJuFf4LH7"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "litematica"
+            },
+            "name": {
+                "modrinth": "Litematica"
+            },
+            "id": {
+                "modrinth": "bEpr0Arc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "litematica-fabric-26.1.1-0.27.1.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/bIi0RmrQ/litematica-fabric-26.1.1-0.27.1.jar",
+                    "id": "bIi0RmrQ",
+                    "parent_id": "bEpr0Arc",
+                    "hashes": {
+                        "sha512": "f166e8f964c4ed88e82fe0c114f739ffa8ffdfc89bd9a3a69afe6a2fca4c80d42a267189f7d428be1892092fddf041a8830af16b89084e4eb0de463dc69c205b",
+                        "sha1": "4f7e1fe5104270a3ccf2d933a89e7d80c67a60fd"
+                    },
+                    "required_dependencies": [
+                        "GcWjdA9I"
+                    ],
+                    "size": 1803338,
+                    "date_published": "2026-04-03T04:11:34.746992Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qFWXSMSMUryIPVSf",
             "type": "MOD",
             "side": "BOTH",
@@ -1830,6 +1873,44 @@
                     ],
                     "size": 37021,
                     "date_published": "2026-04-09T17:46:39.850189Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "feX7haQOJuFf4LH7",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "malilib"
+            },
+            "name": {
+                "modrinth": "MaLiLib"
+            },
+            "id": {
+                "modrinth": "GcWjdA9I"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "malilib-fabric-26.1.1-0.28.2.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/alF0apkB/malilib-fabric-26.1.1-0.28.2.jar",
+                    "id": "alF0apkB",
+                    "parent_id": "GcWjdA9I",
+                    "hashes": {
+                        "sha512": "d7451cc23defeec2de1a4f00016432b0253798fcc73a426f05f05ee20b32f6e3e0067599fb669958fcdc750f24337f678b43330997ee0b059d2ad283995d73ce",
+                        "sha1": "ae66803d65abd344153b47451d2cf0f3ac01d077"
+                    },
+                    "required_dependencies": [],
+                    "size": 1873949,
+                    "date_published": "2026-04-03T03:58:53.336572Z"
                 }
             ]
         },

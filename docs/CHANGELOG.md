@@ -5,12 +5,14 @@
 - Better Rain Sounds
 - Voxy LoD
 - More Shaders (added performance and voxy compat hints)
+- Schematics
 
 ## Mods
 
 ### Added
 
 - Cool Rain
+- Litematica
 - Voxy
 
 ## Resource Packs
