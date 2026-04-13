@@ -1,3 +1,17 @@
+# [Unreleased]
+
+## Changed
+
+- Remove Vanilla Tweaks Advancements
+- Add back Inline Tooltips for Bee Hives and Bee Nests
+
+## Mods
+
+### Updated
+
+- Blue Map 5.19 -> 5.20
+- ModernFix mVUS 5.26.2-build.1 -> 5.27.0-build.1
+
 # [1.0.0] - Public Release
 
 ## Added
