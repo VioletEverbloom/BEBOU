@@ -28,12 +28,12 @@
 	fuelTooltipColor = "Gold"
 	# Add tooltips based on amount of bees.
 	# default: true
-	beesTooltip = false
+	beesTooltip = true
 	# default: Gold
 	beeTooltipColor = "Gold"
 	# Add tooltips based on amount of honey.
 	# default: true
-	honeyTooltip = false
+	honeyTooltip = true
 	# default: Gold
 	honeyTooltipColor = "Gold"
 	# Add tooltips based on light level.
