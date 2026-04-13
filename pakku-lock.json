@@ -238,27 +238,28 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "bluemap-5.19-fabric.jar",
+                    "file_name": "bluemap-5.20-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/swbUV1cr/versions/6mX5Ts7z/bluemap-5.19-fabric.jar",
-                    "id": "6mX5Ts7z",
+                    "url": "https://cdn.modrinth.com/data/swbUV1cr/versions/D9j76thC/bluemap-5.20-fabric.jar",
+                    "id": "D9j76thC",
                     "parent_id": "swbUV1cr",
                     "hashes": {
-                        "sha512": "cab98a2d7653d7cc0a29e2636fc4bc8de256bc6ecb61852d614919634609010b18f39ad869e1b3408f77b49692a3a6bea2ebb29148c92c49d927f7a13aaa66bb",
-                        "sha1": "d8632298bffc03793fa5511239c04bc20130f839"
+                        "sha512": "b140390c505655491130f74653fc0e9cd9501f35f001c174965c13bccf45bb91900c4ed439ecdb8d824723fb57688a20ce37582b7b3a4a04623af09854f6fb2d",
+                        "sha1": "eadc917975f07df107df5c3d2d50e83777172346"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 6433420,
-                    "date_published": "2026-04-07T14:23:45.327248Z"
+                    "size": 6434198,
+                    "date_published": "2026-04-12T17:15:27.532086Z"
                 }
             ]
         },
@@ -2295,14 +2296,8 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modernfix-5.26.2-build.1.jar",
+                    "file_name": "modernfix-5.27.0-build.1.jar",
                     "mc_versions": [
-                        "26.1-pre-1",
-                        "26.1-pre-2",
-                        "26.1-pre-3",
-                        "26.1-rc-1",
-                        "26.1-rc-2",
-                        "26.1-rc-3",
                         "26.1",
                         "26.1.1",
                         "26.1.2"
@@ -2311,18 +2306,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/dqQ7mabN/modernfix-5.26.2-build.1.jar",
-                    "id": "dqQ7mabN",
+                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/NXcHcDaf/modernfix-5.27.0-build.1.jar",
+                    "id": "NXcHcDaf",
                     "parent_id": "TjSm1wrD",
                     "hashes": {
-                        "sha512": "fbef93c2dabf7bcd0ccd670226dfc4958f7ebe5d8c2b1158e88a65e6954a40f595efd58401d2a3dbb224660dca5952199cf64df29100e7bd39b1b1941290b57b",
-                        "sha1": "d99980a3213293ade61f6cca109b8eeb87cc5a05"
+                        "sha512": "7521a9eed3c43b39708ad88b5a83f3070e494bdd8ba44bedaab415831ac16851a93f99f35582c359b5c5e642fa56699f8d22aae6d2f4c87dbef39b8db521c91e",
+                        "sha1": "fc39735fc71772fa4556bb97f66a97d0f5807971"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 620901,
-                    "date_published": "2026-03-11T17:05:28.752336Z"
+                    "size": 679377,
+                    "date_published": "2026-04-13T06:29:01.834136Z"
                 }
             ]
         },
