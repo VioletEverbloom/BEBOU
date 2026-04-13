@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased]
+## [1.1.0]
 
 ### Changed
 
-- Replaced Client Sort by Inventory Profiles Next
+- Replace Client Sort by Inventory Profiles Next
 
 ### Mods
 
