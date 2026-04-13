@@ -1,20 +1,22 @@
-# [Unreleased]
+# Changelog
 
-## Changed
+## [Unreleased]
+
+### Changed
 
 - Remove Vanilla Tweaks Advancements
 - Add back Inline Tooltips for Bee Hives and Bee Nests
 
-## Mods
+### Mods
 
-### Updated
+#### Updated
 
 - Blue Map 5.19 -> 5.20
 - ModernFix mVUS 5.26.2-build.1 -> 5.27.0-build.1
 
-# [1.0.0] - Public Release
+## [1.0.0] - Public Release
 
-## Added
+### Added
 
 - Better Rain Sounds
 - Voxy LoD
@@ -22,30 +24,30 @@
 - Schematics
 - Gravestone on death
 
-## Mods
+### Mods
 
-### Added
+#### Added
 
 - Cool Rain
 - Litematica
 - Simple Resource Loader
 - Voxy
 
-## Resource Packs
+### Resource Packs
 
-### Added
+#### Added
 
 - Gentler Weather Sounds
 
-## Data Packs
+### Data Packs
 
-### Added
+#### Added
 
 - Vanilla Tweaks' Graves
 
-## Shaders
+### Shaders
 
-### Added
+#### Added
 
 - Complementary Unbound
 - I Like Vanilla
@@ -54,9 +56,9 @@
 - Photon
 - Solas
 
-# [0.0.4] - QoL, Shaders and Small visual tweaks
+## [0.0.4] - QoL, Shaders and Small visual tweaks
 
-## Added
+### Added
 
 - Visual Tweaks
 - Inventory Sorting
@@ -64,9 +66,9 @@
 - Default Shaders
 - Remove Resource Pack Reloading Screen
 
-## Mods
+### Mods
 
-### Added
+#### Added
 
 - 3D Skin Layers
 - Client Sort
@@ -78,23 +80,23 @@
 - Remove Reloading Screen
 - Sodium Shadowy Path Blocks
 
-## Shaders
+### Shaders
 
-### Added
+#### Added
 
 - Complementary Shaders
 
-# [0.0.3] - Multiplayer
+## [0.0.3] - Multiplayer
 
-## Added
+### Added
 
 - Better Locator Bar
 - Chat Patches
 - Prettier Chat
 
-## Mods
+### Mods
 
-### Added
+#### Added
 
 - Chat Animation
 - Chat Heads
@@ -105,18 +107,18 @@
 - No Chat Restrictions
 - Tab Tweaks
 
-# [0.0.2] - Tooltips and Menus
+## [0.0.2] - Tooltips and Menus
 
-## Added
+### Added
 
 - Better Advancements and Statistics menus
 - Controller Support
 - Prettier Tooltips
 - Prettier HUD
 
-## Mods
+### Mods
 
-### Added
+#### Added
 
 - Advancements Reloaded
 - AppleSkin
@@ -132,20 +134,20 @@
 - Raised
 - Shulker Box Tooltip
 
-## Resource Packs
+### Resource Packs
 
-### Added
+#### Added
 
 - Controlify Dungeons
 
-# [0.0.1] - Optimization and Server Replacement
+## [0.0.1] - Optimization and Server Replacement
 
-## Added
+### Added
 
 - Basic optimization mods
 - Server pack
 
-## Mods
+### Mods
 
 ### Added
 
