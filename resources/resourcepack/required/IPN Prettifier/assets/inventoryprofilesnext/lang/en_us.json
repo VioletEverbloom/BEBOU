@@ -1,0 +1,7 @@
+{
+  "inventoryprofiles.tooltip.sort_button": "Sort",
+  "inventoryprofiles.tooltip.sort_button.current_order": "",
+  "inventoryprofiles.tooltip.move_all_button.move_all": "§8§o%s§r§8 - Move All",
+  "inventoryprofiles.tooltip.sort_columns_button": "Sort in Columns",
+  "inventoryprofiles.tooltip.sort_rows_button": "Sort in Rows"
+}

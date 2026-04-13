@@ -1,0 +1,7 @@
+{
+  "inventoryprofiles.tooltip.sort_button": "Trier",
+  "inventoryprofiles.tooltip.sort_button.current_order": "",
+  "inventoryprofiles.tooltip.move_all_button.move_all": "§8§o%s§r§8 - Déplacer tout",
+  "inventoryprofiles.tooltip.sort_columns_button": "Trier en Colonnes",
+  "inventoryprofiles.tooltip.sort_rows_button": "Trier en Lignes"
+}
