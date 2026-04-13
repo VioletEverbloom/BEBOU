@@ -1204,6 +1204,88 @@
             ]
         },
         {
+            "pakku_id": "xxIHthEs2X41794A",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "fabric-language-kotlin"
+            },
+            "name": {
+                "modrinth": "Fabric Language Kotlin"
+            },
+            "id": {
+                "modrinth": "Ha28R6CL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar",
+                    "mc_versions": [
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/21TRTKmh/fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar",
+                    "id": "21TRTKmh",
+                    "parent_id": "Ha28R6CL",
+                    "hashes": {
+                        "sha512": "e4eaf7594de08eb4f3ea8af2e939f3ee61d07597afb4d5f420c3fbadcb381c7bbad4b1afd5919b3087b73ed9636fb018b1c978858a112bd4f6acdcb42e9eedaa",
+                        "sha1": "9873294abf498f509453d37b0a5ba019f4570ffb"
+                    },
+                    "required_dependencies": [],
+                    "size": 7796348,
+                    "date_published": "2026-03-26T08:54:12.652592Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "I8UjcFWrfaUVpPsa",
             "type": "MOD",
             "side": "BOTH",
@@ -1502,6 +1584,54 @@
                     ],
                     "size": 342388,
                     "date_published": "2026-02-25T16:19:30.340110Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "o21F3ZbkC3FDtUXn",
+            "pakku_links": [
+                "KgcEXcLPmybNEdWZ",
+                "yvlNULPCFODcuZAG",
+                "xxIHthEs2X41794A"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "inventory-profiles-next"
+            },
+            "name": {
+                "modrinth": "Inventory Profiles Next"
+            },
+            "id": {
+                "modrinth": "O7RBXm3n"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "InventoryProfilesNext-fabric-26.1-2.3.0.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/lNSqOgE3/InventoryProfilesNext-fabric-26.1-2.3.0.jar",
+                    "id": "lNSqOgE3",
+                    "parent_id": "O7RBXm3n",
+                    "hashes": {
+                        "sha512": "3c2e472c362eb6b201ac30adc3fa0fd0c3248582a02d0042e4bf85642e013f4bb02f0aef0bf6536fa9de7abb51a5c5772ce003c2509e0655699a399c7765be4d",
+                        "sha1": "e30a1a56342b1b0985953bc4f86405bfb350d665"
+                    },
+                    "required_dependencies": [
+                        "onSQdWhM",
+                        "P7dR8mSH",
+                        "Ha28R6CL"
+                    ],
+                    "size": 1479995,
+                    "date_published": "2026-04-13T12:08:35.244305Z"
                 }
             ]
         },
@@ -3238,6 +3368,52 @@
                     "required_dependencies": [],
                     "size": 722124,
                     "date_published": "2026-03-26T20:03:21.765969Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "KgcEXcLPmybNEdWZ",
+            "pakku_links": [
+                "yvlNULPCFODcuZAG",
+                "xxIHthEs2X41794A"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "libipn"
+            },
+            "name": {
+                "modrinth": "libIPN"
+            },
+            "id": {
+                "modrinth": "onSQdWhM"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "libIPN-fabric-26.1-6.7.0.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/fKCXLK6Q/libIPN-fabric-26.1-6.7.0.jar",
+                    "id": "fKCXLK6Q",
+                    "parent_id": "onSQdWhM",
+                    "hashes": {
+                        "sha512": "4294bd1303cff6d104799f362754b308c5d370caaa3266255d76e19255256681dc2cc7555d6049c525c4fb7e4217db77c3c51ec70d32ba5228ea824092d45d93",
+                        "sha1": "5337cf4a4ac5b3cfcaba950f16c3239b835c2fa1"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "Ha28R6CL"
+                    ],
+                    "size": 660106,
+                    "date_published": "2026-04-13T12:07:31.835189Z"
                 }
             ]
         },

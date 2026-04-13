@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased]
+
+### Mods
+
+#### Added
+
+- Inventory Profiles Next
+
 ## [1.0.1]
 
 ### Changed
