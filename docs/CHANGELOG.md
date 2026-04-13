@@ -2,11 +2,19 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Replaced Client Sort by Inventory Profiles Next
+
 ### Mods
 
 #### Added
 
 - Inventory Profiles Next
+
+#### Removed
+
+- Client Sort
 
 ## [1.0.1]
 

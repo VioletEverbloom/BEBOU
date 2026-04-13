@@ -530,52 +530,6 @@
             ]
         },
         {
-            "pakku_id": "jT9iNSCi8360LqXn",
-            "pakku_links": [
-                "JK5naGnvSIvUFTD0",
-                "FhvThYiut0mDNXhA"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "clientsort"
-            },
-            "name": {
-                "modrinth": "Client Sort"
-            },
-            "id": {
-                "modrinth": "K0AkAin6"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "clientsort-fabric-3.1.1+26.1.1.jar",
-                    "mc_versions": [
-                        "26.1",
-                        "26.1.1",
-                        "26.1.2"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/km2lmT0H/clientsort-fabric-3.1.1+26.1.1.jar",
-                    "id": "km2lmT0H",
-                    "parent_id": "K0AkAin6",
-                    "hashes": {
-                        "sha512": "226c1162cfe7e5b1ee6a4b57bc6e8ab1d712ab83b62b83a56a258580eb1ecdc17ba0a713b7c5ae1389dcfc2c9badc46c266d6292b24b3848edac525803933d99",
-                        "sha1": "8ffab810f971d92c03a581f3d1c2b7f7d9728d68"
-                    },
-                    "required_dependencies": [
-                        "mOgUt4GM",
-                        "9s6osm5g"
-                    ],
-                    "size": 345244,
-                    "date_published": "2026-04-02T23:38:27.045715Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "FhvThYiut0mDNXhA",
             "type": "MOD",
             "side": "BOTH",
