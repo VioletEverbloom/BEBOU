@@ -1,53 +1,56 @@
 # Changelog
 
+The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [Unreleased]
 
-### Mods
+### Updates
 
-#### Updated
+#### Mods
 
-- ModernFix mVUS 5.27.0-build.1 -> 5.27.5-build.1
+- ModernFix mVUS : `5.27.0-build.1` → `5.27.5-build.1`
 
-### Shaders
+#### Shaders
 
-#### Updated
-
-- I Like Vanilla 1.3.3b -> 1.3.4
-- Photon Shader 1.3 -> 1.3a
+- I Like Vanilla : `1.3.3b` → `1.3.4`
+- Photon Shader : `1.3` → `1.3a`
 
 ## [1.1.0]
 
-### Changed
+### Changes
 
 - Replace Client Sort by Inventory Profiles Next
 
-### Mods
+### Additions
 
-#### Added
+#### Mods
 
 - Inventory Profiles Next
 
-#### Removed
+### Removals
+
+#### Mods
 
 - Client Sort
 
 ## [1.0.1]
 
-### Changed
+### Changes
 
 - Remove Vanilla Tweaks Advancements
 - Add back Inline Tooltips for Bee Hives and Bee Nests
 
-### Mods
+### Updates
 
-#### Updated
+#### Mods
 
-- Blue Map 5.19 -> 5.20
-- ModernFix mVUS 5.26.2-build.1 -> 5.27.0-build.1
+- Blue Map : `5.19` → `5.20`
+- ModernFix mVUS : `5.26.2-build.1` → `5.27.0-build.1`
 
 ## [1.0.0] - Public Release
 
-### Added
+### Changes
 
 - Better Rain Sounds
 - Voxy LoD
@@ -55,30 +58,24 @@
 - Schematics
 - Gravestone on death
 
-### Mods
+### Additions
 
-#### Added
+#### Mods
 
 - Cool Rain
 - Litematica
 - Simple Resource Loader
 - Voxy
 
-### Resource Packs
-
-#### Added
+#### Resource Packs
 
 - Gentler Weather Sounds
 
-### Data Packs
-
-#### Added
+#### Data Packs
 
 - Vanilla Tweaks' Graves
 
-### Shaders
-
-#### Added
+#### Shaders
 
 - Complementary Unbound
 - I Like Vanilla
@@ -87,9 +84,9 @@
 - Photon
 - Solas
 
-## [0.0.4] - QoL, Shaders and Small visual tweaks
+## [0.0.4] - QoL, Shaders and Small Visual Tweaks
 
-### Added
+### Changes
 
 - Visual Tweaks
 - Inventory Sorting
@@ -97,9 +94,9 @@
 - Default Shaders
 - Remove Resource Pack Reloading Screen
 
-### Mods
+### Additions
 
-#### Added
+#### Mods
 
 - 3D Skin Layers
 - Client Sort
@@ -111,23 +108,21 @@
 - Remove Reloading Screen
 - Sodium Shadowy Path Blocks
 
-### Shaders
-
-#### Added
+#### Shaders
 
 - Complementary Shaders
 
 ## [0.0.3] - Multiplayer
 
-### Added
+### Changes
 
 - Better Locator Bar
 - Chat Patches
 - Prettier Chat
 
-### Mods
+### Additions
 
-#### Added
+#### Mods
 
 - Chat Animation
 - Chat Heads
@@ -140,16 +135,16 @@
 
 ## [0.0.2] - Tooltips and Menus
 
-### Added
+### Changes
 
 - Better Advancements and Statistics menus
 - Controller Support
 - Prettier Tooltips
 - Prettier HUD
 
-### Mods
+### Additions
 
-#### Added
+#### Mods
 
 - Advancements Reloaded
 - AppleSkin
@@ -165,22 +160,20 @@
 - Raised
 - Shulker Box Tooltip
 
-### Resource Packs
-
-#### Added
+#### Resource Packs
 
 - Controlify Dungeons
 
 ## [0.0.1] - Optimization and Server Replacement
 
-### Added
+### Changes
 
 - Basic optimization mods
 - Server pack
 
-### Mods
+### Additions
 
-### Added
+#### Mods
 
 - Blue Map
 - C2ME
