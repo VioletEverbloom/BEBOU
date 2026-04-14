@@ -1369,7 +1369,7 @@
                         "26.1",
                         "26.1.1",
                         "26.1.2",
-                        "26.2-snapshot-2"
+                        "26.2-snapshot-3"
                     ],
                     "loaders": [
                         "minecraft"
@@ -3267,7 +3267,8 @@
                     "file_name": "entity_model_features_26.1-fabric-3.0.17.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -3308,7 +3309,8 @@
                     "file_name": "entity_texture_features_26.1-fabric-7.0.13.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
