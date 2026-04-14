@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased]
+
+### Mods
+
+#### Updated
+
+- ModernFix mVUS 5.27.0-build.1 -> 5.27.5-build.1
+
+### Shaders
+
+#### Updated
+
+- I Like Vanilla 1.3.3b -> 1.3.4
+- Photon Shader 1.3 -> 1.3a
+
 ## [1.1.0]
 
 ### Changed

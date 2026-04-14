@@ -1404,7 +1404,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "I Like Vanilla v1.3.3b.zip",
+                    "file_name": "I Like Vanilla v1.3.4.zip",
                     "mc_versions": [
                         "1.16.5",
                         "1.17",
@@ -1435,22 +1435,25 @@
                         "1.21.8",
                         "1.21.9",
                         "1.21.10",
-                        "1.21.11"
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "iris"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/uLwCWQYU/I Like Vanilla v1.3.3b.zip",
-                    "id": "uLwCWQYU",
+                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/eJ1NTG1A/I Like Vanilla v1.3.4.zip",
+                    "id": "eJ1NTG1A",
                     "parent_id": "DoODk4HD",
                     "hashes": {
-                        "sha512": "5f6bde6eed72622e19c69745291e208645de1b471c61b788c5865544397e052edd8f3b3e5f762c35146cb3db070f65fc49ad3d6073cae8997e4447e41cd60eaa",
-                        "sha1": "4a6ea21f2d8470b48f5e9ab3e06c7414d7a4ebf9"
+                        "sha512": "ff73b17c5f48c3caa40bb6960437ced779a0d291bc5e6c4867ef4c3a44c18da9c1f23e5609468f644c4a527ca4d74ff6588a0743f8a3d2e5cca91aa55f9cf393",
+                        "sha1": "653b653f5d02418d5d4cf36bf8b8bf79cb7ddbd6"
                     },
                     "required_dependencies": [],
-                    "size": 302581,
-                    "date_published": "2026-03-19T16:09:14.773707Z"
+                    "size": 303955,
+                    "date_published": "2026-04-14T05:41:06.695989Z"
                 }
             ]
         },
@@ -2380,7 +2383,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modernfix-5.27.0-build.1.jar",
+                    "file_name": "modernfix-5.27.5-build.1.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
@@ -2390,18 +2393,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/NXcHcDaf/modernfix-5.27.0-build.1.jar",
-                    "id": "NXcHcDaf",
+                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/BSkxvHAT/modernfix-5.27.5-build.1.jar",
+                    "id": "BSkxvHAT",
                     "parent_id": "TjSm1wrD",
                     "hashes": {
-                        "sha512": "7521a9eed3c43b39708ad88b5a83f3070e494bdd8ba44bedaab415831ac16851a93f99f35582c359b5c5e642fa56699f8d22aae6d2f4c87dbef39b8db521c91e",
-                        "sha1": "fc39735fc71772fa4556bb97f66a97d0f5807971"
+                        "sha512": "c5a008b84527312b756340371c93b9f25edeb6759ead055670cca039956472bd8ad6115e4d3d4286a914e4298f74ef2275ede83b9fdb74c8ce4e4e407919c8b0",
+                        "sha1": "6ef1fab45d8dd76c1d09cf951070a403b712a9c8"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 679377,
-                    "date_published": "2026-04-13T06:29:01.834136Z"
+                    "size": 674460,
+                    "date_published": "2026-04-13T17:38:35.489238Z"
                 }
             ]
         },
@@ -2638,7 +2641,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "photon_v1.3.zip",
+                    "file_name": "photon_v1.3a.zip",
                     "mc_versions": [
                         "1.16.5",
                         "1.17",
@@ -2679,16 +2682,16 @@
                         "optifine"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/VFSm0NBn/photon_v1.3.zip",
-                    "id": "VFSm0NBn",
+                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/oQcHY597/photon_v1.3a.zip",
+                    "id": "oQcHY597",
                     "parent_id": "lLqFfGNs",
                     "hashes": {
-                        "sha512": "b080876d12ce6e6b5fe19c77d251748edee40ae79a750d870ff16ce4554097dfa140744acfc2bd96c4a93d51681e5e642f79291a50279db6e988fe15077214d3",
-                        "sha1": "d7bcffc983fc7d0f5270a2265e91597921a79d6b"
+                        "sha512": "073638ac7f0656ae088de1963527c15c8d1f6c3aad9220c554d31fb29bed4cccc2b36a86a0ec6bbf0fda2882e6921835dae41ff63a7b956df98d2ae0feb67a5e",
+                        "sha1": "e4bc453d1c6fa36b7f6aad1816ab729c045015ee"
                     },
                     "required_dependencies": [],
-                    "size": 3802273,
-                    "date_published": "2026-04-11T15:07:43.598733Z"
+                    "size": 3800983,
+                    "date_published": "2026-04-13T19:22:37.777640Z"
                 }
             ]
         },
