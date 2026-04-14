@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
+- Iris Shader Folder : `1.3.0` → `1.3.1`
 - ModernFix mVUS : `5.27.0-build.1` → `5.27.5-build.1`
 
 #### Shaders
