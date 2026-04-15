@@ -2383,7 +2383,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modernfix-5.27.5-build.1.jar",
+                    "file_name": "modernfix-5.27.5-build.2.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
@@ -2393,18 +2393,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/BSkxvHAT/modernfix-5.27.5-build.1.jar",
-                    "id": "BSkxvHAT",
+                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/5REDoIHm/modernfix-5.27.5-build.2.jar",
+                    "id": "5REDoIHm",
                     "parent_id": "TjSm1wrD",
                     "hashes": {
-                        "sha512": "c5a008b84527312b756340371c93b9f25edeb6759ead055670cca039956472bd8ad6115e4d3d4286a914e4298f74ef2275ede83b9fdb74c8ce4e4e407919c8b0",
-                        "sha1": "6ef1fab45d8dd76c1d09cf951070a403b712a9c8"
+                        "sha512": "1ac2938e1cabe026ef667d6556874e1125ace2df1d0c0cd73fa6ee6224cd8850d00a2a92c90aa7ae9881c71a3dda628a18128fa7ce5fcd89247eadef6771c741",
+                        "sha1": "2a52e6878e4c0237d0a2a45af47fb65342904199"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 674460,
-                    "date_published": "2026-04-13T17:38:35.489238Z"
+                    "size": 680612,
+                    "date_published": "2026-04-15T06:17:41.773761Z"
                 }
             ]
         },
@@ -2641,7 +2641,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "photon_v1.3a.zip",
+                    "file_name": "photon_v1.3b.zip",
                     "mc_versions": [
                         "1.16.5",
                         "1.17",
@@ -2682,16 +2682,16 @@
                         "optifine"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/oQcHY597/photon_v1.3a.zip",
-                    "id": "oQcHY597",
+                    "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/gUv7fBPN/photon_v1.3b.zip",
+                    "id": "gUv7fBPN",
                     "parent_id": "lLqFfGNs",
                     "hashes": {
-                        "sha512": "073638ac7f0656ae088de1963527c15c8d1f6c3aad9220c554d31fb29bed4cccc2b36a86a0ec6bbf0fda2882e6921835dae41ff63a7b956df98d2ae0feb67a5e",
-                        "sha1": "e4bc453d1c6fa36b7f6aad1816ab729c045015ee"
+                        "sha512": "40bcbac9c656f2965f543e4b35cd0698723b2db8b67662f1b53c14223cfbef7d60d7fbf0176f73fcadd0d1e19ba60d951ed77e9eece8c8df7dca4d2be6315309",
+                        "sha1": "d975d25c9686de5f10e8b86c8518613cdf3f040a"
                     },
                     "required_dependencies": [],
-                    "size": 3800983,
-                    "date_published": "2026-04-13T19:22:37.777640Z"
+                    "size": 3800987,
+                    "date_published": "2026-04-14T20:47:01.327987Z"
                 }
             ]
         },
