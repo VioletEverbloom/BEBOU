@@ -30,6 +30,7 @@
     "server-resource-packs/": true,
     "texturepacks/": true,
     "command_history.txt": true,
+    "debug-profile.json": true,
     "realms_persistence.json": true,
     "servers.dat": true,
     "servers.dat_old": true,
