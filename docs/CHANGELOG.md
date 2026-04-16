@@ -3,6 +3,25 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Updates
+
+#### Loader
+
+- Fabric : `0.18.6` → `0.19.2`
+
+#### Mods
+
+- Advancements Reloaded : `0.13.0` → `0.13.1`
+- Entity Model Features : `3.0.17` → `3.1`
+- Entity Texture Features : `7.0.13` → `7.1`
+- Fabric API : `0.145.4` → `0.146.0`
+
+#### Shaders
+
+- I Like Vanilla : `1.3.4` → `1.3.4b`
+
 ## [1.1.1]
 
 ### Changes
