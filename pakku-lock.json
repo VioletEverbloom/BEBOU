@@ -1899,7 +1899,8 @@
                     "file_name": "locator-heads-2.2.0.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2474,7 +2475,8 @@
                     "file_name": "MouseTweaks-fabric-mc26.1-2.31.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
