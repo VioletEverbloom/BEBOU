@@ -534,7 +534,7 @@
         {
             "pakku_id": "FhvThYiut0mDNXhA",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "cloth-config"
             },
@@ -1162,7 +1162,7 @@
         {
             "pakku_id": "xxIHthEs2X41794A",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "fabric-language-kotlin"
             },
@@ -1286,7 +1286,7 @@
                 "yvlNULPCFODcuZAG"
             ],
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "forge-config-api-port"
             },
@@ -2712,7 +2712,7 @@
                 "yvlNULPCFODcuZAG"
             ],
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "pneumono_core"
             },
@@ -3178,7 +3178,7 @@
         {
             "pakku_id": "SKkLaGH441PCPH8C",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "placeholder-api"
             },
@@ -3220,7 +3220,7 @@
                 "yvlNULPCFODcuZAG"
             ],
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "yacl"
             },

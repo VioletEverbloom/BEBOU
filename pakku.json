@@ -11,17 +11,35 @@
         "!config/litematica",
         "resources/datapack"
     ],
+    "server_overrides": [
+        ".gitignore",
+    ],
     "client_overrides": [
         "resources/resourcepack"
-    ],
-    "server_overrides": [
-        ".gitignore"
     ],
     "projects": {
         "bluemap": {
             "side": "SERVER"
         },
         "appleskin": {
+            "side": "CLIENT"
+        },
+        "yacl": {
+            "side": "CLIENT"
+        },
+        "pneumonocore": {
+            "side": "CLIENT"
+        },
+        "placeholder-api": {
+            "side": "CLIENT"
+        },
+        "fabric-language-kotlin": {
+            "side": "CLIENT"
+        },
+        "cloth-config": {
+            "side": "CLIENT"
+        },
+        "forge-config-api-port": {
             "side": "CLIENT"
         }
     }
