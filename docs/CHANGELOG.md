@@ -14,9 +14,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Mods
 
 - Advancements Reloaded : `0.13.0` → `0.13.1`
-- Entity Model Features : `3.0.17` → `3.1`
+- Entity Model Features : `3.0.17` → `3.1.1`
 - Entity Texture Features : `7.0.13` → `7.1`
-- Fabric API : `0.145.4` → `0.146.0`
+- Fabric API : `0.145.4` → `0.146.1`
+- Inventory Profiles Next : `2.3.0` → `2.3.1`
+- Ixeris : `4.1.8` → `4.1.10`
+- LibIPN : ``6.7.0` → `6.7.1`
+- Lithium : `0.22.1` → `0.24.2`
+- Mod List Memory : `1.0.0` → `1.2.1`
+- Remove Reloading Screen : `5.2.4` → `5.2.5`
 
 #### Shaders
 
