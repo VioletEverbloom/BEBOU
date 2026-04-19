@@ -21,9 +21,6 @@
         "bluemap": {
             "side": "SERVER"
         },
-        "clientsort": {
-            "side": "CLIENT"
-        },
         "appleskin": {
             "side": "CLIENT"
         }
