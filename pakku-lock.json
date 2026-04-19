@@ -283,7 +283,8 @@
                     "file_name": "chatanimation-fabric-26.1-1.1.3.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -1259,7 +1260,8 @@
                     "file_name": "ferritecore-9.0.0-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -1790,7 +1792,9 @@
                         "sha512": "0c01158b956462048363c1b9db00cc72734adc89760bf9587bfa537797314c79ce1f11b6a69a37c0606f18e5ce58dd14f4c5be446a7b4dec78491f6acb85d419",
                         "sha1": "cebbeed309a15277cac448e1866ec3985aa661b4"
                     },
-                    "required_dependencies": [],
+                    "required_dependencies": [
+                        "M1B8mLoH"
+                    ],
                     "size": 46265,
                     "date_published": "2026-03-31T13:35:32.552932Z"
                 }
@@ -2027,7 +2031,8 @@
                     "file_name": "maptooltip-5.0.0+26.1-fabric.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
