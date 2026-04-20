@@ -1,6 +1,40 @@
 {
   "schema_version": "2",
-  "default_overrides": {
-    "force_compatible": true
+  "default_packs": [
+    "srl_rp/IPN Prettifier",
+    "file/Chat Reporting Helper.zip",
+    "file/Controlify_Dungeons.zip",
+    "file/Gentler Weather Sounds 2.2.0.zip"
+  ],
+  "pack_overrides": {
+    "vanilla": {
+      "default_position": "BOTTOM",
+      "fixed_position": true
+    },
+    "required_packs": [
+      "srl_rp/IPN Prettifier",
+      "file/Chat Reporting Helper.zip",
+      "file/Controlify_Dungeons.zip"
+    ],
+    "$$required_packs": {
+      "required": true,
+      "force_compatible": true,
+      "hidden": true,
+      "default_position": "BOTTOM",
+      "fixed_position": true
+    },
+    "recommended_packs": [
+      "file/Gentler Weather Sounds 2.2.0.zip"
+    ],
+    "$$recommended_packs": {
+      "force_compatible": true
+    },
+    "hidden_packs": [
+      "high_contrast",
+      "controlify:legacy_console"
+    ],
+    "$$hidden_packs": {
+      "hidden": true
+    }
   }
 }

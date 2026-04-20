@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 
 - Change Miniature Shader Voxy compatibility color
+- Hide default resource packs and unused packs
 
 ### Additions
 
