@@ -550,7 +550,8 @@
                     "file_name": "cloth-config-26.1.154.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
@@ -2773,7 +2774,8 @@
                     "file_name": "raised-fabric-26.1.1-5.1.2.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
