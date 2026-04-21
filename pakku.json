@@ -47,6 +47,7 @@
         "!config/moreculling.toml",
         "!config/MouseTweaks.cfg",
         "!config/raised.json",
+        "!config/resourcepackoverrides.json",
         "!config/rrls.toml",
         "!config/shulkerboxtooltip.json5",
         "!config/skinlayers.json",
