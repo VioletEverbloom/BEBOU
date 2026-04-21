@@ -1373,7 +1373,7 @@
                         "26.1",
                         "26.1.1",
                         "26.1.2",
-                        "26.2-snapshot-3"
+                        "26.2-snapshot-4"
                     ],
                     "loaders": [
                         "minecraft"
@@ -2441,7 +2441,8 @@
                     "file_name": "moreculling-fabric-26.1.1-1.7.0-beta.5.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
