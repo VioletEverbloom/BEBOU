@@ -16,6 +16,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Resource Pack Overrides
 
+### Updates
+
+#### Mods
+
+- Light Overlay : `2.5.0` → `2.6.1`
+- Overlay Lib : `0.7.0` → `0.8.1`
+
 ## [1.1.2]
 
 ### Changes

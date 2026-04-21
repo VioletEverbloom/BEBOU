@@ -1776,10 +1776,9 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "light-overlay-2.5.0+26.1.jar",
+                    "file_name": "light-overlay-2.6.1+26.1.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1-rc-1",
                         "26.1.1",
                         "26.1.2"
                     ],
@@ -1787,18 +1786,20 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/8qVa1XCN/versions/vZnWXXdc/light-overlay-2.5.0+26.1.jar",
-                    "id": "vZnWXXdc",
+                    "url": "https://cdn.modrinth.com/data/8qVa1XCN/versions/YlTRMxPC/light-overlay-2.6.1+26.1.jar",
+                    "id": "YlTRMxPC",
                     "parent_id": "8qVa1XCN",
                     "hashes": {
-                        "sha512": "0c01158b956462048363c1b9db00cc72734adc89760bf9587bfa537797314c79ce1f11b6a69a37c0606f18e5ce58dd14f4c5be446a7b4dec78491f6acb85d419",
-                        "sha1": "cebbeed309a15277cac448e1866ec3985aa661b4"
+                        "sha512": "2be009a7bc9dba3ae26e4db3410225e11c61d277853e710eb7bb1fe50541550dfa800a4c858bba6c6f0d72bb43dfa1bf745509fada033d12c63a64717b424251",
+                        "sha1": "d35b28f01afd4f77d3727f65210009b13060e905"
                     },
                     "required_dependencies": [
-                        "M1B8mLoH"
+                        "M1B8mLoH",
+                        "1eAoo2KR",
+                        "P7dR8mSH"
                     ],
-                    "size": 46265,
-                    "date_published": "2026-03-31T13:35:32.552932Z"
+                    "size": 49842,
+                    "date_published": "2026-04-20T18:10:10.765912Z"
                 }
             ]
         },
@@ -2613,7 +2614,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "overlaylib-0.7.0+26.1.jar",
+                    "file_name": "overlaylib-0.8.1+26.1.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
@@ -2623,18 +2624,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/M1B8mLoH/versions/IlHXmPGE/overlaylib-0.7.0+26.1.jar",
-                    "id": "IlHXmPGE",
+                    "url": "https://cdn.modrinth.com/data/M1B8mLoH/versions/VvJQdJUT/overlaylib-0.8.1+26.1.jar",
+                    "id": "VvJQdJUT",
                     "parent_id": "M1B8mLoH",
                     "hashes": {
-                        "sha512": "7cf1bc845194123b951a1990564342698ae4f3f1b42180a715bd754a2299d93004f6c7dd8a6e061e97f6c681d7fab5e74b11ed0ea9298305200fe4de8ec1fc5e",
-                        "sha1": "0e39237f96a399d2794ea39b8094ade76cccc77f"
+                        "sha512": "3a329a12932aed1f2770d03efdd34c79e744ebc50cd217bfc2c556762d9a4f0f9c996bf8cb0282946596f966a5b79be00f743065f3ef1853fe938ab504b86ae7",
+                        "sha1": "adea9b3217ab4a766a42445776b30730b8c281a9"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 105175,
-                    "date_published": "2026-04-01T13:49:08.237725Z"
+                    "size": 131312,
+                    "date_published": "2026-04-21T14:20:38.358864Z"
                 }
             ]
         },
