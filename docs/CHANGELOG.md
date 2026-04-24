@@ -20,8 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
-- Light Overlay : `2.5.0` → `2.6.1`
-- Overlay Lib : `0.7.0` → `0.8.1`
+- Light Overlay : `2.5.0` → `2.7.0`
+- Overlay Lib : `0.7.0` → `0.9.0`
 
 ## [1.1.2]
 
