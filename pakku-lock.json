@@ -1176,7 +1176,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar",
+                    "file_name": "fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar",
                     "mc_versions": [
                         "1.14",
                         "1.14.1",
@@ -1229,16 +1229,16 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/21TRTKmh/fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar",
-                    "id": "21TRTKmh",
+                    "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/2i87JpYj/fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar",
+                    "id": "2i87JpYj",
                     "parent_id": "Ha28R6CL",
                     "hashes": {
-                        "sha512": "e4eaf7594de08eb4f3ea8af2e939f3ee61d07597afb4d5f420c3fbadcb381c7bbad4b1afd5919b3087b73ed9636fb018b1c978858a112bd4f6acdcb42e9eedaa",
-                        "sha1": "9873294abf498f509453d37b0a5ba019f4570ffb"
+                        "sha512": "fa5ed2613f7216999cc0c5ddc71906f082a32b52507d7160acbdcf0eb8de12993ba302e5afde6681d025008ecc66c7533fc0c21deb672ef681b2194fb9be4245",
+                        "sha1": "b6190b247c557c493dc4204121744f289a1d1837"
                     },
                     "required_dependencies": [],
-                    "size": 7796348,
-                    "date_published": "2026-03-26T08:54:12.652592Z"
+                    "size": 7813444,
+                    "date_published": "2026-04-24T07:48:19.118369Z"
                 }
             ]
         },
@@ -1408,7 +1408,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "I Like Vanilla v1.3.4b.zip",
+                    "file_name": "I Like Vanilla v1.3.5.zip",
                     "mc_versions": [
                         "1.16.5",
                         "1.17",
@@ -1448,16 +1448,16 @@
                         "iris"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/EIkZTonC/I Like Vanilla v1.3.4b.zip",
-                    "id": "EIkZTonC",
+                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/5XZ87HwT/I Like Vanilla v1.3.5.zip",
+                    "id": "5XZ87HwT",
                     "parent_id": "DoODk4HD",
                     "hashes": {
-                        "sha512": "03c75eca94e9b701b2bd63564303fd740abd8bf760c843c795b69c96f74b8f4b3068c80352de64eba54dd06d701b694bacd6d83161a229678e914548a75a5366",
-                        "sha1": "ea623968dd30b632bedcae023a94ac3b6efa0a3f"
+                        "sha512": "33f380375dafb4622604213d2a1a113cda0c4e4045d159d27cdc63d3401e3767d0d2aeb30e2a0ba84fadb334d09525ee8ac0704300104ef8959abef6385d2641",
+                        "sha1": "8cab61b905e673ba6311925a1c5c8f3b94e8555c"
                     },
                     "required_dependencies": [],
-                    "size": 304236,
-                    "date_published": "2026-04-15T17:24:28.178896Z"
+                    "size": 302748,
+                    "date_published": "2026-04-24T01:03:36.256412Z"
                 }
             ]
         },
@@ -1776,7 +1776,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "light-overlay-2.6.1+26.1.jar",
+                    "file_name": "light-overlay-2.7.0+26.1.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
@@ -1786,20 +1786,20 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/8qVa1XCN/versions/YlTRMxPC/light-overlay-2.6.1+26.1.jar",
-                    "id": "YlTRMxPC",
+                    "url": "https://cdn.modrinth.com/data/8qVa1XCN/versions/TJ2Lhzs1/light-overlay-2.7.0+26.1.jar",
+                    "id": "TJ2Lhzs1",
                     "parent_id": "8qVa1XCN",
                     "hashes": {
-                        "sha512": "2be009a7bc9dba3ae26e4db3410225e11c61d277853e710eb7bb1fe50541550dfa800a4c858bba6c6f0d72bb43dfa1bf745509fada033d12c63a64717b424251",
-                        "sha1": "d35b28f01afd4f77d3727f65210009b13060e905"
+                        "sha512": "efd76f5ef9ef3f7ff6ddedc00410a2504be3234bdefef766161b257e01f2e78688db257a027c191cb123d64e3b89538701c367f7bb7b2388fa6b3c96ed99363c",
+                        "sha1": "ec83373195ded73c74a3eae7d775806a6ed3fbe3"
                     },
                     "required_dependencies": [
+                        "P7dR8mSH",
                         "M1B8mLoH",
-                        "1eAoo2KR",
-                        "P7dR8mSH"
+                        "1eAoo2KR"
                     ],
-                    "size": 49842,
-                    "date_published": "2026-04-20T18:10:10.765912Z"
+                    "size": 51327,
+                    "date_published": "2026-04-23T19:57:40.285328Z"
                 }
             ]
         },
@@ -2614,7 +2614,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "overlaylib-0.8.1+26.1.jar",
+                    "file_name": "overlaylib-0.9.0+26.1.jar",
                     "mc_versions": [
                         "26.1",
                         "26.1.1",
@@ -2624,18 +2624,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/M1B8mLoH/versions/VvJQdJUT/overlaylib-0.8.1+26.1.jar",
-                    "id": "VvJQdJUT",
+                    "url": "https://cdn.modrinth.com/data/M1B8mLoH/versions/vaDVq0yo/overlaylib-0.9.0+26.1.jar",
+                    "id": "vaDVq0yo",
                     "parent_id": "M1B8mLoH",
                     "hashes": {
-                        "sha512": "3a329a12932aed1f2770d03efdd34c79e744ebc50cd217bfc2c556762d9a4f0f9c996bf8cb0282946596f966a5b79be00f743065f3ef1853fe938ab504b86ae7",
-                        "sha1": "adea9b3217ab4a766a42445776b30730b8c281a9"
+                        "sha512": "459c7ae26c0aa885b407624c64f754dcabd1d1cff1555c5fc09b6053e65e8f356f4007295ede92373ce044824cce91b6a1ae4535813f23ab3c6e76e5812bbfca",
+                        "sha1": "25f794c2ddaf6326da28f00806879cea70a826fb"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 131312,
-                    "date_published": "2026-04-21T14:20:38.358864Z"
+                    "size": 132387,
+                    "date_published": "2026-04-23T19:56:30.068906Z"
                 }
             ]
         },

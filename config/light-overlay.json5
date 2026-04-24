@@ -1,6 +1,9 @@
 {
 	lightLevelThreshold: 1,
+	lightLevelThresholdNether: 12,
+	lightLevelThresholdEnd: 1,
 	chunkScanRange: 4,
+	chunkScanRangeVertical: 25,
 	rendererMode: "CROSS",
 	hideGreen: true,
 	hideTransparent: true,

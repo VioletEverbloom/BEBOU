@@ -20,8 +20,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
+- Fabric Language Kotlin : `1.13.10+kotlin.2.3.20` → `1.13.11+kotlin.2.3.21`
 - Light Overlay : `2.5.0` → `2.7.0`
 - Overlay Lib : `0.7.0` → `0.9.0`
+
+#### Shaders
+
+- I Like Vanilla : `1.3.4b` → `1.3.5`
 
 ## [1.1.2]
 
