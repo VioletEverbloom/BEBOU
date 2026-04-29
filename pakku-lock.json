@@ -3287,7 +3287,9 @@
                     "type": "modrinth",
                     "file_name": "yet_another_config_lib_v3-3.9.3+26.1-fabric.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
