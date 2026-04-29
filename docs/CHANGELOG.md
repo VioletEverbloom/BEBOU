@@ -20,13 +20,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
+- Entity Model Features `3.1.1` → `3.2.2`
+- Fabric API : `0.146.1` → `0.147.0`
 - Fabric Language Kotlin : `1.13.10+kotlin.2.3.20` → `1.13.11+kotlin.2.3.21`
+- Forge Config API Port : `26.1.3` → `26.1.4`
 - Light Overlay : `2.5.0` → `2.7.0`
+- Litematica : `0.27.1` → `0.27.2`
+- Malilib : `0.28.2` → `0.28.3`
+- More Culling : ``1.7.0-beta.5` → `1.7.0`
 - Overlay Lib : `0.7.0` → `0.9.0`
+
+#### Resource Packs
+
+- Chat Reporting Helper : `5.1` → `5.2`
 
 #### Shaders
 
 - I Like Vanilla : `1.3.4b` → `1.3.5`
+- Mellow : `3.1` → `3.1.1`
+- Solas : `3.5` → `3.6`
 
 ## [1.1.2]
 

@@ -30,5 +30,7 @@
   "allowOptifineFallbackProperties": true,
   "showReloadErrorToast": true,
   "armorCopiesAnimationsHack": false,
-  "exportRotations": false
+  "exportRotations": false,
+  "asmMaths": true,
+  "logASM": false
 }
