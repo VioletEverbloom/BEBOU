@@ -1,0 +1,47 @@
+{
+	"items": {
+		"durability": {
+			"durability_tooltip": "ALWAYS",
+			"max_durability_tooltip": "DAMAGED",
+			"division_text": " / ",
+			"color": 11184810
+		},
+		"mining_speed_tooltip": true
+	},
+	"descriptions": {
+		"add_descriptions": true,
+		"require_key_hold": true,
+		"key_hold_notice": true,
+		"color": 5592405,
+		"prefix": {
+			"text": "",
+			"align_wrapped_text": true,
+			"color": 13027014
+		}
+	},
+	"enchantments": {
+		"enchantment_descriptions": true,
+		"enchanting_table_descriptions": true,
+		"auto_disable": true,
+		"require_key_hold": true,
+		"key_hold_notice": false,
+		"color": 5592405,
+		"prefix": {
+			"text": " ",
+			"align_wrapped_text": true,
+			"color": 13027014
+		},
+		"names": {
+			"blessing_color": 16755200,
+			"enchantment_color": 11184810,
+			"curse_color": 16733525
+		}
+	},
+	"tooltips": {
+		"required_key": "SHIFT",
+		"wrap_text": true,
+		"retain_empty_space": true,
+		"length": -1,
+		"length_cap": 50
+	}
+}

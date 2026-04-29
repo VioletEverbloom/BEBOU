@@ -1721,6 +1721,52 @@
             ]
         },
         {
+            "pakku_id": "nq10H1UkNkaTtVpw",
+            "pakku_links": [
+                "TZFwnqMwGVa1GxdK",
+                "FhvThYiut0mDNXhA"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "item-tooltips"
+            },
+            "name": {
+                "modrinth": "Item Tooltips"
+            },
+            "id": {
+                "modrinth": "JAn3TQr0"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "item-tooltips-26.1-r2.3-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JAn3TQr0/versions/hplm5cM4/item-tooltips-26.1-r2.3-fabric.jar",
+                    "id": "hplm5cM4",
+                    "parent_id": "JAn3TQr0",
+                    "hashes": {
+                        "sha512": "dd8de411209fb14e706ba460fe17d727055ca41c1118ab03aae77068b24b6b5b4eb9daa7a16803ae2d89326f699293f1f9171ecca82a91060e7b31e842903c62",
+                        "sha1": "5a2e270ce4dd252afb8b4d5090b84237594272d3"
+                    },
+                    "required_dependencies": [
+                        "vWUn8M9s",
+                        "9s6osm5g"
+                    ],
+                    "size": 138421,
+                    "date_published": "2026-04-27T11:54:14.713913Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RufwloyCzjjTQbQg",
             "type": "MOD",
             "side": "CLIENT",
@@ -3139,6 +3185,45 @@
             ]
         },
         {
+            "pakku_id": "pQonxK6vY1A7fiVn",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "status-effect-bars"
+            },
+            "name": {
+                "modrinth": "Status Effect Bars"
+            },
+            "id": {
+                "modrinth": "x02cBj9Y"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "status-effect-bars-1.0.11.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/HPrO2zBi/status-effect-bars-1.0.11.jar",
+                    "id": "HPrO2zBi",
+                    "parent_id": "x02cBj9Y",
+                    "hashes": {
+                        "sha512": "a27e3059a140236136cfd0c146e14788714488dc3636b0d5aa1d0a3958eebf1c1ca8549a53640a1131552abf2732077a5d07e72c896cc03cfba976bc6746b6b2",
+                        "sha1": "5348cae0b1b8c377dfa92ef645709a3932baacb1"
+                    },
+                    "required_dependencies": [],
+                    "size": 48545,
+                    "date_published": "2026-03-26T21:04:19.820614Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "x3ubTSrrQiifeJzB",
             "type": "MOD",
             "side": "CLIENT",
@@ -3263,6 +3348,45 @@
                     "required_dependencies": [],
                     "size": 254376,
                     "date_published": "2026-04-11T07:52:55.577049Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TZFwnqMwGVa1GxdK",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "unified-api"
+            },
+            "name": {
+                "modrinth": "Unified API"
+            },
+            "id": {
+                "modrinth": "vWUn8M9s"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "unified-api-26.1-r3.1.2-fabric.jar",
+                    "mc_versions": [
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vWUn8M9s/versions/J7vtxbn7/unified-api-26.1-r3.1.2-fabric.jar",
+                    "id": "J7vtxbn7",
+                    "parent_id": "vWUn8M9s",
+                    "hashes": {
+                        "sha512": "a2072e51d229235dbb691608d6466f136c62e77aed1e66a5f825c66be137d45cb26fcca1e17b4be6a37411aba80e96ba41084456417de03c48e08d6284b4432c",
+                        "sha1": "59354d468ba353e7c9abb7d067da0267cf3c4a2d"
+                    },
+                    "required_dependencies": [],
+                    "size": 302131,
+                    "date_published": "2026-04-27T12:21:04.506328Z"
                 }
             ]
         },
