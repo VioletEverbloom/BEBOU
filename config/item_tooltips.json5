@@ -6,10 +6,10 @@
 			"division_text": " / ",
 			"color": 11184810
 		},
-		"mining_speed_tooltip": true
+		"mining_speed_tooltip": false
 	},
 	"descriptions": {
-		"add_descriptions": true,
+		"add_descriptions": false,
 		"require_key_hold": true,
 		"key_hold_notice": true,
 		"color": 5592405,
