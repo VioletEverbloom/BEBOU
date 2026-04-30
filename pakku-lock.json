@@ -3203,7 +3203,8 @@
                     "file_name": "status-effect-bars-1.0.11.jar",
                     "mc_versions": [
                         "26.1",
-                        "26.1.1"
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric",
