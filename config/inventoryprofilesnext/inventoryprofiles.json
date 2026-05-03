@@ -6,6 +6,9 @@
         "enable_profiles": {
             "value": false
         },
+        "villager_trading_enable": {
+            "value": false
+        },
         "item_scrolling": {
             "value": false
         }
@@ -29,6 +32,9 @@
         "enable_updates_check": false,
         "first_run": false,
         "enable_profiles": {
+            "value": false
+        },
+        "villager_trading_enable": {
             "value": false
         },
         "restock_hotbar": {
@@ -62,6 +68,9 @@
         }
     },
     "LockedSlotsSettings": {
+        "locked_slots_allow_pickup_into_empty": {
+            "value": true
+        },
         "show_locked_slots_background": {
             "value": false
         },
