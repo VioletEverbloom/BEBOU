@@ -1,7 +1,7 @@
 {
     "target": "modrinth",
     "mc_versions": [
-        "26.1"
+        "26.1.2"
     ],
     "loaders": {
         "fabric": "0.19.2"
