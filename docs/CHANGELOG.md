@@ -3,6 +3,41 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Updates
+
+#### Mods
+
+- Chat Heads : `1.2.2` → `1.2.4`
+- Chat Patches : `8` → `9`
+- Chunky :  `1.4.58` → `1.5.3`
+- Controlify :  `3.0.0` → `3.0.1`
+- Entity Culling :  `1.10.1` → `1.10.2`
+- Entity Model Features : `3.2.2` → `3.2.4`
+- Fabric API :  `0.147.0` → `0.150.0`
+- Inventory Profiles Next : `2.3.1` → `2.3.3`
+- Ixeris : `4.1.1` → `4.4.0`
+- Lib IPN :  `6.7.1` → `6.8.0`
+- Light Overlay : `2.7.0` → `2.9.1`
+- Litematica : `0.27.2` → `0.27.6`
+- Lithium : `0.24.2` → `0.24.4`
+- Locator Heads : `2.2.0` → `2.3.0`
+- MaLiLib :  `0.28.3` → `0.28.6`
+- Map Tooltip : `5.0.0` → `5.0.1`
+- Mod List Memory : `1.2.1` → `1.2.2`
+- Mod Menu : `18.0.0-alpha.8` → `18.0.0-beta.1`
+- ModernFix mVUS : `5.27.5-build.2` → `5.27.7-build.1`
+- Overlay Lib :  `0.9.0` → `0.9.1`
+- Shulker Box Tooltip : `5.2.18` → `5.3.0`
+- TCD Commons :  `5.2.1` → `5.3.1`
+- Unified API :  `3.1.2` → `4.3`
+- Voxy : `0.2.14-alpha` → `0.2.15-beta`
+
+#### Resource Packs
+
+- Chat Reporting Helper : `5.2` → `5.5`
+
 ## [1.2.0]
 
 ### Changes

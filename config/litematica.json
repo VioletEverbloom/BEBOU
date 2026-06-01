@@ -13,6 +13,7 @@
     "schematicOverlayColorWrongState": "#4CFF9010"
   },
   "Generic": {
+    "placementManagerThreadCount": 2,
     "areaSelectionsPerWorld": true,
     "changeSelectedCornerOnMove": true,
     "cloneAtOriginalPosition": false,
@@ -77,6 +78,7 @@
     "placementReplaceBehavior": "all",
     "placementRestriction": false,
     "placementRestrictionWarn": "actionbar",
+    "reverseOperationModeDirection": false,
     "renderMaterialListInGuis": true,
     "renderThreadNoTimeout": true,
     "serverNbtRequestRate": 2,
@@ -98,7 +100,9 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "toolItemComponents": "empty"
+    "toolItemComponents": "empty",
+    "translationLanguage": "en_us",
+    "translationMode": "vanilla"
   },
   "Hotkeys": {
     "addSelectionBox": {
