@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update from 26.1 to 26.1.2
 
+### Removals
+
+- Clumps
+
 ## [1.2.1]
 
 ### Updates

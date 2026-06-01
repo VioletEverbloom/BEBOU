@@ -568,48 +568,6 @@
             ]
         },
         {
-            "pakku_id": "ySSvTGfd0LMo7us6",
-            "pakku_links": [
-                "yvlNULPCFODcuZAG"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "clumps"
-            },
-            "name": {
-                "modrinth": "Clumps"
-            },
-            "id": {
-                "modrinth": "Wnxd13zP"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Clumps-fabric-26.1-26.1.0.2.jar",
-                    "mc_versions": [
-                        "26.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/9kN5zABQ/Clumps-fabric-26.1-26.1.0.2.jar",
-                    "id": "9kN5zABQ",
-                    "parent_id": "Wnxd13zP",
-                    "hashes": {
-                        "sha512": "ff625b95ab0443ad0bb834375b91cce994805e1dc09ab09fec6e31389ee40f0cea8a5f5f4e2939295a8185072cb32fb65165a0faab887908db949e1c06d8a326",
-                        "sha1": "a5504f821ecb9ab0abd1a0ee873887555aabe711"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 19956,
-                    "date_published": "2026-03-27T07:43:26.539113Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "LWSI6xOh0dRR7Vga",
             "type": "SHADER",
             "side": "CLIENT",
