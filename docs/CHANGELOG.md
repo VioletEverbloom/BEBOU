@@ -15,8 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Controlify :  `3.0.0` → `3.0.1`
 - Entity Culling :  `1.10.1` → `1.10.2`
 - Entity Model Features : `3.2.2` → `3.2.4`
+- Euphoria Patches : `1.8.6` → `1.9.3`
 - Fabric API :  `0.147.0` → `0.150.0`
 - Inventory Profiles Next : `2.3.1` → `2.3.3`
+- Iris Shader Folder : `1.3.1` → `1.3.2`
 - Ixeris : `4.1.1` → `4.4.0`
 - Lib IPN :  `6.7.1` → `6.8.0`
 - Light Overlay : `2.7.0` → `2.9.1`
@@ -37,6 +39,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Resource Packs
 
 - Chat Reporting Helper : `5.2` → `5.5`
+
+#### Shaders
+
+- Complementary Reimagined : `5.7.1` → `5.8.1`
+- Complementary Unbound : `5.7.1` → `5.8.1`
+- I Like Vanilla : `1.3.5` → `1.4.0b`
+- Mellow : `3.1.1` → `3.12`
 
 ## [1.2.0]
 
