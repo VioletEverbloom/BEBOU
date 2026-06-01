@@ -20,11 +20,11 @@
 	# default: true
 	attributeTooltips = true
 	# matches r'#[0-9A-Fa-f]{6}'
-	# default: #aa0000
-	attributeTooltipColour = "#aa0000"
+	# default: #ffaa00
+	attributeTooltipColour = "#ffaa00"
 	# Add tooltips based on fuel levels.
 	# default: true
-	fuelTooltip = false
+	fuelTooltip = true
 	# matches r'#[0-9A-Fa-f]{6}'
 	# default: #ffaa00
 	fuelTooltipColour = "#ffaa00"
