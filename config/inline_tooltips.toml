@@ -19,44 +19,52 @@
 	# Add tooltips based on item attributes.
 	# default: true
 	attributeTooltips = true
-	# default: Dark Green
-	attributeTooltipColor = "Dark Green"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #aa0000
+	attributeTooltipColour = "#aa0000"
 	# Add tooltips based on fuel levels.
 	# default: true
 	fuelTooltip = false
-	# default: Gold
-	fuelTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	fuelTooltipColour = "#ffaa00"
 	# Add tooltips based on amount of bees.
 	# default: true
 	beesTooltip = true
-	# default: Gold
-	beeTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	beeTooltipColour = "#ffaa00"
 	# Add tooltips based on amount of honey.
 	# default: true
 	honeyTooltip = true
-	# default: Gold
-	honeyTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	honeyTooltipColour = "#ffaa00"
 	# Add tooltips based on light level.
 	# default: true
 	lightLevelTooltip = true
-	# default: Gold
-	lightLevelTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	lightLevelTooltipColour = "#ffaa00"
 	# default: true
 	foodTooltip = true
-	# default: Gold
-	foodTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	foodTooltipColour = "#ffaa00"
 	# default: true
 	saturationTooltip = true
-	# default: Gold
-	saturationTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	saturationTooltipColour = "#ffaa00"
 
 [durabilityTooltip]
 	# Add tooltips based on durability.
 	# default: true
 	enable = false
-	# Color of the durability tooltip.
-	# default: Gray
-	text_color = "Gray"
+	# Colour of the durability tooltip.
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #aaaaaa
+	text_colour = "#aaaaaa"
 	# Always show durability tooltip.
 	# default: false
 	always_show = false
@@ -66,20 +74,23 @@
 	# default: true
 	compassTooltip = false
 	# Compass tooltip colour.
-	# default: Red
-	compassTooltipColor = "Red"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ff5555
+	compassTooltipColour = "#ff5555"
 	# Add tooltips based on Lodestone Compass's destination.
 	# default: true
 	lodestoneTooltip = false
 	# Lodestone Compass tooltip colour.
-	# default: Gold
-	lodestoneCompassTooltipColor = "Gold"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	lodestoneCompassTooltipColour = "#ffaa00"
 	# Add tooltips based on Recovery Compass's destination.
 	# default: true
 	recoveryCompassTooltip = false
 	# Recovery Compass tooltip colour.
-	# default: Aqua
-	recoveryCompassTooltipColor = "Aqua"
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #55ffff
+	recoveryCompassTooltipColour = "#55ffff"
 
 [clockTooltip]
 	# Add tooltips to Clocks with the current time.
@@ -91,9 +102,10 @@
 	# Whether to show the clock in a 24 hour format.
 	# default: true
 	twenty_four_hour_clock = true
-	# Text color of the clock tooltip.
-	# default: Gold
-	text_color = "Gold"
+	# Text colour of the clock tooltip.
+	# matches r'#[0-9A-Fa-f]{6}'
+	# default: #ffaa00
+	text_colour = "#ffaa00"
 
 [developerOptions]
 	# Show debug information when holding Alt.

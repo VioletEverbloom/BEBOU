@@ -805,24 +805,24 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "c2me-fabric-mc26.1-0.3.7+alpha.0.61.jar",
+                    "file_name": "c2me-fabric-mc26.1.2-0.3.7+alpha.0.69.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/tKXPZtpT/c2me-fabric-mc26.1-0.3.7+alpha.0.61.jar",
-                    "id": "tKXPZtpT",
+                    "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/iFyIEVsG/c2me-fabric-mc26.1.2-0.3.7+alpha.0.69.jar",
+                    "id": "iFyIEVsG",
                     "parent_id": "VSNURh3q",
                     "hashes": {
-                        "sha512": "6f5947e45f15cfbf8756fed2fad222702f331d5dfa6b0580bd92671b14c5ea6f8cb0a0968ecf53ca237763bdda29aedd33d60c9ee6cd36ce11618177f92b405b",
-                        "sha1": "a67b297fea485c75015adc1f7e4ebecdbf69d9d4"
+                        "sha512": "32e5a21914ecd16b4560d2d59a4c1a96be92841d642cb278acd76461c0fe70e3875944917cb9e51dac719421d75abffd57bcbafe6e297e7477eaf34514857ced",
+                        "sha1": "30597d4cb419eba4d0e6576b4523455e36f96c2e"
                     },
                     "required_dependencies": [],
-                    "size": 4728773,
-                    "date_published": "2026-03-27T06:25:29.964470Z"
+                    "size": 4728722,
+                    "date_published": "2026-05-22T09:44:59.560585Z"
                 }
             ]
         },
@@ -931,24 +931,24 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "coolrain-1.4.0-26.1.jar",
+                    "file_name": "coolrain-1.4.0-26.1.2.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/iDyqnQLT/versions/l4nv8whd/coolrain-1.4.0-26.1.jar",
-                    "id": "l4nv8whd",
+                    "url": "https://cdn.modrinth.com/data/iDyqnQLT/versions/KsLfEOWC/coolrain-1.4.0-26.1.2.jar",
+                    "id": "KsLfEOWC",
                     "parent_id": "iDyqnQLT",
                     "hashes": {
-                        "sha512": "5112ae9c24fbe615c6baf09fd0df7aefe08efdb39d90e638fe8c26196312a979014e2c372b303c1bd91e07a4d56d4c3bebd39ac7ba10f72654df6f1758c88396",
-                        "sha1": "cf35c07345130c39828e9dd9934e9f0fd4ad2071"
+                        "sha512": "d37d509772af8f083fa605a2df0efd5d755ab1dd3d23d1250396118bd6742af2a9b2f2836a8b35551be3f74fb94dcb61ef5956aec34a26b7958d8f4b6fe23465",
+                        "sha1": "d605ab9d41df8251fd8c734883c0a677dab03083"
                     },
                     "required_dependencies": [],
-                    "size": 4142090,
-                    "date_published": "2026-04-01T01:38:35.073016Z"
+                    "size": 4142092,
+                    "date_published": "2026-04-20T12:24:18.424464Z"
                 }
             ]
         },
@@ -1860,31 +1860,26 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "inline_tooltips-1.6.4+26.1-snapshot-10-fabric.jar",
+                    "file_name": "inline_tooltips-1.7.0+26.1.2-fabric.jar",
                     "mc_versions": [
-                        "26.1-snapshot-10",
-                        "26.1-rc-1",
-                        "26.1-rc-2",
-                        "26.1",
-                        "26.1.1",
                         "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TVOgzXyj/versions/ho5ofR2R/inline_tooltips-1.6.4+26.1-snapshot-10-fabric.jar",
-                    "id": "ho5ofR2R",
+                    "url": "https://cdn.modrinth.com/data/TVOgzXyj/versions/urZalnGT/inline_tooltips-1.7.0+26.1.2-fabric.jar",
+                    "id": "urZalnGT",
                     "parent_id": "TVOgzXyj",
                     "hashes": {
-                        "sha512": "b5d90d9ebdaaf66953f0f75de3143f3eb2338f310f60b439f9b6a74b1b3c15e6d74244761d2ff0b32a9fad54f98eaf176839440e86cfdfe1ca23edcc0ba6f86b",
-                        "sha1": "9525ad9c95d570cabb83591a8afa69535b4b59d0"
+                        "sha512": "a460e0a9937b5fbce891fe0a27f2ae9ebec06a76ed7ab9805fe6885013f959b740e80ef180f77852a9d72fb367bd5e7e09a253f2da2206a3722931b0cc3102c2",
+                        "sha1": "6ae7d3428c0f7651f5ca72e66eb4223a413f0165"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 342388,
-                    "date_published": "2026-02-25T16:19:30.340110Z"
+                    "size": 342534,
+                    "date_published": "2026-05-27T22:00:21.214884Z"
                 }
             ]
         },
@@ -3367,26 +3362,24 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "sodium-fabric-0.8.9+mc26.1.1.jar",
+                    "file_name": "sodium-fabric-0.8.12+mc26.1.2.jar",
                     "mc_versions": [
-                        "26.1",
-                        "26.1.1",
                         "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uGvVQBnw/sodium-fabric-0.8.9+mc26.1.1.jar",
-                    "id": "uGvVQBnw",
+                    "url": "https://cdn.modrinth.com/data/AANobbMI/versions/eRJU33Hp/sodium-fabric-0.8.12+mc26.1.2.jar",
+                    "id": "eRJU33Hp",
                     "parent_id": "AANobbMI",
                     "hashes": {
-                        "sha512": "74f9dc8963b5258226837cc361ba6b525da734ab4fa5f05d1862bc6e9175f4fa81ca3d49443e2fb85be144d06042f0d65cbcceefc391043af857b38aa2614ae8",
-                        "sha1": "48b949ec71365788dfd4e89d489f7abd504aa709"
+                        "sha512": "402bb945d1f893a72c152c137e08f8a0c045d725a4d6ca2af7bcfe929c4d80338da509094cfe3a8cd162346b78c5069dc3cf1d57bf94a1bce557f6425da7e76f",
+                        "sha1": "cd6c6236f0dcff03c7148414db220de32c934b5a"
                     },
                     "required_dependencies": [],
-                    "size": 1810286,
-                    "date_published": "2026-04-03T14:10:45.341213Z"
+                    "size": 1844226,
+                    "date_published": "2026-05-18T22:12:28.474147Z"
                 }
             ]
         },
@@ -3965,29 +3958,27 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "voxy-0.2.15-beta+26.1.jar",
+                    "file_name": "voxy-0.2.16-beta.jar",
                     "mc_versions": [
-                        "26.1",
-                        "26.1.1",
                         "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/fxxUqruK/versions/tIs0IXaN/voxy-0.2.15-beta+26.1.jar",
-                    "id": "tIs0IXaN",
+                    "url": "https://cdn.modrinth.com/data/fxxUqruK/versions/7RYVKQJm/voxy-0.2.16-beta.jar",
+                    "id": "7RYVKQJm",
                     "parent_id": "fxxUqruK",
                     "hashes": {
-                        "sha512": "e18e6b7697038bdd7c7e0f230342c356f9be14b79f18a5215cf73e7c1bda33699f5ce1ce3b37c8ce6a23161bc64365cc7835dab90f54aa6a4e3efa1def4c1cd1",
-                        "sha1": "7570259d68157e32a0841abafb6755aef5656881"
+                        "sha512": "d839f9d06a6f93d28a973dcaf49a9c4307dfabb8393961005d0a830213e23990e82c2afc845f339701aadb5441b83ce3a19c00cc04b846e2cbe73165495adea0",
+                        "sha1": "fb1540e3da6e801ed3da63ef6d514eadf79bdfc0"
                     },
                     "required_dependencies": [
                         "AANobbMI",
                         "P7dR8mSH"
                     ],
-                    "size": 12638804,
-                    "date_published": "2026-05-06T02:11:53.952436Z"
+                    "size": 12639617,
+                    "date_published": "2026-05-25T07:54:20.047925Z"
                 }
             ]
         }

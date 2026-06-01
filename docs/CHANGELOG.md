@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update from 26.1 to 26.1.2
 
+### Updates
+
+- C2ME : `0.3.7+alpha.0.61` → `0.3.7+alpha.0.69`
+- Inline tooltips : `1.6.4` → `1.7.0`
+- Sodium : `0.8.9` → `0.8.12`
+- Voxy : `0.2.15-beta` → `0.2.16-beta`
+
 ### Removals
 
 - Clumps
