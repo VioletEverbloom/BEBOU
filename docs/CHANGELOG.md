@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Also bump server version to 26.1.2
 
+### Updates
+
+#### Shaders
+
+- I Like Vanilla : `1.4.0b` → `1.4.1`
+
 ## [1.3.0] - 26.1.2
 
 ### Changes

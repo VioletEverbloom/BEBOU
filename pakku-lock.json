@@ -1748,7 +1748,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "I Like Vanilla v1.4.0b.zip",
+                    "file_name": "I Like Vanilla v1.4.1.zip",
                     "mc_versions": [
                         "1.16.5",
                         "1.17",
@@ -1788,16 +1788,16 @@
                         "iris"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/qf7yB73o/I Like Vanilla v1.4.0b.zip",
-                    "id": "qf7yB73o",
+                    "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/wQlQeGRh/I Like Vanilla v1.4.1.zip",
+                    "id": "wQlQeGRh",
                     "parent_id": "DoODk4HD",
                     "hashes": {
-                        "sha512": "7348eaedaae1bcb780faaa175cb2082db6f33da643f7e5d76c7b2a093d24cf20f85a6715c5ab29f32ce3d8a0e925382a9e85aaad43935975c91ed647abcac1d3",
-                        "sha1": "b4ada53f3f58b635dfd2f826cd8155cedeb9e95e"
+                        "sha512": "3e3cb5055262b13d8449af13d53de35adfa545bfe61a53a93fe8236d567850ec5b475845e503c90aeea9c08ac42c32731369cf476387f0d92ad3eb575e9511e3",
+                        "sha1": "7cf4f4e3c1f1f6716ffe03ce6afe2ccac6b2d1a1"
                     },
                     "required_dependencies": [],
-                    "size": 314056,
-                    "date_published": "2026-05-23T22:58:47.427864Z"
+                    "size": 316451,
+                    "date_published": "2026-06-01T19:18:58.768755Z"
                 }
             ]
         },
@@ -2955,7 +2955,9 @@
                     "type": "modrinth",
                     "file_name": "NoChatRestrictions-Fabric-MC26.1-v1.1.0.jar",
                     "mc_versions": [
-                        "26.1"
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
                     ],
                     "loaders": [
                         "fabric"
