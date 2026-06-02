@@ -98,6 +98,9 @@
         },
         "forge-config-api-port": {
             "side": "CLIENT"
+        },
+        "unified-api": {
+            "side": "CLIENT"
         }
     }
 }
