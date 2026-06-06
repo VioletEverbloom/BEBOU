@@ -3,10 +3,11 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.2]
+## [Unreleased]
 
 ### Changes
 
+- Enable Voxy by default
 - Remove Unified API from server files to fix an issue with a Vanilla connexion to a dedicated server
 
 ## [1.3.1]

@@ -16,14 +16,6 @@ Fully **vanilla compatible** — use the client pack, server pack, or both indep
 - 🎮 **Controller Support**
 - 💬 **Multiplayer** : Better chat, player locators & BlueMap live web map
 
-## Optional Features
-
-By default, BEBOU comes with some features toggled off. Here is how to enable each of them :
-
-### Voxy
-
-To enable Voxy, go to `Options > Video Settings` and toggle `Voxy > General > Enable Voxy`
-
 ---
 
 ### [📄 Credits](https://github.com/VioletEverbloom/BEBOU/blob/master/docs/CREDITS.md)
