@@ -1,6 +1,6 @@
 {
     "name": "BEBOU",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "overrides": [
         "resources/datapack"
     ],
@@ -72,6 +72,8 @@
         "!config/spark/activity.json",
         "!config/spark/tmp",
         "!config/spark/tmp-client",
+        "!config/iris-excluded.json",
+        "!config/iris.properties",
         "resources/resourcepack"
     ],
     "projects": {
