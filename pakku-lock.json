@@ -3690,7 +3690,7 @@
         {
             "pakku_id": "TZFwnqMwGVa1GxdK",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "modrinth": "unified-api"
             },
