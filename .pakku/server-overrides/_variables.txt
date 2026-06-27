@@ -44,9 +44,9 @@ SKIP_JAVA_CHECK=false
 # Do not change unless you intend to edit the modpack
 ########################################
 
-MINECRAFT_VERSION=26.1.2
+MINECRAFT_VERSION=26.2
 MODLOADER=Fabric
-MODLOADER_VERSION=0.19.2
+MODLOADER_VERSION=0.19.3
 FABRIC_INSTALLER_VERSION=1.1.1
 RECOMMENDED_JAVA_VERSION=25
 
