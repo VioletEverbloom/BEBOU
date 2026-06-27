@@ -3,6 +3,24 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changes
+
+- Update to 26.2
+
+### Updates
+
+- Most of the projects
+
+### Removals
+
+#### Mods
+
+- Item Tooltips
+- Raised
+- Voxy
+
 ## [1.3.3]
 
 ### Changes
