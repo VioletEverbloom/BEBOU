@@ -68,6 +68,8 @@
         "config",
         "!config/bluemap",
         "!config/chunky",
+        "!config/inventoryprofilesnext",
+        "config/inventoryprofilesnext/inventoryprofiles.json",
         "!config/litematica",
         "!config/spark/activity.json",
         "!config/spark/tmp",

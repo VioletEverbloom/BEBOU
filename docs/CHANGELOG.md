@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 
 - Update to 26.2
+- Fix inventory profiles favourites being added to the base config
 
 ### Updates
 
