@@ -3,6 +3,14 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Updates
+
+- Miniature Shader : `2.18.11` → `2.18.12`
+- Modernfix mVUS : `5.27.18-build.1` → `5.27.19-build.1`
+- No Chat Reports : `2.20.0` → `2.20.1`
+
 ## [2.0.0]
 
 ### Changes

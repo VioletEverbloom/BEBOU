@@ -2845,7 +2845,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "miniature-shader-2.18.11.zip",
+                    "file_name": "miniature-shader-2.18.12.zip",
                     "mc_versions": [
                         "1.7.2",
                         "1.7.3",
@@ -2928,23 +2928,24 @@
                         "1.21.11",
                         "26.1",
                         "26.1.1",
-                        "26.1.2"
+                        "26.1.2",
+                        "26.2"
                     ],
                     "loaders": [
                         "iris",
                         "optifine"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/UaS8ROxa/versions/hOUPzbJs/miniature-shader-2.18.11.zip",
-                    "id": "hOUPzbJs",
+                    "url": "https://cdn.modrinth.com/data/UaS8ROxa/versions/8f0PCWn5/miniature-shader-2.18.12.zip",
+                    "id": "8f0PCWn5",
                     "parent_id": "UaS8ROxa",
                     "hashes": {
-                        "sha512": "0f6c08c97b7f5be819b50adfe4f73e7a8da2ee1bb52149e8954ad70e27166dce46f4c087a5babe10e713adc37ef8026c7d11866044c228a32b3359ef32865440",
-                        "sha1": "3ffd28709f4fd3d7780643b66d737e0661cbd141"
+                        "sha512": "c55f24cde75042baae0efcc04f2b7efc68f64aa547bda9062c830db91d1479796aca336d701d2c7420d1fa74bed4356c8d44cac4a429bb5ba99fe502579d1f7d",
+                        "sha1": "11d6b139e49d4b6226c2711517736ddb8a85b474"
                     },
                     "required_dependencies": [],
-                    "size": 43581,
-                    "date_published": "2026-03-31T21:18:36.019944Z"
+                    "size": 43652,
+                    "date_published": "2026-07-03T02:20:58.533379Z"
                 }
             ]
         },
@@ -3062,7 +3063,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "modernfix-5.27.18-build.1.jar",
+                    "file_name": "modernfix-5.27.19-build.1.jar",
                     "mc_versions": [
                         "26.2"
                     ],
@@ -3070,18 +3071,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/m9PRBIVh/modernfix-5.27.18-build.1.jar",
-                    "id": "m9PRBIVh",
+                    "url": "https://cdn.modrinth.com/data/TjSm1wrD/versions/TUWH6NZu/modernfix-5.27.19-build.1.jar",
+                    "id": "TUWH6NZu",
                     "parent_id": "TjSm1wrD",
                     "hashes": {
-                        "sha512": "3978900e8ed16867ae5fb3d440b32c5b22d7bf55f1a84c1a874598b0808c5e14baa3220c2c597ba171596e474ddb2c28256a032cebeb06a3ec8008f13df92fe7",
-                        "sha1": "8497fee7fdd87d6a1f5a7a85ee7f76e14a415e7b"
+                        "sha512": "10588c52d75af917c06e26d81cd39f89be8b523925cea0a80588077b177aa8b2461aeaa102c390c9a3dca414b624ccc9adc87c3ab92360ab3af6e1430571d141",
+                        "sha1": "77b073d56b7be0d11cf915bd0e764463ee22dcea"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 1155463,
-                    "date_published": "2026-06-19T09:52:00.646230Z"
+                    "size": 1173963,
+                    "date_published": "2026-07-03T10:06:52.216528Z"
                 }
             ]
         },
@@ -3189,7 +3190,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "NoChatReports-FABRIC-26.2-v2.20.0.jar",
+                    "file_name": "NoChatReports-FABRIC-26.2-v2.20.1.jar",
                     "mc_versions": [
                         "26.2"
                     ],
@@ -3197,18 +3198,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/Uh2eAZ4R/NoChatReports-FABRIC-26.2-v2.20.0.jar",
-                    "id": "Uh2eAZ4R",
+                    "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/uiY9tUaj/NoChatReports-FABRIC-26.2-v2.20.1.jar",
+                    "id": "uiY9tUaj",
                     "parent_id": "qQyHxfxd",
                     "hashes": {
-                        "sha512": "0c038ce0ff8f96b294f19568eb7b370c9b25431ebd2e89ab19a687a46f875ed2300b903f615a74bec69ca7d0bfc69b5f591f51ec7eaf180d596131bc1bc1e3dc",
-                        "sha1": "767d339d550f6fb3cf137d6147abb4eaa6e7ce9e"
+                        "sha512": "139dd09e04cc66fe4745264ddfbe3249be6e956326c931eb9707f9a640bbc011a4f1fd5684d04ca90e1b473be55772b0279e5c2f935c2f2e85d054e2ab0a6923",
+                        "sha1": "0c095e6ee699cb1f5c9732ef632cf93998b1d468"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 239248,
-                    "date_published": "2026-06-23T15:22:57.853931Z"
+                    "size": 239191,
+                    "date_published": "2026-07-04T00:45:25.051590Z"
                 }
             ]
         },
