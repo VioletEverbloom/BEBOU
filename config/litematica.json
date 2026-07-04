@@ -22,7 +22,7 @@
     "commandUseWorldEdit": false,
     "commandUseStrict": true,
     "customSchematicBaseDirectoryEnabled": false,
-    "debugHudMode": "default",
+    "debugHudMode": "none",
     "debugHudWorld": true,
     "debugHudPMThreads": false,
     "debugLogging": false,

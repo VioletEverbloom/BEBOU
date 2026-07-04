@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changes
+
+- Remove Litematica Debug info from the F3 menu
+
 ### Updates
 
 - Miniature Shader : `2.18.11` → `2.18.12`
