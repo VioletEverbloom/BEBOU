@@ -14,13 +14,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
-- Miniature Shader : `2.18.11` → `2.18.12`
 - Modernfix mVUS : `5.27.18-build.1` → `5.27.19-build.1`
 - No Chat Reports : `2.20.0` → `2.20.1`
 
 #### Datapacks
 
 - Graves : `4.1.0` → `4.1.1`
+
+#### Shaders
+
+- Miniature : `2.18.11` → `2.18.12`
 
 ## [2.0.0]
 
