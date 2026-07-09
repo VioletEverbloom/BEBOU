@@ -14,8 +14,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Mods
 
+- Better Statistics Screen : `5.4.1` → `5.4.2`
+- C2ME : `0.4.2-alpha.0.9` → `0.4.2-alpha.0.12`
+- Chat Animation : `1.2.0` →  `1.3.0`
+- Fabric API : `0.154.0` → `0.154.2`
+- Iris : `1.11.1` → `1.11.2`
+- Ixeris : `4.5.1` → `4.5.2`
+- Light Overlay : `2.10.1` → `2.10.2`
+- Litematica : `0.28.2` → `0.28.3`
+- Malilib : `0.29.2` → `0.29.3`
+- Mod Menu : `20.0.0-beta.4` → `20.0.0`
 - Modernfix mVUS : `5.27.18-build.1` → `5.27.19-build.1`
+- More Culling : `1.8.0-beta.1` → `1.8.0`
 - No Chat Reports : `2.20.0` → `2.20.1`
+- Shulker Box Tooltip : `5.3.1` → `5.4.0`
+- Sodium : `0.9.0` → `0.9.1`
+- TCD Commons : `5.4.0` → `5.4.1`
 
 #### Datapacks
 
@@ -23,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Shaders
 
+- I Like Vanilla : `1.4.2b` → `1.4.3`
 - Miniature : `2.18.11` → `2.18.12`
 
 ## [2.0.0]
