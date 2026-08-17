@@ -2393,6 +2393,50 @@
             ]
         },
         {
+            "pakku_id": "4ST6nA9ttEFvBwL5",
+            "pakku_links": [
+                "FhvThYiut0mDNXhA",
+                "pfWfKyZ5dcfAED9W"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "item-tooltips"
+            },
+            "name": {
+                "modrinth": "Item Tooltips"
+            },
+            "id": {
+                "modrinth": "JAn3TQr0"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "item-tooltips-26.2-r1.0-fabric.jar",
+                    "mc_versions": [
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JAn3TQr0/versions/yOWzQrZq/item-tooltips-26.2-r1.0-fabric.jar",
+                    "id": "yOWzQrZq",
+                    "parent_id": "JAn3TQr0",
+                    "hashes": {
+                        "sha512": "5a7fbe44866b2423deabc27af945eebd07e2e33231bf60a801755a7c29be12332b6e65f4cbaa8dd0573ecda3761a3df3e73a2c06f2d5d2148434afd244d28a27",
+                        "sha1": "90a22bf14b1dee2940e9d25f730e8f39c4b5e8c1"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "vWUn8M9s"
+                    ],
+                    "size": 138343,
+                    "date_published": "2026-08-04T11:20:57.581053Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RufwloyCzjjTQbQg",
             "type": "MOD",
             "side": "CLIENT",
@@ -3407,6 +3451,48 @@
             ]
         },
         {
+            "pakku_id": "rzZOjYyT1fr9ahiU",
+            "pakku_links": [
+                "yvlNULPCFODcuZAG"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "raised"
+            },
+            "name": {
+                "modrinth": "Raised"
+            },
+            "id": {
+                "modrinth": "nCQRBEiR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "raised-fabric-26.2-5.1.2.jar",
+                    "mc_versions": [
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nCQRBEiR/versions/WAxfM46i/raised-fabric-26.2-5.1.2.jar",
+                    "id": "WAxfM46i",
+                    "parent_id": "nCQRBEiR",
+                    "hashes": {
+                        "sha512": "19713931da0428708e8c5a6f947906371dd152eb6d3c8436a07cd92ecc6a7512b286387b632bdcdf3c42e9f1a5a24059934a152597f3ddc571723b5582260de4",
+                        "sha1": "f3cfd41a5f082f120c10a6d3ee01c8643da656bb"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 84016,
+                    "date_published": "2026-07-06T11:45:17.251440Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oyQUJImqIqNEglG4",
             "type": "MOD",
             "side": "CLIENT",
@@ -3902,6 +3988,43 @@
             ]
         },
         {
+            "pakku_id": "pfWfKyZ5dcfAED9W",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "unified-api"
+            },
+            "name": {
+                "modrinth": "Unified API"
+            },
+            "id": {
+                "modrinth": "vWUn8M9s"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "unified-api-26.2-r2.5-fabric.jar",
+                    "mc_versions": [
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vWUn8M9s/versions/MZUnvkfV/unified-api-26.2-r2.5-fabric.jar",
+                    "id": "MZUnvkfV",
+                    "parent_id": "vWUn8M9s",
+                    "hashes": {
+                        "sha512": "937469a71a923ff3516e5bb2b0ef35a84554da458e0551f4e1634f99946b27a96bfd1ad82ae141e695749bcbcfff772cb6f0b5d39852f010cd9e2b023461ce54",
+                        "sha1": "77ef8fcb7ece8d974eef38757c6e3cb51f4e926b"
+                    },
+                    "required_dependencies": [],
+                    "size": 436399,
+                    "date_published": "2026-08-11T02:18:49.217741Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LvXHBYUT2aSdQO4N",
             "pakku_links": [
                 "yvlNULPCFODcuZAG"
@@ -4103,6 +4226,50 @@
                     "required_dependencies": [],
                     "size": 3887184,
                     "date_published": "2026-06-18T21:12:12.918302Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5xlJQGvFlckrdxkQ",
+            "pakku_links": [
+                "KFFqkHBRF7R95fJF",
+                "yvlNULPCFODcuZAG"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "voxy"
+            },
+            "name": {
+                "modrinth": "voxy"
+            },
+            "id": {
+                "modrinth": "fxxUqruK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "voxy-0.2.18-beta.jar",
+                    "mc_versions": [
+                        "26.2"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/fxxUqruK/versions/zZX86mbc/voxy-0.2.18-beta.jar",
+                    "id": "zZX86mbc",
+                    "parent_id": "fxxUqruK",
+                    "hashes": {
+                        "sha512": "2605d9255cc4e72e401cf8de299ad01c21a9a4828d4f8d2b6ec4f63ea59fd21c4d29c92255c50979f848cccb4057f0b687fb3c9c87fa4c0dd62f68540e4d84bb",
+                        "sha1": "34206446f7625782b04382256083f44fe9551b83"
+                    },
+                    "required_dependencies": [
+                        "AANobbMI",
+                        "P7dR8mSH"
+                    ],
+                    "size": 12657845,
+                    "date_published": "2026-07-14T17:30:58.226089Z"
                 }
             ]
         }
