@@ -3,6 +3,42 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Updates
+
+#### Mods
+
+- Better Statistics Screen : `5.4.2` → `5.5.6`
+- BlueMap : `5.22` → `5.23`
+- Chat Heads : `1.2.4` → `1.2.8`
+- C2ME : `0.4.2-alpha.0.20` → `0.4.2-alpha.0.43`
+- Controlify : `3.1.0` → `3.4.1`
+- Fabric API : `0.155.2` → `0.157.0`
+- Immediately Fast : `1.16.2` → `1.16.3`
+- Inline Tooltips : `1.7.0` → `1.7.1`
+- Inventory Profiles Next : `2.3.5` → `2.3.6`
+- Iris Shader Folder : `1.3.3` → `1.4.1`
+- Ixeris : `4.5.2` → `4.6.5`
+- Lib IPN : `6.8.2` → `6.8.3`
+- Light Overlay : `2.10.2` → `2.11.1`
+- Lithium : `0.25.2` → `0.25.3`
+- More Culling : `1.8.0` → `1.8.1`
+- OverlayLib : `0.9.2` → `0.11.0`
+- Remove Reloading Scxreen : `5.2.7` → `5.2.8`
+- TCDCommons API : `5.5.2` → `5.5.6`
+- YACL : `3.9.5` → `3.9.6`
+
+#### Resource Packs
+
+- Controlify Dungeons : `1.7` → `1.8.1`
+
+#### Shaders
+
+- I Like Vanilla : `1.4.3b` → `1.4.3c`
+- Mellow : `3.2` → `3.3`
+- Miniature : `2.18.12` → `2.19`
+
 ## [2.0.1]
 
 ### Changes
