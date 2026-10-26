@@ -1,4 +1,4 @@
 {
-  "removeLoadingOverlayFadeOut": true,
+  "removeLoadingOverlayFadeOut": false,
   "parallelMipmapGeneration": true
 }
