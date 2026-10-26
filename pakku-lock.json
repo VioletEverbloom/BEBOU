@@ -4037,6 +4037,44 @@
             ]
         },
         {
+            "pakku_id": "E8RolAwB7tsmgm6T",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "quick-pack"
+            },
+            "name": {
+                "modrinth": "quick pack"
+            },
+            "id": {
+                "modrinth": "pSISfJ4O"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "quick-pack-fabric-1.5.1+26.3.jar",
+                    "mc_versions": [
+                        "26.3"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pSISfJ4O/versions/6LPWDWD1/quick-pack-fabric-1.5.1+26.3.jar",
+                    "id": "6LPWDWD1",
+                    "parent_id": "pSISfJ4O",
+                    "hashes": {
+                        "sha512": "b8b1a4f571a7fa12e5dc1b8da1d30e49b9e7b3f612369304ae05ace215c8610d26be7ff54189fe933a1a8652981f7ea23ecf18ed2e877cd98454b7369bf67542",
+                        "sha1": "4873321d649c3f1fae1ea1308c506777d4d3cbe1"
+                    },
+                    "required_dependencies": [],
+                    "size": 22375,
+                    "date_published": "2026-09-29T00:30:16.392964Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "q2mI1hhD174EHx8c",
             "type": "MOD",
             "side": "BOTH",

@@ -7,7 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changes
 
+- Make Resource Packs loading time way faster
 - Make Controlify Dungeons Resource Pack actually loaded and hidden by default
+
+### Additions
+
+#### Mods
+
+- Quick Pack
 
 ## [3.0.0]
 
