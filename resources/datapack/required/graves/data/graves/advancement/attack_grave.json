@@ -1,1 +1,1 @@
-{"criteria":{"hurt":{"trigger":"minecraft:player_hurt_entity","conditions":{"entity":{"type":"minecraft:interaction","nbt":"{Tags:['graves.grave']}"}}}},"rewards":{"function":"graves:opening/attack_grave"}}
+{"criteria":{"hurt":{"trigger":"minecraft:player_hurt_entity","conditions":{"entity":{"type":"minecraft:entity_properties","entity":"this","predicate":{"type":"minecraft:interaction","nbt":"{Tags:['graves.grave']}"}}}}},"rewards":{"function":"graves:opening/attack_grave"}}

@@ -14,6 +14,7 @@
 	showWhenPaused: true,
 	validColor: -16711936,
 	invalidColor: -65536,
+	numberScale: 1.0,
 	maxComputationsPerTick: 32,
 	enableIrisFlickerFix: true,
 	irisFlickerAnchorDistance: 64.0,

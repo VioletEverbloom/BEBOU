@@ -3,6 +3,107 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0]
+
+### Changes
+
+- Update to 26.3
+
+### Updates
+
+#### Loader
+
+- Fabric: `0.19.3` → `0.20.1`
+
+#### Mods
+
+- 3D Skin Layers: `1.11.2` → `1.11.4`
+- Advancements Reloaded: `0.14.0` → `0.15.1`
+- Apple Skin
+- Better Mount HUD
+- Better Statistics Screen: `5.5.6` → `5.8.0`
+- Blue Map: `5.23` → `5.29`
+- Chat Animation: `1.3.0` → `1.3.5`
+- Chat Heads: `1.2.8` → `1.3.2`
+- Chat Patches: `8.0-alpha.11` → `8.0.0`
+- Chunky
+- Click Through Plus
+- Cloth Config API: `26.2.155` → `26.3.159`
+- C2ME: `0.4.2-alpha.0.43` → `0.4.2-alpha.0.106`
+- Controlify: `3.4.1` → `3.5.3`
+- Cool Rain
+- Entity Culling: `1.10.5` → `1.11.3`
+- Entity Model Features: `3.2.6` → `3.3.12`
+- Entity Texture Features: `7.1.1` → `7.2.6`
+- Euphoria Patches: `1.9.3-r5.8.1` → `1.10.5-r5.9.3`
+- Fabric API: `0.157.0` → `0.165.0`
+- Fabric Language Kotlin: `1.13.13+kotlin.2.4.10` → `1.14.2+kotlin.2.4.21`
+- Ferrite Core
+- Forge Config API Port: `26.2.1` → `26.3.1`
+- Immediately Fast: `1.16.3` → `1.17.1`
+- Inline Tooltips: `1.7.1` → `1.7.3`
+- Inventory Profiles Next: `2.3.6` → `2.3.8`
+- Iris: `1.11.2` → `1.11.7`
+- Iris Shader Folder: `1.4.1` → `1.4.3`
+- Item Tooltips
+- Ixeris: `4.6.5` → `4.6.10`
+- LibIPN: `6.8.3` → `6.9.0`
+- Light Overlay: `2.11.1` → `2.13.0`
+- Litematica: `0.28.4` → `0.29.1`
+- Lithium: `0.25.3` → `0.26.2`
+- Locator Heads: `2.4.2` → `2.5.0`
+- MaLiLib: `0.29.3` → `0.30.2`
+- Mod Menu: `20.0.1` → `21.0.0`
+- Mod List Memory: `1.3.0-beta.1` → `1.104.0-beta.1`
+- Modern Fix mVUS: `5.27.19` → `5.27.20`
+- More Culling: `1.8.1` → `1.9.0`
+- Mouse Tweaks
+- No Chat Reports: `2.20.1` → `2.21.0`
+- No Chat Restrictions: `1.2.0` → `1.3.0`
+- Overlay Lib: `0.11.0` → `0.12.1`
+- PneumonoCore
+- Raised: `5.1.2` → `6.0.2`
+- Remove Reloading Screen
+- Resource Pack Overrides
+- Shulker Box Tooltip: `5.4.0` → `5.4.3`
+- Simple Resource Loader
+- Sodium: `0.9.1` → `0.9.3-beta.1`
+- Sodium Shadowy Path Blocks: `7.0.0` → `8.0.0`
+- Spark: `1.10.173` → `1.10.187`
+- Status Effect Bars
+- TCDCommons API: `5.5.6` → `5.8.0`
+- Text Placeholder API: `3.1.0-beta.1` → `3.2.0`
+- Unified API: `r2.5` → `1.0-beta-23`
+- Voxy: `0.2.18-beta` → `0.2.20-beta`
+- YACL: `3.9.6` → `3.9.7`
+
+#### Resource Packs
+
+- Chat Reporting Helper: `5.8` → `6.2`
+- Gentler Weather Sounds: `2.2.0` → `2.3.0`
+
+#### Data Packs
+
+- Graves: `4.1.1` → `4.1.2`
+
+#### Shaders
+
+- Complementary Reimagined: `5.8.1` → `5.9.3`
+- Complementary Unbound: `5.8.1` → `5.9.3`
+- I Like Vanilla: `1.4.3c` → `1.5.0b`
+- Mellow: `3.3` → `3.4.1a`
+- Miniature
+- Photon: `1.3b` → `1.4`
+- Solas: `3.7` → `3.8`
+
+### Removals
+
+#### Mods
+
+- Locator Lodestones
+- Map Tooltip
+- Tab Tweaks
+
 ## [2.1.0]
 
 ### Changes
@@ -79,7 +180,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sodium : `0.9.0` → `0.9.1`
 - TCD Commons : `5.4.0` → `5.4.1`
 
-#### Datapacks
+#### Data Packs
 
 - Graves : `4.1.0` → `4.1.1`
 

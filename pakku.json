@@ -1,6 +1,6 @@
 {
     "name": "BEBOU",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "overrides": [
         "resources/datapack"
     ],
@@ -39,7 +39,6 @@
         "!config/ixeris.toml",
         "!config/light-overlay.json5",
         "!config/litematica.json",
-        "!config/locator_lodestones.json",
         "!config/locator-heads.json",
         "!config/malilib.json",
         "!config/midnightlib.json",
@@ -57,7 +56,6 @@
         "!config/sodium-options.json",
         "!config/sodium-shadowy-path-blocks-options.json",
         "!config/status-effect-bars.json",
-        "!config/tabtweaks.json",
         "!config/tcdcommons.json",
         "!config/transition.json",
         "!config/trender.json",
@@ -105,6 +103,9 @@
         },
         "unified-api": {
             "side": "CLIENT"
+        },
+        "controlify-dungeons": {
+            "update_strategy": "NONE"
         }
     },
     "export_server_side_projects_to_client": true
