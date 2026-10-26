@@ -3,7 +3,7 @@
   "default_packs": [
     "srl_rp/IPN Prettifier",
     "file/Chat Reporting Helper.zip",
-    "file/Controlify_Dungeons.zip",
+    "file/Controlify_Dungeons_26.2_1.8.1.zip",
     "file/Gentler Weather Sounds 2.2.0.zip"
   ],
   "pack_overrides": {
@@ -14,7 +14,7 @@
     "required_packs": [
       "srl_rp/IPN Prettifier",
       "file/Chat Reporting Helper.zip",
-      "file/Controlify_Dungeons.zip"
+      "file/Controlify_Dungeons_26.2_1.8.1.zip"
     ],
     "$$required_packs": {
       "required": true,
