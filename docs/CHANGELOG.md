@@ -3,6 +3,31 @@
 The format is (loosely) based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Updates
+
+#### Mods
+
+- Chunky: `1.5.3` → `1.5.66`
+- C2ME: `0.4.2-alpha.0.106` → `0.4.2-alpha.0.119`
+- Entity Culling: `1.11.3.` → `1.12.1`
+- Entity Texture Features: `7.2.6` → `7.2.7`
+- Fabric API: `0.165.0` → `0.166.2`
+- Ixeris: `4.6.10` → `4.6.11`
+- Light Overlay: `2.13.0` → `2.13.1`
+- Lithium: `0.26.2` → `0.26.3`
+- Mod Menu: `21.0.0` → `21.0.1`
+- More Culling: `1.9.0` → `1.9.2`
+- Sodium: `0.9.3-beta.1` → `0.9.3-beta.5`
+
+#### Resource Packs
+
+#### Shaders
+
+- Mellow: `3.4.1a` → `3.5`
+- Solas: `3.8` → `3.9`
+
 ## [3.1.0]
 
 ### Changes
